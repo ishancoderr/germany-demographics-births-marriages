@@ -1,0 +1,78 @@
+{
+  "base_csv": "D:\\germany-demographics-births-marriages\\combined_births_population_marriages.csv",
+  "agent1_csv": "D:\\germany-demographics-births-marriages\\agent1_db.csv",
+  "agent2_csv": "D:\\germany-demographics-births-marriages\\agent2_db.csv",
+  "seed": 42,
+  "fields": [
+    "LiveBirths",
+    "Marriages",
+    "Population"
+  ],
+  "lands": {
+    "agent1": [
+      "Brandenburg",
+      "Bremen",
+      "Hamburg",
+      "Hessen",
+      "Saarland",
+      "Sachsen",
+      "Sachsen-Anhalt",
+      "Schleswig-Holstein",
+      "Thüringen"
+    ],
+    "agent2": [
+      "Baden-Württemberg",
+      "Bayern",
+      "Berlin",
+      "Brandenburg",
+      "Bremen",
+      "Hamburg",
+      "Hessen"
+    ],
+    "common": [
+      "Brandenburg",
+      "Bremen",
+      "Hamburg",
+      "Hessen"
+    ],
+    "agent1_only": [
+      "Saarland",
+      "Sachsen",
+      "Sachsen-Anhalt",
+      "Schleswig-Holstein",
+      "Thüringen"
+    ],
+    "agent2_only": [
+      "Baden-Württemberg",
+      "Bayern",
+      "Berlin"
+    ]
+  },
+  "missingness": {
+    "pattern_support": [
+      "missing_one",
+      "missing_two",
+      "missing_all_three"
+    ],
+    "p_agent1_missing_one": 0.25,
+    "p_agent1_missing_two_or_three": 0.15,
+    "p_agent1_missing_all_three": 0.1
+  },
+  "complement_rule": "If Agent1 field is NA for a row, Agent2 has the original value for that field (and vice versa is default via construction).",
+  "counts": {
+    "rows_base": 1728,
+    "agent1_na_counts": {
+      "LiveBirths": 618,
+      "Marriages": 625,
+      "Population": 1421
+    },
+    "agent2_na_counts": {
+      "LiveBirths": 420,
+      "Marriages": 428,
+      "Population": 1370
+    },
+    "agent1_rows_missing_all3": 473,
+    "agent1_rows_missing_one": 797,
+    "agent1_rows_missing_two": 224
+  }
+}
