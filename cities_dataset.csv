@@ -1,0 +1,1783 @@
+﻿city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id
+Dortmund,Dortmund,51.5139,7.4653,Germany,DE,DEU,North Rhine-Westphalia,minor,5302179,1276562886
+Berlin,Berlin,52.5167,13.3833,Germany,DE,DEU,Berlin,primary,4679500,1276451290
+Cologne,Cologne,50.9422,6.9578,Germany,DE,DEU,North Rhine-Westphalia,,3500000,1276015998
+Stuttgart,Stuttgart,48.7775,9.18,Germany,DE,DEU,Baden-Württemberg,admin,2787727,1276171358
+Munich,Munich,48.1375,11.575,Germany,DE,DEU,Bavaria,admin,2606021,1276692352
+Hamburg,Hamburg,53.55,10,Germany,DE,DEU,Hamburg,admin,2496600,1276041799
+Frankfurt,Frankfurt,50.1106,8.6822,Germany,DE,DEU,Hesse,minor,2319029,1276054552
+Nuremberg,Nuremberg,49.4539,11.0775,Germany,DE,DEU,Bavaria,minor,1374524,1276166609
+Dresden,Dresden,51.0493,13.7381,Germany,DE,DEU,Saxony,admin,790400,1276561036
+Düsseldorf,Dusseldorf,51.2256,6.7767,Germany,DE,DEU,North Rhine-Westphalia,admin,631217,1276615258
+Leipzig,Leipzig,51.3394,12.3711,Germany,DE,DEU,Saxony,minor,619879,1276563678
+Wuppertal,Wuppertal,51.2667,7.1833,Germany,DE,DEU,North Rhine-Westphalia,minor,608000,1276004611
+Bielefeld,Bielefeld,52.0167,8.5333,Germany,DE,DEU,North Rhine-Westphalia,minor,591862,1276112885
+Essen,Essen,51.4508,7.0131,Germany,DE,DEU,North Rhine-Westphalia,minor,586608,1276769247
+Bremen,Bremen,53.0758,8.8072,Germany,DE,DEU,Bremen,admin,577026,1276376509
+Braunschweig,Braunschweig,52.2692,10.5211,Germany,DE,DEU,Lower Saxony,minor,551000,1276941443
+Hannover,Hannover,52.3744,9.7386,Germany,DE,DEU,Lower Saxony,admin,548186,1276457707
+Duisburg,Duisburg,51.4322,6.7611,Germany,DE,DEU,North Rhine-Westphalia,minor,503707,1276977172
+Bochum,Bochum,51.4833,7.2167,Germany,DE,DEU,North Rhine-Westphalia,minor,366385,1276227288
+Freiburg im Breisgau,Freiburg im Breisgau,47.995,7.85,Germany,DE,DEU,Baden-Württemberg,minor,354500,1276371228
+Bonn,Bonn,50.7353,7.1022,Germany,DE,DEU,North Rhine-Westphalia,minor,335789,1276807850
+Münster,Munster,51.9625,7.6256,Germany,DE,DEU,North Rhine-Westphalia,minor,322904,1276714504
+Mannheim,Mannheim,49.4878,8.4661,Germany,DE,DEU,Baden-Württemberg,minor,316877,1276150104
+Karlsruhe,Karlsruhe,49.0167,8.4,Germany,DE,DEU,Baden-Württemberg,minor,309964,1276923210
+Augsburg,Augsburg,48.3689,10.8978,Germany,DE,DEU,Bavaria,minor,303150,1276314100
+Wiesbaden,Wiesbaden,50.0825,8.24,Germany,DE,DEU,Hesse,admin,285522,1276652118
+Mönchengladbach,Monchengladbach,51.2,6.4333,Germany,DE,DEU,North Rhine-Westphalia,minor,268943,1276982173
+Gelsenkirchen,Gelsenkirchen,51.5103,7.0942,Germany,DE,DEU,North Rhine-Westphalia,minor,265885,1276788537
+Aachen,Aachen,50.7762,6.0838,Germany,DE,DEU,North Rhine-Westphalia,minor,252769,1276805572
+Chemnitz,Chemnitz,50.8333,12.9167,Germany,DE,DEU,Saxony,minor,250681,1276519956
+Kiel,Kiel,54.3233,10.1394,Germany,DE,DEU,Schleswig-Holstein,admin,248873,1276305306
+Halle,Halle,51.4828,11.9697,Germany,DE,DEU,Saxony-Anhalt,minor,242172,1276167077
+Magdeburg,Magdeburg,52.1316,11.64,Germany,DE,DEU,Saxony-Anhalt,admin,240114,1276418236
+Krefeld,Krefeld,51.3333,6.5667,Germany,DE,DEU,North Rhine-Westphalia,minor,228550,1276149829
+Mainz,Mainz,49.9994,8.2736,Germany,DE,DEU,Rhineland-Palatinate,admin,222889,1276801317
+Lübeck,Lubeck,53.8697,10.6864,Germany,DE,DEU,Schleswig-Holstein,minor,219044,1276852342
+Oberhausen,Oberhausen,51.4699,6.8514,Germany,DE,DEU,North Rhine-Westphalia,minor,211099,1276448936
+Rostock,Rostock,54.0833,12.1333,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,210795,1276210265
+Kassel,Kassel,51.3158,9.4979,Germany,DE,DEU,Hesse,minor,204687,1276791686
+Hagen,Hagen,51.3594,7.475,Germany,DE,DEU,North Rhine-Westphalia,minor,190490,1276389303
+Potsdam,Potsdam,52.4,13.0667,Germany,DE,DEU,Brandenburg,admin,187119,1276395100
+Saarbrücken,Saarbrucken,49.2333,7,Germany,DE,DEU,Saarland,admin,183509,1276419711
+Hamm,Hamm,51.6814,7.8192,Germany,DE,DEU,North Rhine-Westphalia,minor,180761,1276808737
+Ludwigshafen,Ludwigshafen,49.4811,8.4353,Germany,DE,DEU,Rhineland-Palatinate,minor,176110,1276912330
+Leverkusen,Leverkusen,51.0333,6.9833,Germany,DE,DEU,North Rhine-Westphalia,minor,175300,1276002465
+Oldenburg,Oldenburg,53.1439,8.2139,Germany,DE,DEU,Lower Saxony,minor,174629,1276946953
+Mülheim,Mulheim,51.4275,6.8825,Germany,DE,DEU,North Rhine-Westphalia,minor,173255,1276676856
+Osnabrück,Osnabruck,52.2789,8.0431,Germany,DE,DEU,Lower Saxony,minor,166960,1276554949
+Darmstadt,Darmstadt,49.8667,8.65,Germany,DE,DEU,Hesse,minor,164792,1276607395
+Heidelberg,Heidelberg,49.4122,8.71,Germany,DE,DEU,Baden-Württemberg,minor,162960,1276519742
+Solingen,Solingen,51.1719,7.0847,Germany,DE,DEU,North Rhine-Westphalia,minor,161545,1276728190
+Regensburg,Regensburg,49.0167,12.0833,Germany,DE,DEU,Bavaria,minor,159465,1276000325
+Herne,Herne,51.5426,7.219,Germany,DE,DEU,North Rhine-Westphalia,minor,157896,1276656117
+Paderborn,Paderborn,51.7167,8.7667,Germany,DE,DEU,North Rhine-Westphalia,minor,155749,1276339087
+Neuss,Neuss,51.2003,6.6939,Germany,DE,DEU,North Rhine-Westphalia,minor,155163,1276075502
+Ingolstadt,Ingolstadt,48.7631,11.425,Germany,DE,DEU,Bavaria,minor,142308,1276803150
+Würzburg,Wurzburg,49.7944,9.9294,Germany,DE,DEU,Bavaria,minor,132215,1276233514
+Fürth,Furth,49.4783,10.9903,Germany,DE,DEU,Bavaria,minor,132032,1276580165
+Heilbronn,Heilbronn,49.1404,9.218,Germany,DE,DEU,Baden-Württemberg,minor,130093,1276377359
+Ulm,Ulm,48.3984,9.9916,Germany,DE,DEU,Baden-Württemberg,minor,129942,1276002212
+Pforzheim,Pforzheim,48.8909,8.703,Germany,DE,DEU,Baden-Württemberg,minor,128992,1276732622
+Wolfsburg,Wolfsburg,52.4231,10.7872,Germany,DE,DEU,Lower Saxony,minor,127256,1276033981
+Göttingen,Gottingen,51.5339,9.9356,Germany,DE,DEU,Lower Saxony,minor,120261,1276211234
+Bottrop,Bottrop,51.5232,6.9253,Germany,DE,DEU,North Rhine-Westphalia,minor,118705,1276473363
+Reutlingen,Reutlingen,48.4833,9.2167,Germany,DE,DEU,Baden-Württemberg,minor,118528,1276256795
+Erlangen,Erlangen,49.5925,11.005,Germany,DE,DEU,Bavaria,minor,117806,1276339482
+Koblenz,Koblenz,50.3597,7.5978,Germany,DE,DEU,Rhineland-Palatinate,minor,115298,1276605495
+Bremerhaven,Bremerhaven,53.55,8.5833,Germany,DE,DEU,Bremen,,114677,1276991229
+Remscheid,Remscheid,51.1799,7.1944,Germany,DE,DEU,North Rhine-Westphalia,minor,112970,1276043920
+Trier,Trier,49.7557,6.6394,Germany,DE,DEU,Rhineland-Palatinate,minor,112737,1276211430
+Bergisch Gladbach,Bergisch Gladbach,50.9917,7.1367,Germany,DE,DEU,North Rhine-Westphalia,minor,112660,1276074373
+Recklinghausen,Recklinghausen,51.6167,7.2,Germany,DE,DEU,North Rhine-Westphalia,minor,111693,1276179876
+Jena,Jena,50.9272,11.5864,Germany,DE,DEU,Thuringia,minor,110791,1276659978
+Moers,Moers,51.4592,6.6197,Germany,DE,DEU,North Rhine-Westphalia,,105606,1276257182
+Salzgitter,Salzgitter,52.1503,10.3593,Germany,DE,DEU,Lower Saxony,minor,105039,1276613066
+Hanau,Hanau,50.1328,8.9169,Germany,DE,DEU,Hesse,minor,103184,1276550409
+Gütersloh,Gutersloh,51.9,8.3833,Germany,DE,DEU,North Rhine-Westphalia,minor,102464,1276587494
+Hildesheim,Hildesheim,52.15,9.95,Germany,DE,DEU,Lower Saxony,minor,102325,1276244190
+Siegen,Siegen,50.8756,8.0167,Germany,DE,DEU,North Rhine-Westphalia,minor,102114,1276268768
+Kaiserslautern,Kaiserslautern,49.4447,7.7689,Germany,DE,DEU,Rhineland-Palatinate,minor,101486,1276674534
+Cottbus,Cottbus,51.7608,14.3319,Germany,DE,DEU,Brandenburg,minor,100010,1276436655
+Flensburg,Flensburg,54.7819,9.4367,Germany,DE,DEU,Schleswig-Holstein,minor,99307,1276853315
+Schwerin,Schwerin,53.6289,11.415,Germany,DE,DEU,Mecklenburg-Western Pomerania,admin,98733,1276221707
+Esslingen,Esslingen,48.7406,9.3108,Germany,DE,DEU,Baden-Württemberg,minor,95881,1276510955
+Witten,Witten,51.4333,7.3333,Germany,DE,DEU,North Rhine-Westphalia,,95724,1276004960
+Gießen,Giessen,50.5833,8.6667,Germany,DE,DEU,Hesse,minor,94996,1276576770
+Ludwigsburg,Ludwigsburg,48.8975,9.1919,Germany,DE,DEU,Baden-Württemberg,minor,94859,1276803720
+Gera,Gera,50.8782,12.0824,Germany,DE,DEU,Thuringia,minor,94847,1276548165
+Tübingen,Tubingen,48.52,9.0556,Germany,DE,DEU,Baden-Württemberg,minor,93615,1276203240
+Düren,Duren,50.8032,6.4821,Germany,DE,DEU,North Rhine-Westphalia,minor,93323,1276181957
+Iserlohn,Iserlohn,51.3833,7.6667,Germany,DE,DEU,North Rhine-Westphalia,,92404,1276837267
+Villingen-Schwenningen,Villingen-Schwenningen,48.0632,8.493,Germany,DE,DEU,Baden-Württemberg,minor,89145,1276450523
+Zwickau,Zwickau,50.7189,12.4961,Germany,DE,DEU,Saxony,minor,87593,1276683623
+Ratingen,Ratingen,51.3,6.85,Germany,DE,DEU,North Rhine-Westphalia,,87513,1276005433
+Lünen,Lunen,51.6167,7.5167,Germany,DE,DEU,North Rhine-Westphalia,,87266,1276959723
+Konstanz,Konstanz,47.6633,9.1753,Germany,DE,DEU,Baden-Württemberg,,85770,1276601373
+Worms,Worms,49.6303,8.3621,Germany,DE,DEU,Rhineland-Palatinate,minor,85609,1276944683
+Marl,Marl,51.6667,7.1167,Germany,DE,DEU,North Rhine-Westphalia,,85001,1276451667
+Minden,Minden,52.2883,8.9167,Germany,DE,DEU,North Rhine-Westphalia,minor,83100,1276191164
+Norderstedt,Norderstedt,53.7064,10.0103,Germany,DE,DEU,Schleswig-Holstein,,82719,1276872953
+Velbert,Velbert,51.34,7.0416,Germany,DE,DEU,North Rhine-Westphalia,,82462,1276896645
+Bamberg,Bamberg,49.8917,10.8917,Germany,DE,DEU,Bavaria,minor,80580,1276824274
+Neumünster,Neumunster,54.0714,9.99,Germany,DE,DEU,Schleswig-Holstein,minor,80185,1276757733
+Mosigkau,Mosigkau,51.8333,12.2333,Germany,DE,DEU,Saxony-Anhalt,,79686,1276680755
+Dessau-Rosslau,,51.8333,12.2333,Germany,DE,DEU,Saxony-Anhalt,minor,79686,1276983641
+Viersen,Viersen,51.2556,6.3917,Germany,DE,DEU,North Rhine-Westphalia,minor,79250,1276629059
+Delmenhorst,Delmenhorst,53.0506,8.6317,Germany,DE,DEU,Lower Saxony,minor,78979,1276098664
+Marburg,Marburg,50.8167,8.7667,Germany,DE,DEU,Hesse,minor,78203,1276012023
+Lüneburg,Luneburg,53.2525,10.4144,Germany,DE,DEU,Lower Saxony,minor,77511,1276001423
+Rheine,Rheine,52.2833,7.4333,Germany,DE,DEU,North Rhine-Westphalia,,77209,1276882978
+Dorsten,Dorsten,51.66,6.9642,Germany,DE,DEU,North Rhine-Westphalia,,76842,1276397774
+Troisdorf,Troisdorf,50.8161,7.1556,Germany,DE,DEU,North Rhine-Westphalia,,76503,1276488227
+Wilhelmshaven,Wilhelmshaven,53.5286,8.1056,Germany,DE,DEU,Lower Saxony,minor,76247,1276324633
+Gladbeck,Gladbeck,51.5713,6.9827,Germany,DE,DEU,North Rhine-Westphalia,,75799,1276216238
+Landshut,Landshut,48.5397,12.1508,Germany,DE,DEU,Bavaria,minor,75272,1276485277
+Bayreuth,Bayreuth,49.9481,11.5783,Germany,DE,DEU,Bavaria,minor,74907,1276275069
+Detmold,Detmold,51.9378,8.8833,Germany,DE,DEU,North Rhine-Westphalia,minor,74835,1276802316
+Castrop-Rauxel,Castrop-Rauxel,51.55,7.3167,Germany,DE,DEU,North Rhine-Westphalia,,74370,1276873073
+Arnsberg,Arnsberg,51.3967,8.0644,Germany,DE,DEU,North Rhine-Westphalia,,74206,1276285824
+Brandenburg,Brandenburg,52.4141,12.5541,Germany,DE,DEU,Brandenburg,minor,73921,1276372220
+Aschaffenburg,Aschaffenburg,49.9741,9.1494,Germany,DE,DEU,Bavaria,minor,72918,1276069907
+Lippstadt,Lippstadt,51.6667,8.35,Germany,DE,DEU,North Rhine-Westphalia,,72804,1276820778
+Bocholt,Bocholt,51.8333,6.6167,Germany,DE,DEU,North Rhine-Westphalia,,72409,1276001655
+Lüdenscheid,Ludenscheid,51.2198,7.6273,Germany,DE,DEU,North Rhine-Westphalia,minor,71463,1276839426
+Kempten,Kempten,47.7333,10.3167,Germany,DE,DEU,Bavaria,minor,70713,1276008842
+Fulda,Fulda,50.5528,9.6775,Germany,DE,DEU,Hesse,minor,70366,1276669051
+Celle,Celle,52.6256,10.0825,Germany,DE,DEU,Lower Saxony,minor,70293,1276282135
+Aalen,Aalen,48.8372,10.0936,Germany,DE,DEU,Baden-Württemberg,minor,69147,1276757787
+Dinslaken,Dinslaken,51.5667,6.7333,Germany,DE,DEU,North Rhine-Westphalia,,67949,1276055868
+Rüsselsheim,Russelsheim,49.995,8.4119,Germany,DE,DEU,Hesse,,67656,1276969472
+Kerpen,Kerpen,50.8719,6.6961,Germany,DE,DEU,North Rhine-Westphalia,,67627,1276675138
+Herford,Herford,52.1146,8.6734,Germany,DE,DEU,North Rhine-Westphalia,minor,67265,1276588147
+Neuwied,Neuwied,50.4286,7.4614,Germany,DE,DEU,Rhineland-Palatinate,minor,66243,1276935443
+Weimar,Weimar,50.9811,11.3294,Germany,DE,DEU,Thuringia,minor,65611,1276053525
+Sindelfingen,Sindelfingen,48.7133,9.0028,Germany,DE,DEU,Baden-Württemberg,,65504,1276001469
+Plauen,Plauen,50.495,12.1383,Germany,DE,DEU,Saxony,minor,65218,1276134198
+Rosenheim,Rosenheim,47.8561,12.1289,Germany,DE,DEU,Bavaria,minor,65192,1276301675
+Dormagen,Dormagen,51.0964,6.84,Germany,DE,DEU,North Rhine-Westphalia,,65170,1276688551
+Grevenbroich,Grevenbroich,51.0883,6.5875,Germany,DE,DEU,North Rhine-Westphalia,,64588,1276215861
+Neubrandenburg,Neubrandenburg,53.5569,13.2608,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,64390,1276954105
+Friedrichshafen,Friedrichshafen,47.6542,9.4792,Germany,DE,DEU,Baden-Württemberg,,63441,1276002705
+Schwäbisch Gmünd,Schwabisch Gmund,48.8,9.8,Germany,DE,DEU,Baden-Württemberg,,62726,1276897251
+Herten,Herten,51.6,7.1333,Germany,DE,DEU,North Rhine-Westphalia,,62204,1276440470
+Offenburg,Offenburg,48.4708,7.9408,Germany,DE,DEU,Baden-Württemberg,minor,62195,1276214401
+Bergheim,Bergheim,50.9541,6.6412,Germany,DE,DEU,North Rhine-Westphalia,minor,62172,1276980188
+Neu-Ulm,Neu-Ulm,48.3833,10,Germany,DE,DEU,Baden-Württemberg,minor,61780,1276071813
+Garbsen,Garbsen,52.4183,9.5981,Germany,DE,DEU,Lower Saxony,,61594,1276318243
+Wesel,Wesel,51.6586,6.6178,Germany,DE,DEU,North Rhine-Westphalia,minor,61277,1276261527
+Hürth,Hurth,50.8775,6.8761,Germany,DE,DEU,North Rhine-Westphalia,,61252,1276025332
+Euskirchen,Euskirchen,50.6613,6.7873,Germany,DE,DEU,North Rhine-Westphalia,minor,60256,1276782162
+Unna,Unna,51.5347,7.6889,Germany,DE,DEU,North Rhine-Westphalia,minor,60223,1276028114
+Greifswald,Greifswald,54.0833,13.3833,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,60071,1276867765
+Langenfeld,Langenfeld,51.1167,6.95,Germany,DE,DEU,North Rhine-Westphalia,,59908,1276016003
+Stralsund,Stralsund,54.3092,13.0819,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,59450,1276640152
+Göppingen,Goppingen,48.7025,9.6528,Germany,DE,DEU,Baden-Württemberg,minor,59300,1276730715
+Frankfurt (Oder),Frankfurt (Oder),52.3421,14.5517,Germany,DE,DEU,Brandenburg,minor,58818,1276397323
+Hameln,Hameln,52.1031,9.36,Germany,DE,DEU,Lower Saxony,minor,57916,1276101153
+Meerbusch,Meerbusch,51.2667,6.6667,Germany,DE,DEU,North Rhine-Westphalia,,57440,1276882223
+Baden-Baden,Baden-Baden,48.7619,8.2408,Germany,DE,DEU,Baden-Württemberg,minor,57420,1276150269
+Lingen,Lingen,52.5233,7.3172,Germany,DE,DEU,Lower Saxony,minor,57075,1276978218
+Görlitz,Gorlitz,51.1528,14.9872,Germany,DE,DEU,Saxony,minor,56694,1276000121
+Sankt Augustin,Sankt Augustin,50.77,7.1867,Germany,DE,DEU,North Rhine-Westphalia,,56692,1276196312
+Stolberg,Stolberg,50.7667,6.2333,Germany,DE,DEU,North Rhine-Westphalia,,56584,1276202704
+Pulheim,Pulheim,51,6.8,Germany,DE,DEU,North Rhine-Westphalia,,56284,1276728926
+Eschweiler,Eschweiler,50.8167,6.2833,Germany,DE,DEU,North Rhine-Westphalia,,56132,1276835632
+Bad Homburg,Bad Homburg,50.2292,8.6105,Germany,DE,DEU,Hesse,minor,55995,1276019348
+Waiblingen,Waiblingen,48.8303,9.3169,Germany,DE,DEU,Baden-Württemberg,minor,55917,1276678986
+Langenhagen,Langenhagen,52.4394,9.74,Germany,DE,DEU,Lower Saxony,,55746,1276031765
+Hilden,Hilden,51.1714,6.9394,Germany,DE,DEU,North Rhine-Westphalia,,55689,1276577152
+Nordhorn,Nordhorn,52.4333,7.0667,Germany,DE,DEU,Lower Saxony,minor,55619,1276078036
+Schweinfurt,Schweinfurt,50.05,10.2333,Germany,DE,DEU,Bavaria,,55067,1276316912
+Wetzlar,Wetzlar,50.5667,8.5,Germany,DE,DEU,Hesse,minor,54629,1276020868
+Hattingen,Hattingen,51.3992,7.1858,Germany,DE,DEU,North Rhine-Westphalia,,54620,1276698647
+Bad Salzuflen,Bad Salzuflen,52.0833,8.7467,Germany,DE,DEU,North Rhine-Westphalia,,54585,1276526163
+Passau,Passau,48.5748,13.461,Germany,DE,DEU,Bavaria,minor,54401,1276123699
+Neustadt,Neustadt,49.3536,8.1361,Germany,DE,DEU,Rhineland-Palatinate,minor,53920,1276053769
+Kleve,Kleve,51.79,6.14,Germany,DE,DEU,North Rhine-Westphalia,minor,53458,1276674243
+Ahlen,Ahlen,51.7633,7.8911,Germany,DE,DEU,North Rhine-Westphalia,,53278,1276843072
+Frechen,Frechen,50.9167,6.8167,Germany,DE,DEU,North Rhine-Westphalia,,53128,1276255319
+Wolfenbüttel,Wolfenbuttel,52.1622,10.5369,Germany,DE,DEU,Lower Saxony,minor,53034,1276388010
+Bad Kreuznach,Bad Kreuznach,49.8469,7.8669,Germany,DE,DEU,Rhineland-Palatinate,minor,52989,1276733459
+Ibbenbüren,Ibbenburen,52.2778,7.7167,Germany,DE,DEU,North Rhine-Westphalia,,52688,1276476330
+Böblingen,Boblingen,48.6833,9,Germany,DE,DEU,Baden-Württemberg,minor,52093,1276001231
+Gummersbach,Gummersbach,51.0333,7.5667,Germany,DE,DEU,North Rhine-Westphalia,minor,51845,1276576027
+Rastatt,Rastatt,48.8572,8.2031,Germany,DE,DEU,Baden-Württemberg,minor,51800,1276684629
+Ravensburg,Ravensburg,47.7831,9.6114,Germany,DE,DEU,Baden-Württemberg,minor,51788,1276088263
+Peine,Peine,52.3203,10.2336,Germany,DE,DEU,Lower Saxony,minor,51521,1276331439
+Speyer,Speyer,49.3166,8.4336,Germany,DE,DEU,Rhineland-Palatinate,minor,51203,1276684984
+Elmshorn,Elmshorn,53.7547,9.6536,Germany,DE,DEU,Schleswig-Holstein,minor,50728,1276091723
+Lörrach,Lorrach,47.6156,7.6614,Germany,DE,DEU,Baden-Württemberg,minor,50670,1276104619
+Emden,Emden,53.3669,7.2061,Germany,DE,DEU,Lower Saxony,minor,50659,1276309938
+Goslar,Goslar,51.906,10.4292,Germany,DE,DEU,Lower Saxony,minor,50253,1276608610
+Willich,Willich,51.2631,6.5492,Germany,DE,DEU,North Rhine-Westphalia,,50212,1276849706
+Gronau,Gronau,52.2125,7.0417,Germany,DE,DEU,North Rhine-Westphalia,,50151,1276262054
+Erftstadt,Erftstadt,50.8167,6.7667,Germany,DE,DEU,North Rhine-Westphalia,,50018,1276479094
+Freising,Freising,48.4028,11.7489,Germany,DE,DEU,Bavaria,minor,49939,1276519005
+Heidenheim,Heidenheim,48.6761,10.1544,Germany,DE,DEU,Baden-Württemberg,minor,49895,1276168895
+Rheda-Wiedenbrück,Rheda-Wiedenbruck,51.8417,8.3,Germany,DE,DEU,North Rhine-Westphalia,,49849,1276045371
+Leonberg,Leonberg,48.8014,9.0131,Germany,DE,DEU,Baden-Württemberg,,49845,1276002040
+Straubing,Straubing,48.8772,12.5758,Germany,DE,DEU,Bavaria,minor,49775,1276278805
+Bad Oeynhausen,Bad Oeynhausen,52.2,8.8,Germany,DE,DEU,North Rhine-Westphalia,,49566,1276503412
+Singen,Singen,47.7628,8.84,Germany,DE,DEU,Baden-Württemberg,,49518,1276550938
+Bergkamen,Bergkamen,51.6167,7.6333,Germany,DE,DEU,North Rhine-Westphalia,,49475,1276603807
+Cuxhaven,Cuxhaven,53.8667,8.7,Germany,DE,DEU,Lower Saxony,minor,49443,1276511789
+Lahr,Lahr,48.3392,7.8722,Germany,DE,DEU,Baden-Württemberg,,49420,1276321511
+Frankenthal,Frankenthal,49.5333,8.35,Germany,DE,DEU,Rhineland-Palatinate,minor,49122,1276888667
+Bornheim,Bornheim,50.7592,7.005,Germany,DE,DEU,North Rhine-Westphalia,,49074,1276585020
+Stade,Stade,53.6008,9.4764,Germany,DE,DEU,Lower Saxony,minor,48708,1276472720
+Alsdorf,Alsdorf,50.8744,6.1615,Germany,DE,DEU,North Rhine-Westphalia,,48518,1276261156
+Oranienburg,Oranienburg,52.7544,13.2369,Germany,DE,DEU,Brandenburg,minor,48492,1276677137
+Landau,Landau,49.1994,8.1231,Germany,DE,DEU,Rhineland-Palatinate,minor,48341,1276000837
+Dachau,Dachau,48.2603,11.4342,Germany,DE,DEU,Bavaria,minor,48337,1276549079
+Soest,Soest,51.5711,8.1092,Germany,DE,DEU,North Rhine-Westphalia,minor,48250,1276851034
+Hennef,Hennef,50.7833,7.2833,Germany,DE,DEU,North Rhine-Westphalia,,48190,1276962178
+Dülmen,Dulmen,51.8308,7.2783,Germany,DE,DEU,North Rhine-Westphalia,,47937,1276703649
+Melle,Melle,52.2031,8.3361,Germany,DE,DEU,Lower Saxony,,47387,1276489872
+Neunkirchen,Neunkirchen,49.3448,7.1799,Germany,DE,DEU,Saarland,minor,47097,1276274217
+Herzogenrath,Herzogenrath,50.8667,6.1,Germany,DE,DEU,North Rhine-Westphalia,,47071,1276873875
+Bruchsal,Bruchsal,49.1333,8.6,Germany,DE,DEU,Baden-Württemberg,,47014,1276034362
+Hof,Hof,50.3167,11.9167,Germany,DE,DEU,Bavaria,minor,46963,1276561363
+Albstadt,Albstadt,48.2119,9.0239,Germany,DE,DEU,Baden-Württemberg,,46831,1276969750
+Rodgau,Rodgau,50.0256,8.8841,Germany,DE,DEU,Hesse,,46683,1276173536
+Schwerte,Schwerte,51.4458,7.5653,Germany,DE,DEU,North Rhine-Westphalia,,46571,1276720376
+Kaufbeuren,Kaufbeuren,47.88,10.6225,Germany,DE,DEU,Bavaria,minor,46386,1276496301
+Gotha,Gotha,50.9489,10.7183,Germany,DE,DEU,Thuringia,minor,46300,1276679639
+Filderstadt,Filderstadt,48.6667,9.2167,Germany,DE,DEU,Baden-Württemberg,,46295,1276952389
+Halle-Neustadt,Halle-Neustadt,51.4789,11.9214,Germany,DE,DEU,Saxony-Anhalt,,46280,1276281757
+Fellbach,Fellbach,48.8086,9.2758,Germany,DE,DEU,Baden-Württemberg,,46205,1276083210
+Memmingen,Memmingen,47.9878,10.1811,Germany,DE,DEU,Bavaria,minor,46178,1276229376
+Bünde,Bunde,52.2,8.6,Germany,DE,DEU,North Rhine-Westphalia,,45891,1276719683
+Brühl,Bruhl,50.8333,6.9,Germany,DE,DEU,North Rhine-Westphalia,,45515,1276307796
+Weinheim,Weinheim,49.5561,8.6697,Germany,DE,DEU,Baden-Württemberg,,45381,1276001742
+Neustadt am Rübenberge,Neustadt am Rubenberge,52.5055,9.4636,Germany,DE,DEU,Lower Saxony,,45325,1276887904
+Lehrte,Lehrte,52.3725,9.9769,Germany,DE,DEU,Lower Saxony,,45097,1276716840
+Falkensee,Falkensee,52.5583,13.0917,Germany,DE,DEU,Brandenburg,,45005,1276126886
+Pinneberg,Pinneberg,53.6591,9.8009,Germany,DE,DEU,Schleswig-Holstein,minor,44756,1276865707
+Erkelenz,Erkelenz,51.08,6.3156,Germany,DE,DEU,North Rhine-Westphalia,,44572,1276067473
+Kaarst,Kaarst,51.2278,6.6273,Germany,DE,DEU,North Rhine-Westphalia,,44208,1276322915
+Wismar,Wismar,53.8925,11.465,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,44022,1276660084
+Gifhorn,Gifhorn,52.4886,10.5464,Germany,DE,DEU,Lower Saxony,minor,43941,1276793894
+Bietigheim-Bissingen,Bietigheim-Bissingen,48.9494,9.1361,Germany,DE,DEU,Baden-Württemberg,,43808,1276916733
+Erkrath,Erkrath,51.2239,6.9147,Germany,DE,DEU,North Rhine-Westphalia,,43801,1276917229
+Heinsberg,Heinsberg,51.0631,6.0964,Germany,DE,DEU,North Rhine-Westphalia,minor,43620,1276000099
+Borken,Borken,51.8439,6.8583,Germany,DE,DEU,North Rhine-Westphalia,minor,43589,1276778327
+Nettetal,Nettetal,51.3167,6.2833,Germany,DE,DEU,North Rhine-Westphalia,,43425,1276049262
+Aurich,Aurich,53.4714,7.4836,Germany,DE,DEU,Lower Saxony,minor,43375,1276424784
+Kamen,Kamen,51.5917,7.6653,Germany,DE,DEU,North Rhine-Westphalia,,43001,1276465116
+Seevetal,Seevetal,53.3833,10.0333,Germany,DE,DEU,Lower Saxony,,42880,1276709038
+Eisenach,Eisenach,50.9747,10.3244,Germany,DE,DEU,Thuringia,minor,42817,1276000880
+Schwäbisch Hall,Schwabisch Hall,49.1122,9.7375,Germany,DE,DEU,Baden-Württemberg,minor,42743,1276556451
+Amberg,Amberg,49.4444,11.8483,Germany,DE,DEU,Bavaria,minor,42676,1276551955
+Laatzen,Laatzen,52.3077,9.8133,Germany,DE,DEU,Lower Saxony,,42560,1276954154
+Homburg,Homburg,49.3167,7.3333,Germany,DE,DEU,Saarland,minor,42498,1276520056
+Dreieich,Dreieich,50.0189,8.6961,Germany,DE,DEU,Hesse,,42389,1276481123
+Ansbach,Ansbach,49.3,10.5833,Germany,DE,DEU,Bavaria,minor,42311,1276572551
+Kirchheim unter Teck,Kirchheim unter Teck,48.6483,9.4511,Germany,DE,DEU,Baden-Württemberg,,42178,1276389368
+Coburg,Coburg,50.2585,10.9579,Germany,DE,DEU,Bavaria,minor,42139,1276428862
+Siegburg,Siegburg,50.8014,7.2044,Germany,DE,DEU,North Rhine-Westphalia,minor,42025,1276838674
+Germering,Germering,48.1333,11.3667,Germany,DE,DEU,Bavaria,,41822,1276002965
+Bensheim,Bensheim,49.6811,8.6228,Germany,DE,DEU,Hesse,,41758,1276256416
+Eberswalde,Eberswalde,52.8331,13.8331,Germany,DE,DEU,Brandenburg,minor,41704,1276311453
+Wunstorf,Wunstorf,52.4238,9.4359,Germany,DE,DEU,Lower Saxony,,41666,1276079483
+Königswinter,Konigswinter,50.6833,7.1833,Germany,DE,DEU,North Rhine-Westphalia,,41642,1276951419
+Völklingen,Volklingen,49.253,6.8567,Germany,DE,DEU,Saarland,,41632,1276052749
+Hückelhoven,Huckelhoven,51.0608,6.2197,Germany,DE,DEU,North Rhine-Westphalia,,41594,1276391695
+Nürtingen,Nurtingen,48.6267,9.3353,Germany,DE,DEU,Baden-Württemberg,,41447,1276408465
+Schwabach,Schwabach,49.3292,11.0208,Germany,DE,DEU,Bavaria,minor,41380,1276017987
+Buchholz in der Nordheide,Buchholz in der Nordheide,53.3285,9.8621,Germany,DE,DEU,Lower Saxony,,41290,1276859084
+Buxtehude,Buxtehude,53.4769,9.7011,Germany,DE,DEU,Lower Saxony,minor,41256,1276767530
+Neumarkt,Neumarkt,49.2833,11.4667,Germany,DE,DEU,Bavaria,minor,41255,1276002746
+Nordhausen,Nordhausen,51.505,10.7911,Germany,DE,DEU,Thuringia,minor,41233,1276946322
+Freiberg,Freiberg,50.9119,13.3428,Germany,DE,DEU,Saxony,minor,41045,1276914988
+Pirmasens,Pirmasens,49.2,7.6,Germany,DE,DEU,Rhineland-Palatinate,minor,40941,1276000134
+Schorndorf,Schorndorf,48.8,9.5333,Germany,DE,DEU,Baden-Württemberg,,40614,1276068626
+Ahaus,Ahaus,52.0794,7.0134,Germany,DE,DEU,North Rhine-Westphalia,,40580,1276411347
+Lemgo,Lemgo,52.0277,8.9043,Germany,DE,DEU,North Rhine-Westphalia,,40531,1276164957
+Leinfelden-Echterdingen,Leinfelden-Echterdingen,48.6928,9.1428,Germany,DE,DEU,Baden-Württemberg,,40526,1276447188
+Hofheim,Hofheim,50.0876,8.4447,Germany,DE,DEU,Hesse,minor,40412,1276364825
+Löhne,Lohne,52.2,8.7,Germany,DE,DEU,North Rhine-Westphalia,,40162,1276788847
+Halberstadt,Halberstadt,51.8958,11.0467,Germany,DE,DEU,Saxony-Anhalt,minor,40069,1276900818
+Langen,Langen,49.9893,8.6803,Germany,DE,DEU,Hesse,,40009,1276365275
+Ostfildern,Ostfildern,48.7228,9.2631,Germany,DE,DEU,Baden-Württemberg,,39833,1276855000
+Ettlingen,Ettlingen,48.9333,8.4,Germany,DE,DEU,Baden-Württemberg,,39763,1276126657
+Maintal,Maintal,50.15,8.8333,Germany,DE,DEU,Hesse,,39698,1276616960
+Freital,Freital,51.0167,13.65,Germany,DE,DEU,Saxony,,39477,1276672229
+Niederkassel,Niederkassel,50.8167,7.0333,Germany,DE,DEU,North Rhine-Westphalia,,39424,1276316077
+Neu Isenburg,Neu Isenburg,50.0558,8.6971,Germany,DE,DEU,Hesse,,39420,1276467901
+Pirna,Pirna,50.9622,13.9403,Germany,DE,DEU,Saxony,minor,39303,1276247543
+Mettmann,Mettmann,51.25,6.9667,Germany,DE,DEU,North Rhine-Westphalia,minor,39197,1276000749
+Weißenfels,Weissenfels,51.2,11.9667,Germany,DE,DEU,Saxony-Anhalt,,39181,1276292106
+Ilmenau,Ilmenau,50.6872,10.9142,Germany,DE,DEU,Thuringia,,39147,1276541405
+Königs Wusterhausen,Konigs Wusterhausen,52.2917,13.625,Germany,DE,DEU,Brandenburg,,39096,1276871907
+Stendal,Stendal,52.6,11.85,Germany,DE,DEU,Saxony-Anhalt,minor,38946,1276016814
+Papenburg,Papenburg,53.0667,7.4,Germany,DE,DEU,Lower Saxony,minor,38841,1276460693
+Würselen,Wurselen,50.8247,6.1275,Germany,DE,DEU,North Rhine-Westphalia,,38750,1276620771
+Kamp-Lintfort,Kamp-Lintfort,51.5,6.5333,Germany,DE,DEU,North Rhine-Westphalia,,38731,1276081102
+Kehl,Kehl,48.5711,7.8089,Germany,DE,DEU,Baden-Württemberg,,38721,1276615908
+Wesseling,Wesseling,50.8207,6.9786,Germany,DE,DEU,North Rhine-Westphalia,,38355,1276392642
+Greven,Greven,52.0917,7.6083,Germany,DE,DEU,North Rhine-Westphalia,,38321,1276669554
+Fürstenfeldbruck,Furstenfeldbruck,48.1778,11.2556,Germany,DE,DEU,Bavaria,minor,38187,1276347995
+Backnang,Backnang,48.9464,9.4306,Germany,DE,DEU,Baden-Württemberg,,38184,1276031423
+Bautzen,Bautzen,51.1814,14.4239,Germany,DE,DEU,Saxony,minor,38039,1276088190
+Bitterfeld,Bitterfeld,51.6425,12.3076,Germany,DE,DEU,Saxony-Anhalt,,37850,1276169908
+Warendorf,Warendorf,51.9539,7.9933,Germany,DE,DEU,North Rhine-Westphalia,minor,37847,1276005733
+Tuttlingen,Tuttlingen,47.985,8.8233,Germany,DE,DEU,Baden-Württemberg,minor,37784,1276649477
+Beckum,Beckum,51.7558,8.0408,Germany,DE,DEU,North Rhine-Westphalia,,37452,1276000534
+Cloppenburg,Cloppenburg,52.8478,8.0439,Germany,DE,DEU,Lower Saxony,minor,37280,1276769960
+Coesfeld,Coesfeld,51.9458,7.1675,Germany,DE,DEU,North Rhine-Westphalia,minor,37259,1276053897
+Erding,Erding,48.3001,11.9082,Germany,DE,DEU,Bavaria,minor,37169,1276458355
+Suhl,Suhl,50.6106,10.6931,Germany,DE,DEU,Thuringia,minor,36986,1276059886
+Sinsheim,Sinsheim,49.25,8.8833,Germany,DE,DEU,Baden-Württemberg,,36978,1276820270
+Mühlhausen,Muhlhausen,51.2167,10.45,Germany,DE,DEU,Thuringia,minor,36641,1276181580
+Emsdetten,Emsdetten,52.1728,7.5344,Germany,DE,DEU,North Rhine-Westphalia,,36556,1276439566
+Limburg,Limburg,50.3833,8.0667,Germany,DE,DEU,Hesse,minor,36506,1276188257
+Winsen,Winsen,53.3667,10.2167,Germany,DE,DEU,Lower Saxony,minor,36499,1276491512
+Ingelheim,Ingelheim,49.9747,8.0564,Germany,DE,DEU,Rhineland-Palatinate,minor,36390,1276699130
+Porta Westfalica,Porta Westfalica,52.2401,8.9214,Germany,DE,DEU,North Rhine-Westphalia,,36300,1276426167
+Voerde,Voerde,51.6,6.6833,Germany,DE,DEU,North Rhine-Westphalia,,36282,1276242749
+Crailsheim,Crailsheim,49.1347,10.0706,Germany,DE,DEU,Baden-Württemberg,,36239,1276001596
+Meppen,Meppen,52.6906,7.291,Germany,DE,DEU,Lower Saxony,minor,36137,1276180771
+Bad Vilbel,Bad Vilbel,50.1781,8.7361,Germany,DE,DEU,Hesse,,36021,1276387851
+Deggendorf,Deggendorf,48.8353,12.9644,Germany,DE,DEU,Bavaria,minor,35757,1276512590
+Goch,Goch,51.6839,6.1619,Germany,DE,DEU,North Rhine-Westphalia,,35520,1276890926
+Steinfurt,Steinfurt,52.1504,7.3366,Germany,DE,DEU,North Rhine-Westphalia,minor,35456,1276842137
+Mörfelden-Walldorf,Morfelden-Walldorf,49.9896,8.5661,Germany,DE,DEU,Hesse,,35359,1276425407
+Lage,Lage,51.9833,8.8,Germany,DE,DEU,North Rhine-Westphalia,,35311,1276243855
+Dietzenbach,Dietzenbach,50.0086,8.7756,Germany,DE,DEU,Hesse,,35268,1276741284
+Datteln,Datteln,51.6539,7.3417,Germany,DE,DEU,North Rhine-Westphalia,,35200,1276259793
+Leer,Leer,53.2308,7.4528,Germany,DE,DEU,Lower Saxony,minor,35163,1276392695
+Sankt Ingbert,Sankt Ingbert,49.2789,7.115,Germany,DE,DEU,Saarland,,35059,1276174089
+Balingen,Balingen,48.2731,8.8506,Germany,DE,DEU,Baden-Württemberg,minor,35054,1276586382
+Barsinghausen,Barsinghausen,52.3031,9.4606,Germany,DE,DEU,Lower Saxony,,34955,1276183527
+Saarlouis,Saarlouis,49.3167,6.75,Germany,DE,DEU,Saarland,minor,34893,1276663502
+Kempen,Kempen,51.3658,6.4194,Germany,DE,DEU,North Rhine-Westphalia,,34888,1276967592
+Seelze,Seelze,52.3961,9.5981,Germany,DE,DEU,Lower Saxony,,34798,1276781689
+Merseburg,Merseburg,51.3544,11.9928,Germany,DE,DEU,Saxony-Anhalt,minor,34721,1276735436
+Wermelskirchen,Wermelskirchen,51.1392,7.2051,Germany,DE,DEU,North Rhine-Westphalia,,34673,1276444512
+Wedel,Wedel,53.5833,9.7,Germany,DE,DEU,Schleswig-Holstein,,34617,1276016066
+Zweibrücken,Zweibrucken,49.2494,7.3608,Germany,DE,DEU,Rhineland-Palatinate,minor,34613,1276900149
+Geldern,Geldern,51.5197,6.3325,Germany,DE,DEU,North Rhine-Westphalia,,34604,1276273584
+Ahrensburg,Ahrensburg,53.6747,10.2411,Germany,DE,DEU,Schleswig-Holstein,minor,34601,1276744963
+Viernheim,Viernheim,49.538,8.5792,Germany,DE,DEU,Hesse,,34348,1276924320
+Biberach,Biberach,48.0981,9.7886,Germany,DE,DEU,Baden-Württemberg,minor,34331,1276241010
+Korschenbroich,Korschenbroich,51.1833,6.5167,Germany,DE,DEU,North Rhine-Westphalia,,34324,1276206387
+Kornwestheim,Kornwestheim,48.8597,9.185,Germany,DE,DEU,Baden-Württemberg,,34177,1276918130
+Stuhr,Stuhr,53.0167,8.75,Germany,DE,DEU,Lower Saxony,,34176,1276158158
+Vechta,Vechta,52.7306,8.2886,Germany,DE,DEU,Lower Saxony,minor,34145,1276147280
+Uelzen,Uelzen,52.9647,10.5658,Germany,DE,DEU,Lower Saxony,minor,33991,1276042012
+Hemer,Hemer,51.3833,7.7667,Germany,DE,DEU,North Rhine-Westphalia,,33916,1276327126
+Rheinfelden (Baden),Rheinfelden (Baden),47.5611,7.7917,Germany,DE,DEU,Baden-Württemberg,,33849,1276547516
+Bad Nauheim,Bad Nauheim,50.3667,8.75,Germany,DE,DEU,Hesse,,33809,1276664999
+Radebeul,Radebeul,51.1033,13.67,Germany,DE,DEU,Saxony,,33804,1276277969
+Schwedt (Oder),Schwedt (Oder),53.0631,14.2831,Germany,DE,DEU,Brandenburg,,33635,1276552729
+Forchheim,Forchheim,49.7197,11.0581,Germany,DE,DEU,Bavaria,minor,33610,1276030665
+Jülich,Julich,50.9222,6.3583,Germany,DE,DEU,North Rhine-Westphalia,,33359,1276891190
+Lampertheim,Lampertheim,49.5942,8.4671,Germany,DE,DEU,Hesse,,33053,1276406891
+Herrenberg,Herrenberg,48.5967,8.8708,Germany,DE,DEU,Baden-Württemberg,,32961,1276549799
+Achim,Achim,53.013,9.033,Germany,DE,DEU,Lower Saxony,minor,32961,1276242263
+Delbrück,Delbruck,51.7667,8.5667,Germany,DE,DEU,North Rhine-Westphalia,,32874,1276424035
+Geesthacht,Geesthacht,53.4375,10.3675,Germany,DE,DEU,Schleswig-Holstein,minor,32763,1276117326
+Fürstenwalde,Furstenwalde,52.3667,14.0667,Germany,DE,DEU,Brandenburg,,32763,1276767308
+Neuruppin,Neuruppin,52.9222,12.8,Germany,DE,DEU,Brandenburg,minor,32656,1276820903
+Radolfzell am Bodensee,Radolfzell am Bodensee,47.7369,8.9697,Germany,DE,DEU,Baden-Württemberg,,32575,1276934854
+Naumburg,Naumburg,51.1521,11.8098,Germany,DE,DEU,Saxony-Anhalt,minor,32336,1276335227
+Itzehoe,Itzehoe,53.925,9.5164,Germany,DE,DEU,Schleswig-Holstein,minor,32319,1276277285
+Ganderkesee,Ganderkesee,53.0358,8.5483,Germany,DE,DEU,Lower Saxony,minor,32149,1276035845
+Bernburg,Bernburg,51.8,11.7333,Germany,DE,DEU,Saxony-Anhalt,minor,32106,1276331294
+Georgsmarienhütte,Georgsmarienhutte,52.2031,8.0447,Germany,DE,DEU,Lower Saxony,,32022,1276001308
+Wernigerode,Wernigerode,51.835,10.7853,Germany,DE,DEU,Saxony-Anhalt,,31943,1276322228
+Oer-Erkenschwick,Oer-Erkenschwick,51.6422,7.2508,Germany,DE,DEU,North Rhine-Westphalia,,31918,1276269090
+Bramsche,Bramsche,52.4089,7.9728,Germany,DE,DEU,Lower Saxony,minor,31801,1276405075
+Altenburg,Altenburg,50.985,12.4333,Germany,DE,DEU,Thuringia,minor,31580,1276224301
+Hoyerswerda,Hoyerswerda,51.4331,14.25,Germany,DE,DEU,Saxony,,31404,1276992982
+Burgdorf,Burgdorf,52.4438,10.0078,Germany,DE,DEU,Lower Saxony,,31302,1276623419
+Kreuztal,Kreuztal,50.9617,7.9881,Germany,DE,DEU,North Rhine-Westphalia,,31251,1276001601
+Gevelsberg,Gevelsberg,51.3265,7.3559,Germany,DE,DEU,North Rhine-Westphalia,,31198,1276634761
+Friedberg,Friedberg,50.3353,8.755,Germany,DE,DEU,Hesse,minor,31131,1276800921
+Rheinberg,Rheinberg,51.5467,6.6006,Germany,DE,DEU,North Rhine-Westphalia,,31096,1276286236
+Weil am Rhein,Weil am Rhein,47.5947,7.6108,Germany,DE,DEU,Baden-Württemberg,,31065,1276439955
+Unterschleißheim,Unterschleissheim,48.2833,11.5667,Germany,DE,DEU,Bavaria,,31009,1276071648
+Werl,Werl,51.5528,7.9139,Germany,DE,DEU,North Rhine-Westphalia,,30938,1276291604
+Lohmar,Lohmar,50.8415,7.2166,Germany,DE,DEU,North Rhine-Westphalia,,30894,1276535520
+Walsrode,Walsrode,52.8592,9.5853,Germany,DE,DEU,Lower Saxony,minor,30890,1276472764
+Neuburg,Neuburg,48.7333,11.1833,Germany,DE,DEU,Bavaria,minor,30881,1276560116
+Taunusstein,Taunusstein,50.1435,8.1606,Germany,DE,DEU,Hesse,,30820,1276571090
+Bad Hersfeld,Bad Hersfeld,50.8683,9.7067,Germany,DE,DEU,Hesse,minor,30770,1276923242
+Einbeck,Einbeck,51.8167,9.8667,Germany,DE,DEU,Lower Saxony,,30725,1276253461
+Osterholz-Scharmbeck,Osterholz-Scharmbeck,53.2269,8.7947,Germany,DE,DEU,Lower Saxony,minor,30717,1276987274
+Friedberg,Friedberg,48.35,10.9833,Germany,DE,DEU,Bavaria,,30670,1276408320
+Haan,Haan,51.2078,7.0169,Germany,DE,DEU,North Rhine-Westphalia,,30558,1276168837
+Rendsburg,Rendsburg,54.3044,9.6644,Germany,DE,DEU,Schleswig-Holstein,minor,30545,1276159889
+Ennepetal,Ennepetal,51.3021,7.3425,Germany,DE,DEU,North Rhine-Westphalia,,30502,1276394678
+Rietberg,Rietberg,51.8,8.4333,Germany,DE,DEU,North Rhine-Westphalia,,30461,1276651074
+Andernach,Andernach,50.4397,7.4017,Germany,DE,DEU,Rhineland-Palatinate,,30408,1276142194
+Schönebeck,Schonebeck,52.0167,11.75,Germany,DE,DEU,Saxony-Anhalt,,30402,1276217785
+Schwandorf,Schwandorf,49.3236,12.0993,Germany,DE,DEU,Bavaria,minor,30239,1276268287
+Gaggenau,Gaggenau,48.8039,8.3194,Germany,DE,DEU,Baden-Württemberg,,30190,1276552610
+Bretten,Bretten,49.0364,8.7061,Germany,DE,DEU,Baden-Württemberg,,30136,1276638008
+Merzig,Merzig,49.4422,6.6375,Germany,DE,DEU,Saarland,minor,30070,1276524998
+Bad Zwischenahn,Bad Zwischenahn,53.1836,8.0097,Germany,DE,DEU,Lower Saxony,minor,30051,1276503429
+Meschede,Meschede,51.3503,8.2836,Germany,DE,DEU,North Rhine-Westphalia,minor,29988,1276139753
+Werve,Werve,51.6627,7.6355,Germany,DE,DEU,North Rhine-Westphalia,,29868,1276001404
+Oelde,Oelde,51.8258,8.1436,Germany,DE,DEU,North Rhine-Westphalia,,29783,1276826099
+Landsberg,Landsberg,48.0528,10.8689,Germany,DE,DEU,Bavaria,minor,29739,1276208782
+Waltrop,Waltrop,51.6236,7.3972,Germany,DE,DEU,North Rhine-Westphalia,,29586,1276333081
+Güstrow,Gustrow,53.7939,12.1764,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,29582,1276582967
+Steinheim am Main,Steinheim am Main,50.1257,8.83,Germany,DE,DEU,Hesse,,29452,1276179059
+Ludwigsfelde,Ludwigsfelde,52.2997,13.2667,Germany,DE,DEU,Brandenburg,,29441,1276940684
+Winnenden,Winnenden,48.8764,9.3978,Germany,DE,DEU,Baden-Württemberg,,29436,1276828910
+Vaihingen an der Enz,Vaihingen an der Enz,48.9328,8.9564,Germany,DE,DEU,Baden-Württemberg,,29387,1276306973
+Blankenfelde,Blankenfelde,52.35,13.4,Germany,DE,DEU,Brandenburg,,29344,1276580790
+Northeim,Northeim,51.7067,10.0011,Germany,DE,DEU,Lower Saxony,minor,29337,1276938853
+Tönisvorst,Tonisvorst,51.3208,6.4931,Germany,DE,DEU,North Rhine-Westphalia,,29331,1276126819
+Geislingen an der Steige,Geislingen an der Steige,48.6244,9.8306,Germany,DE,DEU,Baden-Württemberg,,29261,1276183243
+Springe,Springe,52.2167,9.55,Germany,DE,DEU,Lower Saxony,,29258,1276257894
+Bühl,Buhl,48.6953,8.135,Germany,DE,DEU,Baden-Württemberg,,29214,1276639756
+Rösrath,Rosrath,50.9,7.1833,Germany,DE,DEU,North Rhine-Westphalia,,29206,1276492557
+Riesa,Riesa,51.3081,13.2939,Germany,DE,DEU,Saxony,,29127,1276381687
+Saalfeld,Saalfeld,50.6506,11.3542,Germany,DE,DEU,Thuringia,minor,29121,1276907261
+Kelkheim (Taunus),Kelkheim (Taunus),50.138,8.4525,Germany,DE,DEU,Hesse,,29106,1276386467
+Meißen,Meissen,51.1636,13.4775,Germany,DE,DEU,Saxony,minor,29051,1276054483
+Emmendingen,Emmendingen,48.1214,7.8492,Germany,DE,DEU,Baden-Württemberg,minor,29035,1276708263
+Mechernich,Mechernich,50.6,6.65,Germany,DE,DEU,North Rhine-Westphalia,,28900,1276281325
+Höxter,Hoxter,51.7667,9.3667,Germany,DE,DEU,North Rhine-Westphalia,minor,28749,1276004976
+Hattersheim,Hattersheim,50.0722,8.4864,Germany,DE,DEU,Hesse,,28720,1276209175
+Schwelm,Schwelm,51.2904,7.2972,Germany,DE,DEU,North Rhine-Westphalia,minor,28711,1276363762
+Reinbek,Reinbek,53.5089,10.2483,Germany,DE,DEU,Schleswig-Holstein,minor,28579,1276939131
+Kevelaer,Kevelaer,51.5833,6.25,Germany,DE,DEU,North Rhine-Westphalia,,28466,1276753170
+Verden,Verden,52.9211,9.2306,Germany,DE,DEU,Lower Saxony,minor,28453,1276613119
+Geilenkirchen,Geilenkirchen,50.9653,6.1194,Germany,DE,DEU,North Rhine-Westphalia,,28399,1276421191
+Königsbrunn,Konigsbrunn,48.2689,10.8908,Germany,DE,DEU,Bavaria,,28377,1276917723
+Zeitz,Zeitz,51.0492,12.135,Germany,DE,DEU,Saxony-Anhalt,,28345,1276390204
+Baunatal,Baunatal,51.2589,9.4183,Germany,DE,DEU,Hesse,,28298,1276339266
+Grimma,Grimma,51.2383,12.7288,Germany,DE,DEU,Saxony,,28269,1276049939
+Arnstadt,Arnstadt,50.8342,10.9464,Germany,DE,DEU,Thuringia,minor,28264,1276728389
+Griesheim,Griesheim,49.8594,8.5525,Germany,DE,DEU,Hesse,,28210,1276867372
+Leichlingen,Leichlingen,51.1167,7.0167,Germany,DE,DEU,North Rhine-Westphalia,,28202,1276227302
+Baesweiler,Baesweiler,50.9061,6.1874,Germany,DE,DEU,North Rhine-Westphalia,,28005,1276109783
+Lohne,Lohne,52.6667,8.2386,Germany,DE,DEU,Lower Saxony,,27949,1276514079
+Teltow,Teltow,52.4022,13.2706,Germany,DE,DEU,Brandenburg,,27880,1276388501
+Sundern,Sundern,51.3167,8,Germany,DE,DEU,North Rhine-Westphalia,,27783,1276362137
+Strausberg,Strausberg,52.5775,13.8817,Germany,DE,DEU,Brandenburg,,27780,1276019110
+Bad Neuenahr-Ahrweiler,Bad Neuenahr-Ahrweiler,50.5447,7.1133,Germany,DE,DEU,Rhineland-Palatinate,minor,27647,1276768738
+Heppenheim,Heppenheim,49.6415,8.645,Germany,DE,DEU,Hesse,minor,27610,1276763901
+Wangen im Allgäu,Wangen im Allgau,47.6858,9.8342,Germany,DE,DEU,Baden-Württemberg,,27608,1276638340
+Butzbach,Butzbach,50.4367,8.6622,Germany,DE,DEU,Hesse,,27528,1276386116
+Schloß Holte-Stukenbrock,Schloss Holte-Stukenbrock,51.8833,8.6167,Germany,DE,DEU,North Rhine-Westphalia,,27520,1276497165
+Ehingen an der Donau,Ehingen an der Donau,48.2833,9.7236,Germany,DE,DEU,Baden-Württemberg,,27504,1276432627
+Overath,Overath,50.9328,7.2839,Germany,DE,DEU,North Rhine-Westphalia,,27489,1276053339
+Wetter (Ruhr),Wetter (Ruhr),51.3837,7.3907,Germany,DE,DEU,North Rhine-Westphalia,,27450,1276406634
+Hamminkeln,Hamminkeln,51.7319,6.5908,Germany,DE,DEU,North Rhine-Westphalia,,27450,1276465671
+Wegberg,Wegberg,51.1333,6.2667,Germany,DE,DEU,North Rhine-Westphalia,,27305,1276843809
+Leimen,Leimen,49.3481,8.6911,Germany,DE,DEU,Baden-Württemberg,,27286,1276081089
+Neustadt,Neustadt,48.8111,9.3656,Germany,DE,DEU,Baden-Württemberg,,27245,1276729265
+Rheinbach,Rheinbach,50.6256,6.9491,Germany,DE,DEU,North Rhine-Westphalia,,27238,1276000657
+Pfaffenhofen,Pfaffenhofen,48.5298,11.5038,Germany,DE,DEU,Bavaria,minor,27143,1276259181
+Hohen Neuendorf,Hohen Neuendorf,52.6667,13.2831,Germany,DE,DEU,Brandenburg,,27131,1276577032
+Wiesloch,Wiesloch,49.2942,8.6983,Germany,DE,DEU,Baden-Württemberg,,27120,1276473184
+Werder,Werder,52.3781,12.935,Germany,DE,DEU,Brandenburg,,26970,1276890349
+Selm,Selm,51.6833,7.4833,Germany,DE,DEU,North Rhine-Westphalia,,26767,1276238006
+Mühlacker,Muhlacker,48.95,8.8392,Germany,DE,DEU,Baden-Württemberg,,26664,1276456440
+Achern,Achern,48.6314,8.0739,Germany,DE,DEU,Baden-Württemberg,,26664,1276045216
+Hennigsdorf,Hennigsdorf,52.6378,13.2036,Germany,DE,DEU,Brandenburg,,26623,1276509399
+Groß-Gerau,Gross-Gerau,49.9214,8.4818,Germany,DE,DEU,Hesse,minor,26614,1276722779
+Heiligenhaus,Heiligenhaus,51.3265,6.971,Germany,DE,DEU,North Rhine-Westphalia,,26590,1276630818
+Neckarsulm,Neckarsulm,49.1917,9.2244,Germany,DE,DEU,Baden-Württemberg,,26523,1276644905
+Aschersleben,Aschersleben,51.75,11.4667,Germany,DE,DEU,Saxony-Anhalt,,26416,1276084397
+Lauf,Lauf,49.5103,11.2772,Germany,DE,DEU,Bavaria,minor,26413,1276202337
+Nordenham,Nordenham,53.5,8.4667,Germany,DE,DEU,Lower Saxony,,26410,1276525140
+Bingen am Rhein,Bingen am Rhein,49.9669,7.895,Germany,DE,DEU,Rhineland-Palatinate,,26339,1276879617
+Weiterstadt,Weiterstadt,49.9,8.6,Germany,DE,DEU,Hesse,,26291,1276959186
+Zirndorf,Zirndorf,49.45,10.95,Germany,DE,DEU,Bavaria,,26257,1276906291
+Lübbecke,Lubbecke,52.3081,8.6231,Germany,DE,DEU,North Rhine-Westphalia,,26161,1276934438
+Lindau,Lindau,47.5458,9.6839,Germany,DE,DEU,Bavaria,,26155,1276918139
+Harsewinkel,Harsewinkel,51.9667,8.2331,Germany,DE,DEU,North Rhine-Westphalia,,26126,1276882516
+Unterhaching,Unterhaching,48.0658,11.61,Germany,DE,DEU,Bavaria,,26079,1276779846
+Kulmbach,Kulmbach,50.1081,11.4556,Germany,DE,DEU,Bavaria,minor,26052,1276728110
+Bad Honnef am Rhein,Bad Honnef am Rhein,50.645,7.2269,Germany,DE,DEU,North Rhine-Westphalia,,26025,1276512885
+Friedrichsdorf,Friedrichsdorf,50.2569,8.6418,Germany,DE,DEU,Hesse,,25937,1276577829
+Schleswig,Schleswig,54.5153,9.5697,Germany,DE,DEU,Schleswig-Holstein,minor,25904,1276884755
+Geretsried,Geretsried,47.8667,11.4667,Germany,DE,DEU,Bavaria,,25863,1276737058
+Idstein,Idstein,50.2206,8.2692,Germany,DE,DEU,Hesse,,25709,1276320507
+Horb am Neckar,Horb am Neckar,48.445,8.6911,Germany,DE,DEU,Baden-Württemberg,,25695,1276353248
+Verl,Verl,51.8831,8.5167,Germany,DE,DEU,North Rhine-Westphalia,,25691,1276182306
+Helmstedt,Helmstedt,52.2281,11.0106,Germany,DE,DEU,Lower Saxony,minor,25633,1276360393
+Rinteln,Rinteln,52.186,9.0792,Germany,DE,DEU,Lower Saxony,,25626,1276137941
+Brilon,Brilon,51.3956,8.5678,Germany,DE,DEU,North Rhine-Westphalia,,25624,1276723318
+Vaterstetten,Vaterstetten,48.105,11.7706,Germany,DE,DEU,Bavaria,,25596,1276137898
+Öhringen,Ohringen,49.2,9.5,Germany,DE,DEU,Baden-Württemberg,,25591,1276641265
+Rottweil,Rottweil,48.1681,8.6247,Germany,DE,DEU,Baden-Württemberg,minor,25548,1276117708
+Obertshausen,Obertshausen,50.0715,8.8482,Germany,DE,DEU,Hesse,,25531,1276455006
+Weingarten,Weingarten,47.8078,9.6417,Germany,DE,DEU,Baden-Württemberg,,25521,1276346018
+Sankt Wendel,Sankt Wendel,49.4667,7.1667,Germany,DE,DEU,Saarland,minor,25503,1276025539
+Roth,Roth,49.2461,11.0911,Germany,DE,DEU,Bavaria,,25405,1276856142
+Ellwangen,Ellwangen,48.9611,10.1306,Germany,DE,DEU,Baden-Württemberg,,25372,1276278127
+Wiehl,Wiehl,50.95,7.5333,Germany,DE,DEU,North Rhine-Westphalia,,25356,1276813101
+Delitzsch,Delitzsch,51.5264,12.3425,Germany,DE,DEU,Saxony,,25341,1276928962
+Ditzingen,Ditzingen,48.8264,9.0667,Germany,DE,DEU,Baden-Württemberg,,25318,1276272726
+Lüdinghausen,Ludinghausen,51.7681,7.4444,Germany,DE,DEU,North Rhine-Westphalia,,25306,1276526583
+Sangerhausen,Sangerhausen,51.4667,11.3,Germany,DE,DEU,Saxony-Anhalt,minor,25300,1276588418
+Pfungstadt,Pfungstadt,49.8056,8.6044,Germany,DE,DEU,Hesse,,25299,1276568312
+Espelkamp,Espelkamp,52.3772,8.6328,Germany,DE,DEU,North Rhine-Westphalia,,25294,1276996942
+Salzkotten,Salzkotten,51.6708,8.6047,Germany,DE,DEU,North Rhine-Westphalia,,25283,1276941056
+Lennestadt,Lennestadt,51.1236,8.0681,Germany,DE,DEU,North Rhine-Westphalia,,25275,1276165009
+Petershagen,Petershagen,52.3833,8.9667,Germany,DE,DEU,North Rhine-Westphalia,,25226,1276300392
+Norden,Norden,53.5967,7.2056,Germany,DE,DEU,Lower Saxony,minor,25210,1276766299
+Waldshut-Tiengen,Waldshut-Tiengen,47.6231,8.2144,Germany,DE,DEU,Baden-Württemberg,minor,25114,1276011078
+Bad Oldesloe,Bad Oldesloe,53.8117,10.3742,Germany,DE,DEU,Schleswig-Holstein,minor,25104,1276683854
+Meckenheim,Meckenheim,50.6333,7.0167,Germany,DE,DEU,North Rhine-Westphalia,,25031,1276114705
+Schmallenberg,Schmallenberg,51.1536,8.2853,Germany,DE,DEU,North Rhine-Westphalia,,24970,1276002699
+Olpe,Olpe,51.0294,7.8439,Germany,DE,DEU,North Rhine-Westphalia,minor,24961,1276501027
+Syke,Syke,52.9161,8.8186,Germany,DE,DEU,Lower Saxony,,24956,1276951328
+Sprockhövel,Sprockhovel,51.3614,7.244,Germany,DE,DEU,North Rhine-Westphalia,,24956,1276006803
+Rathenow,Rathenow,52.6,12.3333,Germany,DE,DEU,Brandenburg,minor,24918,1276833446
+Meiningen,Meiningen,50.55,10.4167,Germany,DE,DEU,Thuringia,minor,24867,1276941916
+Plettenberg,Plettenberg,51.2128,7.8715,Germany,DE,DEU,North Rhine-Westphalia,,24788,1276414700
+Rudolstadt,Rudolstadt,50.7169,11.3275,Germany,DE,DEU,Thuringia,,24767,1276466405
+Bad Mergentheim,Bad Mergentheim,49.4908,9.7731,Germany,DE,DEU,Baden-Württemberg,,24752,1276714498
+Haren,Haren,52.7917,7.2381,Germany,DE,DEU,Lower Saxony,minor,24719,1276278460
+Zittau,Zittau,50.8961,14.8072,Germany,DE,DEU,Saxony,,24710,1276061456
+Herzogenaurach,Herzogenaurach,49.57,10.8819,Germany,DE,DEU,Bavaria,,24674,1276809658
+Bedburg,Bedburg,51,6.5625,Germany,DE,DEU,North Rhine-Westphalia,,24645,1276409548
+Waldkraiburg,Waldkraiburg,48.2167,12.4,Germany,DE,DEU,Bavaria,,24604,1276784836
+Ronnenberg,Ronnenberg,52.3194,9.6556,Germany,DE,DEU,Lower Saxony,,24505,1276210070
+Markkleeberg,Markkleeberg,51.2756,12.3692,Germany,DE,DEU,Saxony,,24488,1276805845
+Warstein,Warstein,51.45,8.3667,Germany,DE,DEU,North Rhine-Westphalia,,24464,1276854914
+Isernhagen-Süd,Isernhagen-Sud,52.4342,9.8572,Germany,DE,DEU,Lower Saxony,,24459,1276610067
+Attendorn,Attendorn,51.1264,7.9033,Germany,DE,DEU,North Rhine-Westphalia,,24452,1276325506
+Calw,Calw,48.7144,8.7375,Germany,DE,DEU,Baden-Württemberg,minor,24448,1276416126
+Eisenhüttenstadt,Eisenhuttenstadt,52.1465,14.63,Germany,DE,DEU,Brandenburg,,24447,1276902561
+Wandlitz,Wandlitz,52.75,13.4497,Germany,DE,DEU,Brandenburg,,24363,1276059066
+Übach-Palenberg,Ubach-Palenberg,50.9197,6.1194,Germany,DE,DEU,North Rhine-Westphalia,,24354,1276712019
+Freudenstadt,Freudenstadt,48.4633,8.4111,Germany,DE,DEU,Baden-Württemberg,minor,24337,1276092007
+Varel,Varel,53.3969,8.1361,Germany,DE,DEU,Lower Saxony,minor,24335,1276834869
+Garmisch-Partenkirchen,Garmisch-Partenkirchen,47.4921,11.0958,Germany,DE,DEU,Bavaria,minor,24214,1276000934
+Sehnde,Sehnde,52.3161,9.9642,Germany,DE,DEU,Lower Saxony,,24167,1276201782
+Jüchen,Juchen,51.1011,6.5017,Germany,DE,DEU,North Rhine-Westphalia,,24141,1276318248
+Korbach,Korbach,51.2719,8.8731,Germany,DE,DEU,Hesse,minor,24089,1276822678
+Westerstede,Westerstede,53.25,7.9167,Germany,DE,DEU,Lower Saxony,minor,23984,1276738053
+Staßfurt,Stassfurt,51.8515,11.5889,Germany,DE,DEU,Saxony-Anhalt,,23963,1276438491
+Alfter,Alfter,50.7356,7.0092,Germany,DE,DEU,North Rhine-Westphalia,,23949,1276256549
+Starnberg,Starnberg,47.9972,11.3406,Germany,DE,DEU,Bavaria,minor,23940,1276454637
+Limbach-Oberfrohna,Limbach-Oberfrohna,50.8667,12.75,Germany,DE,DEU,Saxony,,23923,1276772007
+Gelnhausen,Gelnhausen,50.2027,9.1905,Germany,DE,DEU,Hesse,,23841,1276351264
+Husum,Husum,54.4769,9.0511,Germany,DE,DEU,Schleswig-Holstein,minor,23814,1276973778
+Döbeln,Dobeln,51.1194,13.1128,Germany,DE,DEU,Saxony,,23728,1276060973
+Mosbach,Mosbach,49.35,9.1333,Germany,DE,DEU,Baden-Württemberg,minor,23647,1276659317
+Leutkirch im Allgäu,Leutkirch im Allgau,47.8256,10.0222,Germany,DE,DEU,Baden-Württemberg,,23588,1276589635
+Dillenburg,Dillenburg,50.7333,8.2833,Germany,DE,DEU,Hesse,,23533,1276583007
+Gersthofen,Gersthofen,48.4167,10.8667,Germany,DE,DEU,Bavaria,,23492,1276965949
+Kaltenkirchen,Kaltenkirchen,53.8397,9.9603,Germany,DE,DEU,Schleswig-Holstein,minor,23478,1276286164
+Sonneberg,Sonneberg,50.35,11.1667,Germany,DE,DEU,Thuringia,minor,23435,1276304773
+Netphen,Netphen,50.9147,8.1,Germany,DE,DEU,North Rhine-Westphalia,,23430,1276020652
+Hannoversch Münden,Hannoversch Munden,51.4167,9.65,Germany,DE,DEU,Lower Saxony,,23418,1276002967
+Salzwedel,Salzwedel,52.85,11.15,Germany,DE,DEU,Saxony-Anhalt,minor,23394,1276222011
+Weilheim,Weilheim,47.8333,11.1333,Germany,DE,DEU,Bavaria,minor,23378,1276001381
+Kitzingen,Kitzingen,49.7333,10.1667,Germany,DE,DEU,Bavaria,minor,23377,1276000007
+Warburg,Warburg,51.4881,9.14,Germany,DE,DEU,North Rhine-Westphalia,,23336,1276612246
+Nagold,Nagold,48.5519,8.7256,Germany,DE,DEU,Baden-Württemberg,,23321,1276622142
+Wertheim,Wertheim,49.75,9.5167,Germany,DE,DEU,Baden-Württemberg,,23319,1276150823
+Senftenberg,Senftenberg,51.5167,14.0167,Germany,DE,DEU,Brandenburg,minor,23282,1276241839
+Quedlinburg,Quedlinburg,51.7917,11.1472,Germany,DE,DEU,Saxony-Anhalt,,23277,1276672547
+Vreden,Vreden,52.0331,6.8331,Germany,DE,DEU,North Rhine-Westphalia,,23265,1276296218
+Karben,Karben,50.2322,8.7681,Germany,DE,DEU,Hesse,,23253,1276723734
+Neusäß,Neusass,48.4,10.8333,Germany,DE,DEU,Bavaria,,23251,1276057547
+Rastede,Rastede,53.25,8.2,Germany,DE,DEU,Lower Saxony,minor,23247,1276294384
+Bad Kissingen,Bad Kissingen,50.2,10.0667,Germany,DE,DEU,Bavaria,minor,23245,1276216676
+Überlingen,Uberlingen,47.7667,9.165,Germany,DE,DEU,Baden-Württemberg,,23240,1276778071
+Friesoythe,Friesoythe,53.0206,7.8586,Germany,DE,DEU,Lower Saxony,minor,23234,1276189033
+Bad Soden am Taunus,Bad Soden am Taunus,50.1424,8.4997,Germany,DE,DEU,Hesse,,23174,1276847418
+Senden,Senden,48.3236,10.0442,Germany,DE,DEU,Bavaria,,23143,1276555386
+Bad Salzungen,Bad Salzungen,50.8117,10.2333,Germany,DE,DEU,Thuringia,minor,23133,1276249222
+Lengerich,Lengerich,52.1897,7.8525,Germany,DE,DEU,North Rhine-Westphalia,,23067,1276617854
+Edewecht,Edewecht,53.1258,7.9825,Germany,DE,DEU,Lower Saxony,minor,23061,1276458945
+Haar,Haar,48.1114,11.7311,Germany,DE,DEU,Bavaria,,23056,1276621025
+Laupheim,Laupheim,48.2289,9.8797,Germany,DE,DEU,Baden-Württemberg,,23044,1276003982
+Stadthagen,Stadthagen,52.3247,9.2069,Germany,DE,DEU,Lower Saxony,minor,22924,1276512771
+Apolda,Apolda,51.0247,11.5139,Germany,DE,DEU,Thuringia,minor,22896,1276857102
+Wallenhorst,Wallenhorst,52.35,8.0167,Germany,DE,DEU,Lower Saxony,,22855,1276580914
+Burg,Burg,52.2725,11.855,Germany,DE,DEU,Saxony-Anhalt,minor,22738,1276295040
+Herdecke,Herdecke,51.4,7.4333,Germany,DE,DEU,North Rhine-Westphalia,,22665,1276078079
+Asleben,Asleben,51.5167,11.55,Germany,DE,DEU,Saxony-Anhalt,,22609,1276377839
+Büdingen,Budingen,50.2908,9.1125,Germany,DE,DEU,Hesse,,22607,1276951058
+Bad Rappenau,Bad Rappenau,49.2389,9.1028,Germany,DE,DEU,Baden-Württemberg,,22586,1276726877
+Eschborn,Eschborn,50.1437,8.569,Germany,DE,DEU,Hesse,,22551,1276712049
+Metzingen,Metzingen,48.5367,9.2858,Germany,DE,DEU,Baden-Württemberg,,22530,1276043043
+Ottobrunn,Ottobrunn,48.0667,11.6667,Germany,DE,DEU,Bavaria,,22510,1276842192
+Heide,Heide,54.1961,9.0933,Germany,DE,DEU,Schleswig-Holstein,minor,22467,1276473220
+Quickborn,Quickborn,53.7333,9.8972,Germany,DE,DEU,Schleswig-Holstein,,22339,1276737039
+Donaueschingen,Donaueschingen,47.9531,8.5033,Germany,DE,DEU,Baden-Württemberg,,22312,1276107502
+Waldkirch,Waldkirch,48.0939,7.9608,Germany,DE,DEU,Baden-Württemberg,,22266,1276926019
+Eppingen,Eppingen,49.1333,8.9167,Germany,DE,DEU,Baden-Württemberg,,22252,1276844300
+Versmold,Versmold,52.0436,8.15,Germany,DE,DEU,North Rhine-Westphalia,,22242,1276482608
+Aichach,Aichach,48.45,11.1333,Germany,DE,DEU,Bavaria,minor,22222,1276090074
+Radevormwald,Radevormwald,51.2,7.35,Germany,DE,DEU,North Rhine-Westphalia,,22159,1276941483
+Karlsfeld,Karlsfeld,48.227,11.467,Germany,DE,DEU,Bavaria,,22101,1276796218
+Ilsede,Ilsede,52.2675,10.2236,Germany,DE,DEU,Lower Saxony,,22080,1276410827
+Soltau,Soltau,52.9833,9.8333,Germany,DE,DEU,Lower Saxony,minor,22040,1276678434
+Sonthofen,Sonthofen,47.5142,10.2817,Germany,DE,DEU,Bavaria,minor,22035,1276823857
+Elsdorf,Elsdorf,50.9333,6.5667,Germany,DE,DEU,North Rhine-Westphalia,,21993,1276581538
+Bad Krozingen,Bad Krozingen,47.9181,7.7025,Germany,DE,DEU,Baden-Württemberg,,21971,1276964772
+Gardelegen,Gardelegen,52.5264,11.3925,Germany,DE,DEU,Saxony-Anhalt,,21926,1276557570
+Bockum,Bockum,51.35,6.6167,Germany,DE,DEU,North Rhine-Westphalia,,21903,1276162253
+Eislingen,Eislingen,48.6933,9.7067,Germany,DE,DEU,Baden-Württemberg,,21894,1276267974
+Günzburg,Gunzburg,48.4525,10.2711,Germany,DE,DEU,Bavaria,minor,21865,1276986738
+Mühldorf,Muhldorf,48.2456,12.5228,Germany,DE,DEU,Bavaria,minor,21860,1276623949
+Lindlar,Lindlar,51.0167,7.3833,Germany,DE,DEU,North Rhine-Westphalia,,21836,1276176624
+Glauchau,Glauchau,50.8233,12.5444,Germany,DE,DEU,Saxony,,21807,1276610130
+Xanten,Xanten,51.6622,6.4539,Germany,DE,DEU,North Rhine-Westphalia,,21776,1276917094
+Waghäusel,Waghausel,49.25,8.5169,Germany,DE,DEU,Baden-Württemberg,,21766,1276002094
+Seligenstadt,Seligenstadt,50.0441,8.9753,Germany,DE,DEU,Hesse,,21752,1276356108
+Flörsheim,Florsheim,50.0117,8.4281,Germany,DE,DEU,Hesse,,21751,1276463362
+Geseke,Geseke,51.6397,8.5086,Germany,DE,DEU,North Rhine-Westphalia,,21749,1276815446
+Stadtallendorf,Stadtallendorf,50.8333,9.0167,Germany,DE,DEU,Hesse,,21733,1276032217
+Zossen,Zossen,52.2167,13.4497,Germany,DE,DEU,Brandenburg,,21643,1276905478
+Hockenheim,Hockenheim,49.3181,8.5472,Germany,DE,DEU,Baden-Württemberg,,21631,1276940967
+Schwetzingen,Schwetzingen,49.3833,8.5667,Germany,DE,DEU,Baden-Württemberg,,21609,1276516691
+Traunstein,Traunstein,47.8683,12.6433,Germany,DE,DEU,Bavaria,minor,21551,1276793310
+Bad Harzburg,Bad Harzburg,51.8828,10.5617,Germany,DE,DEU,Lower Saxony,,21503,1276192309
+Spremberg,Spremberg,51.5717,14.3794,Germany,DE,DEU,Brandenburg,,21497,1276939967
+Zerbst,Zerbst,51.9681,12.0844,Germany,DE,DEU,Saxony-Anhalt,,21483,1276007718
+Rees,Rees,51.7625,6.3978,Germany,DE,DEU,North Rhine-Westphalia,,21452,1276451097
+Gauting,Gauting,48.0678,11.3739,Germany,DE,DEU,Bavaria,,21435,1276677644
+Wildeshausen,Wildeshausen,52.8931,8.4314,Germany,DE,DEU,Lower Saxony,minor,21424,1276599018
+Puchheim,Puchheim,48.15,11.35,Germany,DE,DEU,Bavaria,,21410,1276452600
+Osterode,Osterode,51.7286,10.2522,Germany,DE,DEU,Lower Saxony,minor,21382,1276593815
+Zülpich,Zulpich,50.7,6.65,Germany,DE,DEU,North Rhine-Westphalia,,21375,1276675318
+Germersheim,Germersheim,49.2167,8.3667,Germany,DE,DEU,Rhineland-Palatinate,minor,21295,1276963829
+Schramberg,Schramberg,48.2269,8.3842,Germany,DE,DEU,Baden-Württemberg,,21231,1276492911
+Waren,Waren,53.5167,12.6833,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,21217,1276254088
+Sondershausen,Sondershausen,51.3667,10.8667,Germany,DE,DEU,Thuringia,minor,21183,1276468586
+Herborn,Herborn,50.6825,8.3061,Germany,DE,DEU,Hesse,,21142,1276002994
+Wipperfürth,Wipperfurth,51.1167,7.4,Germany,DE,DEU,North Rhine-Westphalia,,21059,1276735297
+Nördlingen,Nordlingen,48.85,10.5,Germany,DE,DEU,Bavaria,,21053,1276160287
+Hörstel,Horstel,52.2972,7.5861,Germany,DE,DEU,North Rhine-Westphalia,,21049,1276546954
+Traunreut,Traunreut,47.9667,12.5833,Germany,DE,DEU,Bavaria,,21021,1276958674
+Groß-Umstadt,Gross-Umstadt,49.8648,8.9567,Germany,DE,DEU,Hesse,,21018,1276232744
+Wülfrath,Wulfrath,51.2833,7.0333,Germany,DE,DEU,North Rhine-Westphalia,,21009,1276377418
+Luckenwalde,Luckenwalde,52.0831,13.1667,Germany,DE,DEU,Brandenburg,minor,21000,1276376363
+Senden,Senden,51.8572,7.4828,Germany,DE,DEU,North Rhine-Westphalia,,20991,1276271183
+Mössingen,Mossingen,48.4064,9.0575,Germany,DE,DEU,Baden-Württemberg,,20979,1276236369
+Schortens,Schortens,53.5333,7.95,Germany,DE,DEU,Lower Saxony,minor,20932,1276002315
+Dingolfing,Dingolfing,48.6333,12.5,Germany,DE,DEU,Bavaria,minor,20927,1276764455
+Bruchköbel,Bruchkobel,50.1833,8.9167,Germany,DE,DEU,Hesse,,20894,1276199010
+Steinhagen,Steinhagen,52.005,8.4147,Germany,DE,DEU,North Rhine-Westphalia,,20885,1276279674
+Wittmund,Wittmund,53.5747,7.7808,Germany,DE,DEU,Lower Saxony,minor,20835,1276497812
+Neufahrn bei Freising,Neufahrn bei Freising,48.3159,11.6632,Germany,DE,DEU,Bavaria,,20819,1276307498
+Werdau,Werdau,50.7333,12.3833,Germany,DE,DEU,Saxony,,20793,1276717054
+Stadtlohn,Stadtlohn,51.9925,6.915,Germany,DE,DEU,North Rhine-Westphalia,,20791,1276897939
+Bad Waldsee,Bad Waldsee,47.9211,9.7519,Germany,DE,DEU,Baden-Württemberg,,20786,1276818086
+Enger,Enger,52.1333,8.5667,Germany,DE,DEU,North Rhine-Westphalia,,20724,1276241559
+Schifferstadt,Schifferstadt,49.3861,8.3761,Germany,DE,DEU,Rhineland-Palatinate,,20682,1276776055
+Wachtberg,Wachtberg,50.6242,7.1322,Germany,DE,DEU,North Rhine-Westphalia,,20670,1276189631
+Meinerzhagen,Meinerzhagen,51.1061,7.6403,Germany,DE,DEU,North Rhine-Westphalia,,20653,1276363054
+Nidderau,Nidderau,50.25,8.9,Germany,DE,DEU,Hesse,,20652,1276730067
+Schwanewede,Schwanewede,53.2337,8.5957,Germany,DE,DEU,Lower Saxony,minor,20599,1276874322
+Coswig,Coswig,51.1333,13.5833,Germany,DE,DEU,Saxony,,20561,1276791212
+Tettnang,Tettnang,47.6708,9.5875,Germany,DE,DEU,Baden-Württemberg,,20520,1276775320
+Dülken,Dulken,51.2522,6.3353,Germany,DE,DEU,North Rhine-Westphalia,,20469,1276245345
+Haßloch,Hassloch,49.3633,8.2558,Germany,DE,DEU,Rhineland-Palatinate,,20450,1276280419
+Fröndenberg,Frondenberg,51.4719,7.7658,Germany,DE,DEU,North Rhine-Westphalia,,20450,1276071190
+Lichtenfels,Lichtenfels,50.1469,11.0683,Germany,DE,DEU,Bavaria,minor,20403,1276573026
+Korntal-Münchingen,Korntal-Munchingen,48.8306,9.1214,Germany,DE,DEU,Baden-Württemberg,,20394,1276087969
+Uetze,Uetze,52.4661,10.2039,Germany,DE,DEU,Lower Saxony,,20392,1276620577
+Ochtrup,Ochtrup,52.2056,7.1903,Germany,DE,DEU,North Rhine-Westphalia,,20392,1276195349
+Neustrelitz,Neustrelitz,53.3647,13.0636,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,20385,1276001058
+Giengen an der Brenz,Giengen an der Brenz,48.6217,10.245,Germany,DE,DEU,Baden-Württemberg,,20358,1276782990
+Duderstadt,Duderstadt,51.5125,10.2597,Germany,DE,DEU,Lower Saxony,,20320,1276392919
+Telgte,Telgte,51.9819,7.7856,Germany,DE,DEU,North Rhine-Westphalia,,20301,1276981111
+Reichenbach/Vogtland,Reichenbach/Vogtland,50.6167,12.3,Germany,DE,DEU,Saxony,,20273,1276903490
+Schopfheim,Schopfheim,47.6494,7.8247,Germany,DE,DEU,Baden-Württemberg,,20238,1276002233
+Oberkirch,Oberkirch,48.5322,8.0786,Germany,DE,DEU,Baden-Württemberg,,20237,1276739886
+Greiz,Greiz,50.6547,12.1997,Germany,DE,DEU,Thuringia,minor,20220,1276236041
+Holzminden,Holzminden,51.8297,9.4483,Germany,DE,DEU,North Rhine-Westphalia,minor,20217,1276491992
+Blieskastel,Blieskastel,49.2373,7.2529,Germany,DE,DEU,Saarland,,20202,1276041906
+Bad Schwartau,Bad Schwartau,53.9194,10.6975,Germany,DE,DEU,Schleswig-Holstein,minor,20169,1276687859
+Kürten,Kurten,51.05,7.2667,Germany,DE,DEU,North Rhine-Westphalia,,20158,1276494913
+Donauwörth,Donauworth,48.7184,10.777,Germany,DE,DEU,Bavaria,minor,20108,1276878391
+Waldbröl,Waldbrol,50.8789,7.615,Germany,DE,DEU,North Rhine-Westphalia,,20081,1276170251
+Dillingen,Dillingen,48.5769,10.4939,Germany,DE,DEU,Bavaria,minor,20070,1276506212
+Leinefelde,Leinefelde,51.3833,10.3333,Germany,DE,DEU,Thuringia,,20053,1276779963
+Moosburg,Moosburg,48.4667,11.9333,Germany,DE,DEU,Bavaria,,20027,1276561909
+Borna,Borna,51.1167,12.5,Germany,DE,DEU,Saxony,,20013,1276020510
+Schmalkalden,Schmalkalden,50.7167,10.45,Germany,DE,DEU,Thuringia,,19984,1276313755
+Wilnsdorf,Wilnsdorf,50.8167,8.1,Germany,DE,DEU,North Rhine-Westphalia,,19942,1276419924
+Dillingen,Dillingen,49.3574,6.7196,Germany,DE,DEU,Saarland,,19941,1276001038
+Nottuln,Nottuln,51.9278,7.3542,Germany,DE,DEU,North Rhine-Westphalia,,19921,1276258837
+Sarstedt,Sarstedt,52.2394,9.8606,Germany,DE,DEU,Lower Saxony,,19896,1276490791
+Hiddenhausen,Hiddenhausen,52.1667,8.6167,Germany,DE,DEU,North Rhine-Westphalia,,19896,1276748088
+Oschersleben,Oschersleben,52.0167,11.25,Germany,DE,DEU,Saxony-Anhalt,,19885,1276686337
+Mayen,Mayen,50.3333,7.2167,Germany,DE,DEU,Rhineland-Palatinate,,19882,1276174509
+Rhede,Rhede,51.8333,6.7006,Germany,DE,DEU,North Rhine-Westphalia,,19837,1276000350
+Schenefeld,Schenefeld,53.6028,9.8233,Germany,DE,DEU,Schleswig-Holstein,minor,19817,1276791655
+Ennigerloh,Ennigerloh,51.8367,8.0256,Germany,DE,DEU,North Rhine-Westphalia,,19812,1276421778
+Gerlingen,Gerlingen,48.8,9.0653,Germany,DE,DEU,Baden-Württemberg,,19774,1276144443
+Müllheim,Mullheim,47.8083,7.6308,Germany,DE,DEU,Baden-Württemberg,,19756,1276925185
+Bückeburg,Buckeburg,52.2608,9.0492,Germany,DE,DEU,Lower Saxony,,19754,1276508515
+Bad Aibling,Bad Aibling,47.8639,12.01,Germany,DE,DEU,Bavaria,,19745,1276844408
+Gröbenzell,Grobenzell,48.1927,11.3719,Germany,DE,DEU,Bavaria,,19731,1276398825
+Wittlich,Wittlich,49.9869,6.8897,Germany,DE,DEU,Rhineland-Palatinate,minor,19718,1276069973
+Marsberg,Marsberg,51.46,8.8556,Germany,DE,DEU,North Rhine-Westphalia,,19704,1276309670
+Torgau,Torgau,51.5603,13.0056,Germany,DE,DEU,Saxony,minor,19683,1276804920
+Engelskirchen,Engelskirchen,50.9833,7.4167,Germany,DE,DEU,North Rhine-Westphalia,,19637,1276315673
+Wenden,Wenden,50.9667,7.8667,Germany,DE,DEU,North Rhine-Westphalia,,19604,1276958292
+Haiger,Haiger,50.7422,8.2039,Germany,DE,DEU,Hesse,,19596,1276810840
+Bad Pyrmont,Bad Pyrmont,51.9867,9.2636,Germany,DE,DEU,Lower Saxony,,19596,1276800450
+Mölln,Molln,53.6269,10.6847,Germany,DE,DEU,Schleswig-Holstein,minor,19566,1276643502
+Nauen,Nauen,52.6,12.8831,Germany,DE,DEU,Brandenburg,,19563,1276864648
+Sulzbach-Rosenberg,Sulzbach-Rosenberg,49.5,11.75,Germany,DE,DEU,Bavaria,,19548,1276541212
+Wassenberg,Wassenberg,51.1,6.15,Germany,DE,DEU,North Rhine-Westphalia,,19541,1276956199
+Alzey,Alzey,49.7517,8.1161,Germany,DE,DEU,Rhineland-Palatinate,minor,19530,1276680173
+Schönefeld,Schonefeld,52.3917,13.5004,Germany,DE,DEU,Brandenburg,,19529,1276663675
+Wolfratshausen,Wolfratshausen,47.9133,11.4278,Germany,DE,DEU,Bavaria,,19499,1276706639
+Bad Driburg,Bad Driburg,51.7333,9.0167,Germany,DE,DEU,North Rhine-Westphalia,,19496,1276571920
+Burghausen,Burghausen,48.1667,12.8333,Germany,DE,DEU,Bavaria,,19494,1276305755
+Kleinsachsenheim,Kleinsachsenheim,48.96,9.0647,Germany,DE,DEU,Baden-Württemberg,,19480,1276375444
+Hechingen,Hechingen,48.3517,8.9633,Germany,DE,DEU,Baden-Württemberg,,19475,1276884131
+Annaberg-Buchholz,Annaberg-Buchholz,50.58,13.0022,Germany,DE,DEU,Saxony,minor,19470,1276866777
+Eschwege,Eschwege,51.1881,10.0528,Germany,DE,DEU,Hesse,minor,19435,1276348756
+Heusenstamm,Heusenstamm,50.0596,8.8068,Germany,DE,DEU,Hesse,,19426,1276666927
+Kolbermoor,Kolbermoor,47.85,12.0667,Germany,DE,DEU,Bavaria,,19414,1276583234
+Bad Tölz,Bad Tolz,47.7603,11.5567,Germany,DE,DEU,Bavaria,minor,19360,1276892151
+Weil der Stadt,Weil der Stadt,48.7508,8.8706,Germany,DE,DEU,Baden-Württemberg,,19340,1276534554
+Gilching,Gilching,48.1103,11.3011,Germany,DE,DEU,Bavaria,,19296,1276366284
+Eitorf,Eitorf,50.7697,7.4517,Germany,DE,DEU,North Rhine-Westphalia,,19269,1276150855
+Schwalmtal,Schwalmtal,51.2225,6.2625,Germany,DE,DEU,North Rhine-Westphalia,,19248,1276833199
+Schkeuditz,Schkeuditz,51.4,12.2167,Germany,DE,DEU,Saxony,,19234,1276228794
+Pfullingen,Pfullingen,48.4656,9.2261,Germany,DE,DEU,Baden-Württemberg,,19221,1276393885
+Haldensleben,Haldensleben,52.2833,11.4167,Germany,DE,DEU,Saxony-Anhalt,minor,19188,1276371853
+Seesen,Seesen,51.8931,10.1783,Germany,DE,DEU,Lower Saxony,,19185,1276914120
+Schneverdingen,Schneverdingen,53.1167,9.8,Germany,DE,DEU,Lower Saxony,minor,19169,1276752778
+Lebach,Lebach,49.41,6.91,Germany,DE,DEU,Saarland,,19108,1276242576
+Bad Reichenhall,Bad Reichenhall,47.7247,12.8769,Germany,DE,DEU,Bavaria,minor,19087,1276059039
+Sömmerda,Sommerda,51.1617,11.1169,Germany,DE,DEU,Thuringia,minor,19052,1276806984
+Blankenburg,Blankenburg,51.7953,10.9622,Germany,DE,DEU,Saxony-Anhalt,,19034,1276635033
+Marktoberdorf,Marktoberdorf,47.7667,10.6167,Germany,DE,DEU,Bavaria,minor,19033,1276720955
+Bremervörde,Bremervorde,53.4833,9.1333,Germany,DE,DEU,Lower Saxony,minor,19023,1276000575
+Prenzlau,Prenzlau,53.3098,13.8627,Germany,DE,DEU,Brandenburg,minor,19022,1276456147
+Burscheid,Burscheid,51.0856,7.1136,Germany,DE,DEU,North Rhine-Westphalia,,19005,1276397307
+Neviges,Neviges,51.3128,7.0869,Germany,DE,DEU,North Rhine-Westphalia,,18937,1276164931
+Weißenburg,Weissenburg,49.0306,10.9719,Germany,DE,DEU,Bavaria,minor,18931,1276099657
+Bad Segeberg,Bad Segeberg,53.9361,10.3097,Germany,DE,DEU,Schleswig-Holstein,minor,18891,1276181220
+Hemmingen,Hemmingen,52.3236,9.7256,Germany,DE,DEU,Lower Saxony,,18885,1276579217
+Bad Berleburg,Bad Berleburg,51.0497,8.4,Germany,DE,DEU,North Rhine-Westphalia,,18833,1276128056
+Radeberg,Radeberg,51.1167,13.9167,Germany,DE,DEU,Saxony,,18824,1276815602
+Bad Dürkheim,Bad Durkheim,49.4618,8.1724,Germany,DE,DEU,Rhineland-Palatinate,minor,18821,1276602357
+Hochheim am Main,Hochheim am Main,50.0108,8.3508,Germany,DE,DEU,Hesse,,18810,1276794905
+Alzenau in Unterfranken,Alzenau in Unterfranken,50.0835,9.0669,Germany,DE,DEU,Bavaria,,18787,1276942017
+Uetersen,Uetersen,53.6872,9.6692,Germany,DE,DEU,Schleswig-Holstein,minor,18776,1276507212
+Alfeld,Alfeld,51.9886,9.8269,Germany,DE,DEU,Lower Saxony,,18679,1276733070
+Schwalmstadt,Schwalmstadt,50.9128,9.1889,Germany,DE,DEU,Hesse,,18661,1276496894
+Glinde,Glinde,53.5406,10.2111,Germany,DE,DEU,Schleswig-Holstein,minor,18656,1276316044
+Renningen,Renningen,48.7661,8.9347,Germany,DE,DEU,Baden-Württemberg,,18655,1276122703
+Vellmar,Vellmar,51.3588,9.4677,Germany,DE,DEU,Hesse,,18622,1276293369
+Bergneustadt,Bergneustadt,51.0208,7.6481,Germany,DE,DEU,North Rhine-Westphalia,,18621,1276283829
+Rhaude,Rhaude,53.1667,7.55,Germany,DE,DEU,Lower Saxony,,18620,1276244739
+Rhynern,Rhynern,51.6303,7.8558,Germany,DE,DEU,North Rhine-Westphalia,,18578,1276906435
+Illertissen,Illertissen,48.2228,10.1053,Germany,DE,DEU,Bavaria,,18578,1276593057
+Kronberg,Kronberg,50.1797,8.5085,Germany,DE,DEU,Hesse,,18569,1276558702
+Hoppegarten,Hoppegarten,52.5156,13.6678,Germany,DE,DEU,Brandenburg,,18556,1276233204
+Hessisch Oldendorf,Hessisch Oldendorf,52.1667,9.25,Germany,DE,DEU,Lower Saxony,,18556,1276530384
+Konz,Konz,49.7028,6.5794,Germany,DE,DEU,Rhineland-Palatinate,,18539,1276863750
+Lahnstein,Lahnstein,50.3011,7.6056,Germany,DE,DEU,Rhineland-Palatinate,,18536,1276335770
+Vechelde,Vechelde,52.2608,10.3719,Germany,DE,DEU,Lower Saxony,,18496,1276280794
+Crimmitschau,Crimmitschau,50.8181,12.3875,Germany,DE,DEU,Saxony,,18479,1276188517
+Wörth am Rhein,Worth am Rhein,49.0517,8.2603,Germany,DE,DEU,Rhineland-Palatinate,,18405,1276803392
+Vlotho,Vlotho,52.1667,8.8497,Germany,DE,DEU,North Rhine-Westphalia,,18403,1276438597
+Langen,Langen,53.6116,8.6032,Germany,DE,DEU,Lower Saxony,,18395,1276787724
+Parchim,Parchim,53.4277,11.8482,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,18270,1276781173
+Püttlingen,Puttlingen,49.2833,6.8833,Germany,DE,DEU,Saarland,,18243,1276328612
+Bönen,Bonen,51.5986,7.7592,Germany,DE,DEU,North Rhine-Westphalia,,18239,1276501741
+Buchen in Odenwald,Buchen in Odenwald,49.5217,9.3233,Germany,DE,DEU,Baden-Württemberg,,18203,1276974738
+Hochelheim,Hochelheim,50.525,8.7333,Germany,DE,DEU,Hesse,,18199,1276814959
+Schrobenhausen,Schrobenhausen,48.5669,11.2583,Germany,DE,DEU,Bavaria,,18199,1276307699
+Taufkirchen,Taufkirchen,48.05,11.6167,Germany,DE,DEU,Bavaria,,18176,1276946888
+Heusweiler,Heusweiler,49.3375,6.9301,Germany,DE,DEU,Saarland,,18158,1276589030
+Frankenberg,Frankenberg,51.0589,8.7967,Germany,DE,DEU,Hesse,,18138,1276051534
+Sigmaringen,Sigmaringen,48.0869,9.2167,Germany,DE,DEU,Baden-Württemberg,minor,18127,1276579491
+Großenhain,Grossenhain,51.2919,13.5342,Germany,DE,DEU,Saxony,,18077,1276062611
+Ismaning,Ismaning,48.2264,11.6725,Germany,DE,DEU,Bavaria,,18043,1276633464
+Halstenbek,Halstenbek,53.6334,9.8372,Germany,DE,DEU,Schleswig-Holstein,minor,18042,1276502053
+Freilassing,Freilassing,47.8333,12.9667,Germany,DE,DEU,Bavaria,,18036,1276282147
+Bobingen,Bobingen,48.2667,10.8167,Germany,DE,DEU,Bavaria,,18022,1276277241
+Weilerswist,Weilerswist,50.7525,6.8378,Germany,DE,DEU,North Rhine-Westphalia,,17826,1276196385
+Oberasbach,Oberasbach,49.4219,10.9583,Germany,DE,DEU,Bavaria,,17807,1276883001
+Nidda,Nidda,50.4128,9.0092,Germany,DE,DEU,Hesse,,17768,1276604046
+Werdohl,Werdohl,51.2563,7.7562,Germany,DE,DEU,North Rhine-Westphalia,,17762,1276252108
+Kreuzau,Kreuzau,50.747,6.4907,Germany,DE,DEU,North Rhine-Westphalia,,17756,1276795378
+Trossingen,Trossingen,48.075,8.6385,Germany,DE,DEU,Baden-Württemberg,,17744,1276343997
+Freudenberg,Freudenberg,50.8975,7.8742,Germany,DE,DEU,North Rhine-Westphalia,,17738,1276203816
+Saulgau,Saulgau,48.0158,9.501,Germany,DE,DEU,Baden-Württemberg,,17724,1276840359
+Forst (Lausitz),Forst (Lausitz),51.7453,14.6478,Germany,DE,DEU,Brandenburg,minor,17721,1276307453
+Nümbrecht,Numbrecht,50.9053,7.5422,Germany,DE,DEU,North Rhine-Westphalia,,17700,1276389854
+Damme,Damme,52.5222,8.1956,Germany,DE,DEU,Lower Saxony,minor,17686,1276165336
+Bad Wörishofen,Bad Worishofen,48.0058,10.5969,Germany,DE,DEU,Bavaria,,17683,1276068961
+Bexbach,Bexbach,49.3494,7.2594,Germany,DE,DEU,Saarland,,17663,1276508289
+Bad Säckingen,Bad Sackingen,47.5533,7.9472,Germany,DE,DEU,Baden-Württemberg,,17637,1276877057
+Bad Langensalza,Bad Langensalza,51.1081,10.6467,Germany,DE,DEU,Thuringia,,17626,1276854476
+Diepholz,Diepholz,52.6072,8.3711,Germany,DE,DEU,Lower Saxony,minor,17608,1276476080
+Cham,Cham,49.2183,12.6658,Germany,DE,DEU,Bavaria,minor,17593,1276459468
+Holzwickede,Holzwickede,51.5,7.6167,Germany,DE,DEU,North Rhine-Westphalia,,17587,1276204941
+Babenhausen,Babenhausen,49.9624,8.9533,Germany,DE,DEU,Hesse,,17579,1276006345
+Garching bei München,Garching bei Munchen,48.25,11.65,Germany,DE,DEU,Bavaria,,17577,1276544473
+Bad Münstereifel,Bad Munstereifel,50.5531,6.7661,Germany,DE,DEU,North Rhine-Westphalia,,17568,1276172917
+Auerbach,Auerbach,50.5094,12.4,Germany,DE,DEU,Saxony,,17562,1276679224
+Bad Münder am Deister,Bad Munder am Deister,52.1992,9.4653,Germany,DE,DEU,Lower Saxony,,17511,1276351668
+Bad Wildungen,Bad Wildungen,51.1167,9.1167,Germany,DE,DEU,Hesse,,17473,1276828659
+Gescher,Gescher,51.9569,7.0056,Germany,DE,DEU,North Rhine-Westphalia,,17467,1276129657
+Bitburg,Bitburg,49.9747,6.5256,Germany,DE,DEU,Rhineland-Palatinate,minor,17465,1276110282
+Stockach,Stockach,47.8514,9.0114,Germany,DE,DEU,Baden-Württemberg,,17402,1276190104
+Sinzig,Sinzig,50.5453,7.2519,Germany,DE,DEU,Rhineland-Palatinate,,17399,1276200986
+Remagen,Remagen,50.5786,7.2306,Germany,DE,DEU,Rhineland-Palatinate,,17387,1276287418
+Schwarzenbek,Schwarzenbek,53.5042,10.4792,Germany,DE,DEU,Schleswig-Holstein,minor,17370,1276765796
+Kelsterbach,Kelsterbach,50.0688,8.5301,Germany,DE,DEU,Hesse,,17365,1276996005
+Horn-Bad Meinberg,Horn-Bad Meinberg,51.8833,8.9667,Germany,DE,DEU,North Rhine-Westphalia,,17329,1276648708
+Eutin,Eutin,54.1378,10.6181,Germany,DE,DEU,Schleswig-Holstein,minor,17296,1276288365
+Oerlinghausen,Oerlinghausen,51.9667,8.6667,Germany,DE,DEU,North Rhine-Westphalia,,17287,1276933659
+Brand,Brand,50.7489,6.165,Germany,DE,DEU,North Rhine-Westphalia,,17284,1276474228
+Heilbad Heiligenstadt,Heilbad Heiligenstadt,51.3775,10.1344,Germany,DE,DEU,Thuringia,minor,17260,1276037701
+Marktredwitz,Marktredwitz,50.0011,12.0863,Germany,DE,DEU,Bavaria,,17254,1276442185
+Gunzenhausen,Gunzenhausen,49.1147,10.7542,Germany,DE,DEU,Bavaria,,17237,1276273217
+Schwalbach,Schwalbach,49.3067,6.8231,Germany,DE,DEU,Saarland,,17208,1276949643
+Bendorf,Bendorf,50.4297,7.5703,Germany,DE,DEU,Rhineland-Palatinate,,17208,1276205648
+Ginsheim-Gustavsburg,Ginsheim-Gustavsburg,49.9646,8.3464,Germany,DE,DEU,Hesse,,17143,1276577011
+Hünfeld,Hunfeld,50.6667,9.7667,Germany,DE,DEU,Hesse,,17130,1276813919
+Kelheim,Kelheim,48.9218,11.8455,Germany,DE,DEU,Bavaria,minor,17094,1276123640
+Wadgassen,Wadgassen,49.2667,6.7833,Germany,DE,DEU,Saarland,,17076,1276539797
+Künzell,Kunzell,50.5394,9.7083,Germany,DE,DEU,Hesse,,17025,1276700947
+Stockelsdorf,Stockelsdorf,53.8833,10.65,Germany,DE,DEU,Schleswig-Holstein,minor,17022,1276893181
+Bruckmühl,Bruckmuhl,47.8833,11.9167,Germany,DE,DEU,Bavaria,,16984,1276950984
+Wittenberge,Wittenberge,52.9977,11.7504,Germany,DE,DEU,Brandenburg,minor,16982,1276040852
+Bürstadt,Burstadt,49.6414,8.4546,Germany,DE,DEU,Hesse,,16980,1276454378
+Kronach,Kronach,50.2411,11.3281,Germany,DE,DEU,Bavaria,minor,16924,1276212761
+Penzberg,Penzberg,47.75,11.3667,Germany,DE,DEU,Bavaria,,16909,1276589283
+Bad Lippspringe,Bad Lippspringe,51.7833,8.8167,Germany,DE,DEU,North Rhine-Westphalia,,16884,1276944431
+Finnentrop,Finnentrop,51.1731,7.9725,Germany,DE,DEU,North Rhine-Westphalia,,16872,1276799672
+Kamenz,Kamenz,51.27,14.0953,Germany,DE,DEU,Saxony,,16861,1276558710
+Königstein im Taunus,Konigstein im Taunus,50.1831,8.4635,Germany,DE,DEU,Hesse,,16831,1276481618
+Brackenheim,Brackenheim,49.0833,9.0667,Germany,DE,DEU,Baden-Württemberg,,16795,1276363194
+Bassum,Bassum,52.8494,8.7267,Germany,DE,DEU,Lower Saxony,,16794,1276562113
+Eggenstein-Leopoldshafen,Eggenstein-Leopoldshafen,49.0778,8.3925,Germany,DE,DEU,Baden-Württemberg,,16777,1276489568
+Reinheim,Reinheim,49.8261,8.8348,Germany,DE,DEU,Hesse,,16729,1276510132
+Thale,Thale,51.7511,11.0428,Germany,DE,DEU,Saxony-Anhalt,,16721,1276578169
+Holzkirchen,Holzkirchen,47.8833,11.7,Germany,DE,DEU,Bavaria,,16719,1276287582
+Wurzen,Wurzen,51.3667,12.7333,Germany,DE,DEU,Saxony,,16715,1276002805
+Hövelhof,Hovelhof,51.8167,8.65,Germany,DE,DEU,North Rhine-Westphalia,,16704,1276911477
+Seeheim-Jugenheim,Seeheim-Jugenheim,49.7667,8.65,Germany,DE,DEU,Hesse,,16685,1276449114
+Heidenau,Heidenau,50.9833,13.8667,Germany,DE,DEU,Saxony,,16667,1276588672
+Poing,Poing,48.1667,11.8167,Germany,DE,DEU,Bavaria,,16666,1276650408
+Leopoldshöhe,Leopoldshohe,52.0167,8.7,Germany,DE,DEU,North Rhine-Westphalia,,16658,1276147484
+Loxstedt,Loxstedt,53.4699,8.6479,Germany,DE,DEU,Lower Saxony,minor,16633,1276084019
+Regenstauf,Regenstauf,49.1236,12.1283,Germany,DE,DEU,Bavaria,,16630,1276162289
+Kirchhain,Kirchhain,50.8167,8.9167,Germany,DE,DEU,Hesse,,16578,1276056692
+Raunheim,Raunheim,50.0097,8.45,Germany,DE,DEU,Hesse,,16564,1276238709
+Straelen,Straelen,51.45,6.2667,Germany,DE,DEU,North Rhine-Westphalia,,16544,1276805801
+Wardenburg,Wardenburg,53.0617,8.1967,Germany,DE,DEU,Lower Saxony,minor,16518,1276888712
+Kirchlengern,Kirchlengern,52.2,8.6331,Germany,DE,DEU,North Rhine-Westphalia,,16517,1276250400
+Pocking,Pocking,48.3997,13.3167,Germany,DE,DEU,Bavaria,,16509,1276193940
+Eppelborn,Eppelborn,49.4022,6.9706,Germany,DE,DEU,Saarland,,16507,1276013431
+Erwitte,Erwitte,51.6167,8.3497,Germany,DE,DEU,North Rhine-Westphalia,,16484,1276225862
+Wolfen,Wolfen,51.65,12.2667,Germany,DE,DEU,Saxony-Anhalt,,16449,1276764690
+Künzelsau,Kunzelsau,49.2804,9.6902,Germany,DE,DEU,Baden-Württemberg,minor,16436,1276563190
+Oyten,Oyten,53.0611,9.0178,Germany,DE,DEU,Lower Saxony,minor,16420,1276791592
+Marienberg,Marienberg,50.6508,13.1647,Germany,DE,DEU,Saxony,,16420,1276662047
+Wiefelstede,Wiefelstede,53.2581,8.1172,Germany,DE,DEU,Lower Saxony,minor,16406,1276114167
+Großostheim,Grossostheim,49.9167,9.0833,Germany,DE,DEU,Bavaria,,16388,1276880614
+Bad Essen,Bad Essen,52.3214,8.34,Germany,DE,DEU,Lower Saxony,,16377,1276585776
+Petersberg,Petersberg,50.5667,9.7167,Germany,DE,DEU,Hesse,,16375,1276763295
+Sulzbach,Sulzbach,49.2833,7.0667,Germany,DE,DEU,Saarland,,16368,1276579983
+Schmelz,Schmelz,49.4407,6.8579,Germany,DE,DEU,Saarland,,16343,1276565540
+Elsen,Elsen,51.7333,8.6833,Germany,DE,DEU,North Rhine-Westphalia,,16323,1276679573
+Bad Bentheim,Bad Bentheim,52.3031,7.1597,Germany,DE,DEU,Lower Saxony,,16321,1276319622
+Kierspe,Kierspe,51.1333,7.5667,Germany,DE,DEU,North Rhine-Westphalia,,16320,1276256169
+Bargteheide,Bargteheide,53.7286,10.2608,Germany,DE,DEU,Schleswig-Holstein,minor,16320,1276611028
+Altena,Altena,51.3,7.6667,Germany,DE,DEU,North Rhine-Westphalia,,16315,1276575290
+Brakel,Brakel,51.7167,9.1833,Germany,DE,DEU,North Rhine-Westphalia,,16310,1276092395
+Hude,Hude,53.1111,8.4625,Germany,DE,DEU,Lower Saxony,minor,16303,1276379256
+Halver,Halver,51.1834,7.5027,Germany,DE,DEU,North Rhine-Westphalia,,16284,1276039349
+Stahnsdorf,Stahnsdorf,52.3813,13.2122,Germany,DE,DEU,Brandenburg,,16266,1276819646
+Wendelstein,Wendelstein,49.3536,11.1483,Germany,DE,DEU,Bavaria,,16247,1276957789
+Freiberg am Neckar,Freiberg am Neckar,48.9347,9.1917,Germany,DE,DEU,Baden-Württemberg,,16227,1276056473
+Mindelheim,Mindelheim,48.0531,10.4915,Germany,DE,DEU,Bavaria,minor,16226,1276322308
+Guben,Guben,51.9504,14.7143,Germany,DE,DEU,Brandenburg,,16210,1276800396
+Alsfeld,Alsfeld,50.7511,9.2711,Germany,DE,DEU,Hesse,,16205,1276584676
+Eilenburg,Eilenburg,51.4608,12.6358,Germany,DE,DEU,Saxony,,16201,1276166351
+Preetz,Preetz,54.2367,10.2822,Germany,DE,DEU,Schleswig-Holstein,minor,16186,1276274661
+Brüggen,Bruggen,51.2417,6.1822,Germany,DE,DEU,North Rhine-Westphalia,,16178,1276029002
+Erlensee,Erlensee,50.1635,8.9808,Germany,DE,DEU,Hesse,,16162,1276495268
+Großenkneten,Grossenkneten,52.95,8.2667,Germany,DE,DEU,Lower Saxony,minor,16160,1276069119
+Wendlingen am Neckar,Wendlingen am Neckar,48.6747,9.3817,Germany,DE,DEU,Baden-Württemberg,,16159,1276408904
+Markranstädt,Markranstadt,51.3017,12.2211,Germany,DE,DEU,Saxony,,16145,1276832529
+Schlüchtern,Schluchtern,50.35,9.5167,Germany,DE,DEU,Hesse,,16126,1276713332
+Füssen,Fussen,47.5667,10.7,Germany,DE,DEU,Bavaria,,16072,1276059513
+Aue,Aue,50.5853,12.7008,Germany,DE,DEU,Saxony,,16012,1276459690
+Ascheberg,Ascheberg,51.7889,7.62,Germany,DE,DEU,North Rhine-Westphalia,,16012,1276423917
+Marbach am Neckar,Marbach am Neckar,48.9406,9.2575,Germany,DE,DEU,Baden-Württemberg,,16010,1276176133
+Breisach am Rhein,Breisach am Rhein,48.0289,7.58,Germany,DE,DEU,Baden-Württemberg,,16007,1276880866
+Walldorf,Walldorf,49.3,8.65,Germany,DE,DEU,Baden-Württemberg,,15995,1276002664
+Illingen,Illingen,49.3764,7.0525,Germany,DE,DEU,Saarland,,15987,1276359675
+Arolsen,Arolsen,51.3778,9.0167,Germany,DE,DEU,Hesse,,15984,1276460820
+Michelstadt,Michelstadt,49.6786,9.0042,Germany,DE,DEU,Hesse,,15975,1276024719
+Simmerath,Simmerath,50.6,6.2997,Germany,DE,DEU,North Rhine-Westphalia,,15955,1276931162
+Süchteln,Suchteln,51.2833,6.3833,Germany,DE,DEU,North Rhine-Westphalia,,15941,1276796090
+Weener,Weener,53.1692,7.3564,Germany,DE,DEU,Lower Saxony,minor,15916,1276425095
+Eilendorf,Eilendorf,50.7796,6.1534,Germany,DE,DEU,North Rhine-Westphalia,,15892,1276960521
+Zeulenroda,Zeulenroda,50.6486,11.9806,Germany,DE,DEU,Thuringia,,15890,1276933669
+Garrel,Garrel,52.9581,8.0253,Germany,DE,DEU,Lower Saxony,minor,15867,1276561308
+Drensteinfurt,Drensteinfurt,51.7944,7.7392,Germany,DE,DEU,North Rhine-Westphalia,,15865,1276206694
+Finsterwalde,Finsterwalde,51.6282,13.7102,Germany,DE,DEU,Brandenburg,,15864,1276493643
+Wadern,Wadern,49.5394,6.89,Germany,DE,DEU,Saarland,,15860,1276516463
+Königslutter am Elm,Konigslutter am Elm,52.25,10.8167,Germany,DE,DEU,Lower Saxony,,15860,1276192101
+Rahden,Rahden,52.4328,8.6133,Germany,DE,DEU,North Rhine-Westphalia,,15859,1276217000
+Langenau,Langenau,48.4994,10.1211,Germany,DE,DEU,Baden-Württemberg,,15792,1276345648
+Lübbenau/Spreewald,Lubbenau/Spreewald,51.8679,13.9688,Germany,DE,DEU,Brandenburg,,15774,1276392829
+Ebersbach an der Fils,Ebersbach an der Fils,48.7147,9.5236,Germany,DE,DEU,Baden-Württemberg,,15768,1276554005
+Taucha,Taucha,51.38,12.4936,Germany,DE,DEU,Saxony,,15759,1276068319
+Neustadt in Holstein,Neustadt in Holstein,54.1072,10.8158,Germany,DE,DEU,Schleswig-Holstein,,15749,1276780766
+Schwarzenberg,Schwarzenberg,50.5453,12.7792,Germany,DE,DEU,Saxony,,15740,1276831560
+Hille,Hille,52.3331,8.75,Germany,DE,DEU,North Rhine-Westphalia,,15731,1276307584
+Dieburg,Dieburg,49.8985,8.8385,Germany,DE,DEU,Hesse,,15723,1276337501
+Bad Neustadt,Bad Neustadt,50.3219,10.2161,Germany,DE,DEU,Bavaria,minor,15720,1276106311
+Langenberg,Langenberg,51.3519,7.1217,Germany,DE,DEU,North Rhine-Westphalia,,15696,1276538956
+Hofgeismar,Hofgeismar,51.496,9.3872,Germany,DE,DEU,Hesse,,15626,1276882512
+Templin,Templin,53.1217,13.5083,Germany,DE,DEU,Brandenburg,minor,15604,1276089341
+Boppard,Boppard,50.2314,7.5908,Germany,DE,DEU,Rhineland-Palatinate,,15593,1276667317
+Epe,Epe,52.2,7.0167,Germany,DE,DEU,North Rhine-Westphalia,,15589,1276072259
+Eppelheim,Eppelheim,49.4011,8.6297,Germany,DE,DEU,Baden-Württemberg,,15543,1276579726
+Schiffweiler,Schiffweiler,49.3708,7.1289,Germany,DE,DEU,Saarland,,15537,1276169477
+Mainburg,Mainburg,48.65,11.7833,Germany,DE,DEU,Bavaria,,15517,1276991073
+Bad Bramstedt,Bad Bramstedt,53.9186,9.8844,Germany,DE,DEU,Schleswig-Holstein,minor,15451,1276793883
+Clausthal-Zellerfeld,Clausthal-Zellerfeld,51.805,10.3356,Germany,DE,DEU,Lower Saxony,,15436,1276565687
+Sandhausen,Sandhausen,49.3439,8.6581,Germany,DE,DEU,Baden-Württemberg,,15421,1276169005
+Blomberg,Blomberg,51.9331,9.0831,Germany,DE,DEU,North Rhine-Westphalia,,15417,1276943915
+Munster,Munster,52.9886,10.0911,Germany,DE,DEU,Lower Saxony,minor,15413,1276787275
+Odenthal,Odenthal,51.0333,7.1167,Germany,DE,DEU,North Rhine-Westphalia,,15385,1276022742
+Ratekau,Ratekau,53.95,10.7333,Germany,DE,DEU,Schleswig-Holstein,minor,15353,1276252655
+Gehrden,Gehrden,52.3135,9.6008,Germany,DE,DEU,Lower Saxony,,15329,1276000662
+Ober-Ramstadt,Ober-Ramstadt,49.8333,8.75,Germany,DE,DEU,Hesse,,15313,1276189736
+Schriesheim,Schriesheim,49.4736,8.6592,Germany,DE,DEU,Baden-Württemberg,,15309,1276514747
+Langelsheim,Langelsheim,51.9381,10.335,Germany,DE,DEU,Lower Saxony,,15302,1276567894
+Niederkrüchten,Niederkruchten,51.1989,6.2194,Germany,DE,DEU,North Rhine-Westphalia,,15284,1276522692
+Mering,Mering,48.2625,10.9844,Germany,DE,DEU,Bavaria,,15264,1276382837
+Burbach,Burbach,50.7444,8.0861,Germany,DE,DEU,North Rhine-Westphalia,,15217,1276749212
+Dorfen,Dorfen,48.2667,12.15,Germany,DE,DEU,Bavaria,,15197,1276442321
+Isny im Allgäu,Isny im Allgau,47.6919,10.0394,Germany,DE,DEU,Baden-Württemberg,,15190,1276817029
+Baiersbronn,Baiersbronn,48.5058,8.3711,Germany,DE,DEU,Baden-Württemberg,,15126,1276633374
+Brake,Brake,53.3333,8.4833,Germany,DE,DEU,Lower Saxony,minor,15102,1276055035
+Fritzlar,Fritzlar,51.1333,9.2667,Germany,DE,DEU,Hesse,,15101,1276290750
+Markgröningen,Markgroningen,48.9047,9.0808,Germany,DE,DEU,Baden-Württemberg,,15099,1276236194
+Witzenhausen,Witzenhausen,51.3417,9.8569,Germany,DE,DEU,Hesse,,15097,1276417378
+Usingen,Usingen,50.334,8.5372,Germany,DE,DEU,Hesse,,15095,1276509598
+Grenzach-Wyhlen,Grenzach-Wyhlen,47.5517,7.6592,Germany,DE,DEU,Baden-Württemberg,,15092,1276030397
+Neustadt bei Coburg,Neustadt bei Coburg,50.3289,11.1211,Germany,DE,DEU,Bavaria,,15089,1276116282
+Landsberg,Landsberg,51.5246,12.1596,Germany,DE,DEU,Saxony-Anhalt,,15088,1276487466
+Grefrath,Grefrath,51.3363,6.3408,Germany,DE,DEU,North Rhine-Westphalia,,15069,1276931895
+Bad Wurzach,Bad Wurzach,47.9094,9.8994,Germany,DE,DEU,Baden-Württemberg,,15069,1276243830
+Büttelborn,Buttelborn,49.9022,8.5137,Germany,DE,DEU,Hesse,,15068,1276655872
+Langerwehe,Langerwehe,50.8147,6.3617,Germany,DE,DEU,North Rhine-Westphalia,,15030,1276770497
+Bissendorf,Bissendorf,52.2333,8.1667,Germany,DE,DEU,Lower Saxony,,15028,1276073314
+Schiffdorf,Schiffdorf,53.5355,8.6622,Germany,DE,DEU,Lower Saxony,minor,15007,1276001395
+Weißwasser/Oberlausitz,Weisswasser/Oberlausitz,51.5,14.6331,Germany,DE,DEU,Saxony,,14992,1276986089
+Much,Much,50.9167,7.4,Germany,DE,DEU,North Rhine-Westphalia,,14953,1276464394
+Neustadt an der Donau,Neustadt an der Donau,48.8071,11.7695,Germany,DE,DEU,Bavaria,,14949,1276348770
+Malsch,Malsch,48.8808,8.3342,Germany,DE,DEU,Baden-Württemberg,,14946,1276981496
+Beckingen,Beckingen,49.3928,6.7008,Germany,DE,DEU,Saarland,,14945,1276301126
+Ritterhude,Ritterhude,53.1861,8.758,Germany,DE,DEU,Bremen,,14942,1276391599
+Schwabmünchen,Schwabmunchen,48.1789,10.755,Germany,DE,DEU,Bavaria,,14926,1276593802
+Jever,Jever,53.5744,7.9008,Germany,DE,DEU,Lower Saxony,minor,14913,1276105413
+Münsingen,Munsingen,48.4128,9.4953,Germany,DE,DEU,Baden-Württemberg,,14860,1276411655
+Groß-Zimmern,Gross-Zimmern,49.8726,8.8343,Germany,DE,DEU,Hesse,,14859,1276589803
+Stein bei Nürnberg,Stein bei Nurnberg,49.4167,11.0167,Germany,DE,DEU,Bavaria,,14851,1276407895
+Rellingen,Rellingen,53.6532,9.8295,Germany,DE,DEU,Schleswig-Holstein,minor,14840,1276483816
+Tostedt,Tostedt,53.2833,9.7167,Germany,DE,DEU,Lower Saxony,minor,14835,1276412627
+Niedernhausen,Niedernhausen,50.1617,8.3176,Germany,DE,DEU,Hesse,,14811,1276265252
+Harsefeld,Harsefeld,53.45,9.5,Germany,DE,DEU,Lower Saxony,minor,14789,1276886588
+Hückeswagen,Huckeswagen,51.145,7.3417,Germany,DE,DEU,North Rhine-Westphalia,,14770,1276742746
+Uhingen,Uhingen,48.7058,9.5919,Germany,DE,DEU,Baden-Württemberg,,14753,1276901108
+Langwedel,Langwedel,52.9999,9.1732,Germany,DE,DEU,Lower Saxony,minor,14729,1276601336
+Selb,Selb,50.1667,12.1333,Germany,DE,DEU,Bavaria,,14727,1276030522
+Hilchenbach,Hilchenbach,50.9983,8.1094,Germany,DE,DEU,North Rhine-Westphalia,,14714,1276321870
+Homberg,Homberg,51.0339,9.4056,Germany,DE,DEU,Hesse,minor,14712,1276784419
+Kirchhatten,Kirchhatten,53.02,8.355,Germany,DE,DEU,Lower Saxony,minor,14688,1276291083
+Hatten,Hatten,53.0184,8.35,Germany,DE,DEU,Lower Saxony,,14688,1276627272
+Abensberg,Abensberg,48.8168,11.8498,Germany,DE,DEU,Bavaria,,14685,1276501504
+Pattensen,Pattensen,52.2645,9.7644,Germany,DE,DEU,Lower Saxony,,14678,1276603378
+Montabaur,Montabaur,50.4375,7.8258,Germany,DE,DEU,Rhineland-Palatinate,minor,14677,1276982904
+Langenselbold,Langenselbold,50.1833,9.0333,Germany,DE,DEU,Hesse,,14630,1276686360
+Immenstadt im Allgäu,Immenstadt im Allgau,47.5667,10.2167,Germany,DE,DEU,Bavaria,,14622,1276627298
+Neubiberg,Neubiberg,48.0747,11.6769,Germany,DE,DEU,Bavaria,,14618,1276417573
+Neutraubling,Neutraubling,48.9878,12.1964,Germany,DE,DEU,Bavaria,,14614,1276485988
+Wilsdruff,Wilsdruff,51.0522,13.5383,Germany,DE,DEU,Saxony,,14613,1276738335
+Tornesch,Tornesch,53.7,9.7167,Germany,DE,DEU,Schleswig-Holstein,minor,14606,1276106363
+Lauda-Königshofen,Lauda-Konigshofen,49.5686,9.7039,Germany,DE,DEU,Baden-Württemberg,,14596,1276018769
+Plochingen,Plochingen,48.7117,9.4164,Germany,DE,DEU,Baden-Württemberg,,14590,1276921571
+Sassenberg,Sassenberg,51.9897,8.0408,Germany,DE,DEU,North Rhine-Westphalia,,14566,1276379002
+Ratzeburg,Ratzeburg,53.7017,10.7567,Germany,DE,DEU,Schleswig-Holstein,minor,14552,1276258916
+Friedland,Friedland,51.4167,9.9333,Germany,DE,DEU,Lower Saxony,,14544,1276585633
+Burglengenfeld,Burglengenfeld,49.2061,12.0409,Germany,DE,DEU,Bavaria,,14527,1276523136
+Ottweiler,Ottweiler,49.4014,7.1634,Germany,DE,DEU,Saarland,,14522,1276806597
+Münster,Munster,49.9253,8.8592,Germany,DE,DEU,Hesse,,14518,1276203607
+Niederzier,Niederzier,50.8831,6.4667,Germany,DE,DEU,North Rhine-Westphalia,,14493,1276339063
+Eberbach,Eberbach,49.4667,8.9833,Germany,DE,DEU,Baden-Württemberg,,14489,1276456342
+Olsberg,Olsberg,51.35,8.4833,Germany,DE,DEU,North Rhine-Westphalia,,14481,1276829513
+Lotte,Lotte,52.2764,7.9167,Germany,DE,DEU,North Rhine-Westphalia,,14476,1276170713
+Eching,Eching,48.3,11.6167,Germany,DE,DEU,Bavaria,,14475,1276481683
+Eggenfelden,Eggenfelden,48.4039,12.7642,Germany,DE,DEU,Bavaria,,14439,1276543412
+Gernsbach,Gernsbach,48.7633,8.3342,Germany,DE,DEU,Baden-Württemberg,,14438,1276744650
+Lengede,Lengede,52.2049,10.3078,Germany,DE,DEU,Lower Saxony,,14433,1276406361
+Markdorf,Markdorf,47.7208,9.3917,Germany,DE,DEU,Baden-Württemberg,,14406,1276086137
+Landau an der Isar,Landau an der Isar,48.6749,12.6913,Germany,DE,DEU,Bavaria,,14402,1276797945
+Lohfelden,Lohfelden,51.2716,9.5487,Germany,DE,DEU,Hesse,,14395,1276890913
+Rheydt,Rheydt,51.1667,6.45,Germany,DE,DEU,North Rhine-Westphalia,,14389,1276801612
+Spenge,Spenge,52.1331,8.4831,Germany,DE,DEU,North Rhine-Westphalia,,14389,1276387127
+Löbau,Lobau,51.0944,14.6667,Germany,DE,DEU,Saxony,,14389,1276786301
+Zeven,Zeven,53.2969,9.2789,Germany,DE,DEU,Lower Saxony,minor,14376,1276616913
+Neu-Anspach,Neu-Anspach,50.3003,8.5072,Germany,DE,DEU,Hesse,,14359,1276155891
+Grafing bei München,Grafing bei Munchen,48.05,11.9667,Germany,DE,DEU,Bavaria,,14348,1276799795
+Riegelsberg,Riegelsberg,49.3058,6.9433,Germany,DE,DEU,Saarland,,14331,1276278201
+Lich,Lich,50.5217,8.8208,Germany,DE,DEU,Hesse,,14310,1276029431
+Rehlingen-Siersburg,Rehlingen-Siersburg,49.3686,6.6786,Germany,DE,DEU,Saarland,,14305,1276372658
+Maisach,Maisach,48.2167,11.2667,Germany,DE,DEU,Bavaria,,14256,1276438792
+Belm,Belm,52.3,8.1333,Germany,DE,DEU,Lower Saxony,,14255,1276040946
+Murrhardt,Murrhardt,48.9794,9.5783,Germany,DE,DEU,Baden-Württemberg,,14248,1276873434
+Brühl,Bruhl,49.4,8.5353,Germany,DE,DEU,Baden-Württemberg,,14238,1276886758
+Wennigsen,Wennigsen,52.2742,9.5708,Germany,DE,DEU,Lower Saxony,,14233,1276983413
+Aldenhoven,Aldenhoven,50.8958,6.2831,Germany,DE,DEU,North Rhine-Westphalia,,14231,1276558871
+Bad Camberg,Bad Camberg,50.3,8.2667,Germany,DE,DEU,Hesse,,14229,1276097713
+Plattling,Plattling,48.7767,12.8736,Germany,DE,DEU,Bavaria,,14227,1276078281
+Edingen-Neckarhausen,Edingen-Neckarhausen,49.4469,8.6094,Germany,DE,DEU,Baden-Württemberg,,14211,1276673287
+Kalkar,Kalkar,51.7389,6.2925,Germany,DE,DEU,North Rhine-Westphalia,,14199,1276383703
+Mittweida,Mittweida,50.9856,12.9811,Germany,DE,DEU,Saxony,,14198,1276378266
+Leuna,Leuna,51.3167,12.0167,Germany,DE,DEU,Saxony-Anhalt,,14174,1276318458
+Dippoldiswalde,Dippoldiswalde,50.8933,13.6667,Germany,DE,DEU,Saxony,,14174,1276205316
+Grünstadt,Grunstadt,49.5692,8.1681,Germany,DE,DEU,Rhineland-Palatinate,,14169,1276261667
+Uslar,Uslar,51.6597,9.6358,Germany,DE,DEU,Lower Saxony,,14166,1276673378
+Ahrensfelde,Ahrensfelde,52.5762,13.5753,Germany,DE,DEU,Brandenburg,,14144,1276671758
+Vöhringen,Vohringen,48.2833,10.0833,Germany,DE,DEU,Bavaria,,14134,1276392768
+Buchloe,Buchloe,48.0375,10.725,Germany,DE,DEU,Bavaria,,14119,1276184679
+Melsungen,Melsungen,51.1333,9.55,Germany,DE,DEU,Hesse,,14107,1276369572
+Feucht,Feucht,49.3758,11.2131,Germany,DE,DEU,Bavaria,,14102,1276937991
+Erbach,Erbach,49.6569,8.9931,Germany,DE,DEU,Hesse,minor,14099,1276643067
+Neuenkirchen,Neuenkirchen,52.2411,7.3689,Germany,DE,DEU,North Rhine-Westphalia,,14096,1276854717
+Bovenden,Bovenden,51.5897,9.9222,Germany,DE,DEU,Lower Saxony,,14095,1276711259
+Oschatz,Oschatz,51.3003,13.1072,Germany,DE,DEU,Saxony,,14089,1276313153
+Weißenhorn,Weissenhorn,48.3044,10.1593,Germany,DE,DEU,Bavaria,,14088,1276798632
+Lorsch,Lorsch,49.6539,8.5675,Germany,DE,DEU,Hesse,,14088,1276723392
+Erbach,Erbach,48.3281,9.8878,Germany,DE,DEU,Baden-Württemberg,,14080,1276634303
+Höchstadt an der Aisch,Hochstadt an der Aisch,49.7056,10.8058,Germany,DE,DEU,Bavaria,,14063,1276346402
+Aßlar,Asslar,50.5833,8.4667,Germany,DE,DEU,Hesse,,14043,1276224828
+Mittegroßefehn,Mittegrossefehn,53.3833,7.5833,Germany,DE,DEU,Lower Saxony,,14029,1276224109
+Schneeberg,Schneeberg,50.5942,12.6456,Germany,DE,DEU,Saxony,,14028,1276764942
+Friesenheim,Friesenheim,48.3731,7.8833,Germany,DE,DEU,Baden-Württemberg,,14023,1276429859
+Rotenburg an der Fulda,Rotenburg an der Fulda,50.995,9.7272,Germany,DE,DEU,Hesse,,14020,1276092129
+Wittstock,Wittstock,53.1633,12.4856,Germany,DE,DEU,Brandenburg,minor,13994,1276000618
+Ettenheim,Ettenheim,48.2556,7.8119,Germany,DE,DEU,Baden-Württemberg,,13985,1276445594
+Haßfurt,Hassfurt,50.0353,10.5123,Germany,DE,DEU,Bavaria,minor,13982,1276364933
+Hünxe,Hunxe,51.6417,6.7672,Germany,DE,DEU,North Rhine-Westphalia,,13980,1276346440
+Lübben (Spreewald),Lubben (Spreewald),51.95,13.9,Germany,DE,DEU,Brandenburg,minor,13967,1276964065
+Jessen,Jessen,51.7917,12.9556,Germany,DE,DEU,Saxony-Anhalt,,13966,1276478113
+Bad Soden-Salmünster,Bad Soden-Salmunster,50.2833,9.3667,Germany,DE,DEU,Hesse,,13960,1276069295
+Hilpoltstein,Hilpoltstein,49.1833,11.1833,Germany,DE,DEU,Bavaria,,13953,1276036036
+Lauchhammer,Lauchhammer,51.4693,13.7632,Germany,DE,DEU,Brandenburg,,13951,1276576746
+Michendorf,Michendorf,52.3129,13.0292,Germany,DE,DEU,Brandenburg,,13950,1276652646
+Sankt Leon-Rot,Sankt Leon-Rot,49.2653,8.5986,Germany,DE,DEU,Baden-Württemberg,,13948,1276660837
+Quakenbrück,Quakenbruck,52.6772,7.9575,Germany,DE,DEU,Lower Saxony,,13947,1276336549
+Krumbach,Krumbach,48.2431,10.3633,Germany,DE,DEU,Bavaria,,13940,1276275014
+Grünberg,Grunberg,50.6,8.95,Germany,DE,DEU,Hesse,,13940,1276207612
+Hohenstein-Ernstthal,Hohenstein-Ernstthal,50.8,12.7167,Germany,DE,DEU,Saxony,,13937,1276671628
+Philippsburg,Philippsburg,49.2369,8.4547,Germany,DE,DEU,Baden-Württemberg,,13910,1276006660
+Bebra,Bebra,50.9711,9.7903,Germany,DE,DEU,Hesse,,13908,1276742603
+Neu Travemünde,Neu Travemunde,53.9606,10.8692,Germany,DE,DEU,Schleswig-Holstein,,13903,1276380388
+Markt Schwaben,Markt Schwaben,48.1917,11.8681,Germany,DE,DEU,Bavaria,,13901,1276009835
+Oberhaching,Oberhaching,48.0167,11.5833,Germany,DE,DEU,Bavaria,,13900,1276103002
+Denzlingen,Denzlingen,48.0683,7.8825,Germany,DE,DEU,Baden-Württemberg,,13899,1276127515
+Lauterbach,Lauterbach,50.6378,9.3944,Germany,DE,DEU,Hesse,minor,13883,1276435243
+Eichstätt,Eichstatt,48.8885,11.1968,Germany,DE,DEU,Bavaria,minor,13867,1276205721
+Frankenberg,Frankenberg,50.9108,13.0378,Germany,DE,DEU,Saxony,,13862,1276762731
+Holzgerlingen,Holzgerlingen,48.6392,9.0108,Germany,DE,DEU,Baden-Württemberg,,13841,1276703274
+Asperg,Asperg,48.9064,9.1414,Germany,DE,DEU,Baden-Württemberg,,13836,1276656917
+Löningen,Loningen,52.736,7.7579,Germany,DE,DEU,Lower Saxony,,13823,1276522371
+Meerane,Meerane,50.8519,12.4636,Germany,DE,DEU,Saxony,,13797,1276923420
+Spaichingen,Spaichingen,48.0758,8.7378,Germany,DE,DEU,Baden-Württemberg,,13795,1276488091
+Beelitz,Beelitz,52.2333,12.9667,Germany,DE,DEU,Brandenburg,,13794,1276861998
+Bad Dürrheim,Bad Durrheim,48.0167,8.5333,Germany,DE,DEU,Baden-Württemberg,,13793,1276778010
+Angermünde,Angermunde,53.0333,14,Germany,DE,DEU,Brandenburg,,13775,1276588063
+Sendenhorst,Sendenhorst,51.8439,7.8278,Germany,DE,DEU,North Rhine-Westphalia,,13760,1276094140
+Pegnitz,Pegnitz,49.7564,11.545,Germany,DE,DEU,Bavaria,,13741,1276197483
+Meckenbeuren,Meckenbeuren,47.7,9.5625,Germany,DE,DEU,Baden-Württemberg,,13723,1276323112
+Biedenkopf,Biedenkopf,50.9128,8.5322,Germany,DE,DEU,Hesse,,13717,1276705045
+Barßel,Barssel,53.1703,7.7467,Germany,DE,DEU,Lower Saxony,minor,13706,1276212188
+Pfarrkirchen,Pfarrkirchen,48.4419,12.9443,Germany,DE,DEU,Bavaria,minor,13694,1276885935
+Beverstedt,Beverstedt,53.434,8.8183,Germany,DE,DEU,Lower Saxony,minor,13694,1276723766
+Rommerskirchen,Rommerskirchen,51.0347,6.6914,Germany,DE,DEU,North Rhine-Westphalia,,13688,1276832668
+Marienheide,Marienheide,51.0833,7.5333,Germany,DE,DEU,North Rhine-Westphalia,,13681,1276546142
+Gräfelfing,Grafelfing,48.1189,11.4289,Germany,DE,DEU,Bavaria,,13673,1276126852
+Wanzleben,Wanzleben,52.0667,11.4333,Germany,DE,DEU,Saxony-Anhalt,,13669,1276538835
+Haselünne,Haselunne,52.6667,7.4667,Germany,DE,DEU,Lower Saxony,,13663,1276706458
+Pfullendorf,Pfullendorf,47.9242,9.2567,Germany,DE,DEU,Baden-Württemberg,,13654,1276345734
+Bergen,Bergen,54.4167,13.4333,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,13650,1276083334
+Genthin,Genthin,52.4067,12.1592,Germany,DE,DEU,Saxony-Anhalt,,13646,1276284209
+Eppstein,Eppstein,50.1401,8.392,Germany,DE,DEU,Hesse,,13645,1276417820
+Neckargemünd,Neckargemund,49.3939,8.7975,Germany,DE,DEU,Baden-Württemberg,,13629,1276103353
+Tauberbischofsheim,Tauberbischofsheim,49.6225,9.6628,Germany,DE,DEU,Baden-Württemberg,minor,13621,1276697756
+Wiesmoor,Wiesmoor,53.4,7.7333,Germany,DE,DEU,Lower Saxony,minor,13610,1276001031
+Bedburg,Bedburg,51.7667,6.1833,Germany,DE,DEU,North Rhine-Westphalia,,13607,1276539122
+Schmölln,Schmolln,50.895,12.3564,Germany,DE,DEU,Thuringia,,13607,1276498002
+Schermbeck,Schermbeck,51.695,6.8756,Germany,DE,DEU,North Rhine-Westphalia,,13565,1276572969
+Lappersdorf,Lappersdorf,49.0525,12.0903,Germany,DE,DEU,Bavaria,,13524,1276955440
+Neustadt,Neustadt,49.58,10.6089,Germany,DE,DEU,Bavaria,minor,13523,1276596771
+Bad Salzdetfurth,Bad Salzdetfurth,52.0578,10.0058,Germany,DE,DEU,Lower Saxony,,13523,1276420532
+Bad Laasphe,Bad Laasphe,50.9303,8.4167,Germany,DE,DEU,North Rhine-Westphalia,,13504,1276330247
+Hettstedt,Hettstedt,51.645,11.5111,Germany,DE,DEU,Saxony-Anhalt,,13498,1276039853
+Wentorf bei Hamburg,Wentorf bei Hamburg,53.4931,10.2533,Germany,DE,DEU,Hamburg,minor,13493,1276516107
+Weinsberg,Weinsberg,49.1519,9.2858,Germany,DE,DEU,Baden-Württemberg,,13468,1276634003
+Dinklage,Dinklage,52.6622,8.125,Germany,DE,DEU,Lower Saxony,,13468,1276444417
+Sulingen,Sulingen,52.6667,8.8,Germany,DE,DEU,Lower Saxony,,13430,1276180018
+Wolfhagen,Wolfhagen,51.3272,9.1709,Germany,DE,DEU,Hesse,,13411,1276757955
+Weilburg,Weilburg,50.4833,8.25,Germany,DE,DEU,Hesse,,13395,1276833970
+Ubstadt-Weiher,Ubstadt-Weiher,49.1656,8.625,Germany,DE,DEU,Baden-Württemberg,,13388,1276999466
+Gangelt,Gangelt,50.9831,6,Germany,DE,DEU,North Rhine-Westphalia,,13388,1276133418
+Schüttorf,Schuttorf,52.3167,7.2167,Germany,DE,DEU,Lower Saxony,,13387,1276950675
+Velen,Velen,51.8939,6.9897,Germany,DE,DEU,North Rhine-Westphalia,,13381,1276638227
+Ergolding,Ergolding,48.5833,12.1667,Germany,DE,DEU,Bavaria,,13378,1276980704
+Bischofsheim,Bischofsheim,49.989,8.355,Germany,DE,DEU,Hesse,,13362,1276670052
+Saarwellingen,Saarwellingen,49.3542,6.805,Germany,DE,DEU,Saarland,,13347,1276467371
+Hösbach,Hosbach,50,9.2,Germany,DE,DEU,Bavaria,,13323,1276827182
+Östringen,Ostringen,49.2194,8.7108,Germany,DE,DEU,Baden-Württemberg,,13299,1276810660
+Olfen,Olfen,51.7086,7.38,Germany,DE,DEU,North Rhine-Westphalia,,13298,1276474415
+Beverungen,Beverungen,51.6628,9.3725,Germany,DE,DEU,North Rhine-Westphalia,,13277,1276597510
+Zehdenick,Zehdenick,52.9831,13.3331,Germany,DE,DEU,Brandenburg,minor,13267,1276607810
+Cremlingen,Cremlingen,52.2489,10.6542,Germany,DE,DEU,Lower Saxony,,13266,1276495554
+Schleiden,Schleiden,50.5331,6.4667,Germany,DE,DEU,North Rhine-Westphalia,,13233,1276198974
+Roding,Roding,49.1936,12.5192,Germany,DE,DEU,Bavaria,,13224,1276027598
+Fehmarnsund,Fehmarnsund,54.4368,11.1975,Germany,DE,DEU,Schleswig-Holstein,,13218,1276306503
+Wickede,Wickede,51.4964,7.8658,Germany,DE,DEU,North Rhine-Westphalia,,13213,1276828839
+Brieselang,Brieselang,52.5833,13,Germany,DE,DEU,Brandenburg,,13204,1276596392
+Sankt Georgen im Schwarzwald,Sankt Georgen im Schwarzwald,48.1247,8.3308,Germany,DE,DEU,Baden-Württemberg,,13203,1276384519
+Rosbach vor der Höhe,Rosbach vor der Hohe,50.2986,8.7006,Germany,DE,DEU,Hesse,,13199,1276636774
+Mutterstadt,Mutterstadt,49.4417,8.3561,Germany,DE,DEU,Rhineland-Palatinate,,13191,1276681342
+Hüllhorst,Hullhorst,52.2833,8.6667,Germany,DE,DEU,North Rhine-Westphalia,,13189,1276646127
+Treuchtlingen,Treuchtlingen,48.9547,10.9083,Germany,DE,DEU,Bavaria,,13181,1276141545
+Herbrechtingen,Herbrechtingen,48.6253,10.1739,Germany,DE,DEU,Baden-Württemberg,,13179,1276327261
+Trebur,Trebur,49.9242,8.4092,Germany,DE,DEU,Hesse,,13162,1276689795
+Barsbüttel,Barsbuttel,53.5667,10.1667,Germany,DE,DEU,Hamburg,minor,13148,1276921067
+Ketsch,Ketsch,49.3658,8.5336,Germany,DE,DEU,Baden-Württemberg,,13141,1276661701
+Wehr,Wehr,47.6331,7.9042,Germany,DE,DEU,Baden-Württemberg,,13113,1276432205
+Wasserburg am Inn,Wasserburg am Inn,48.0608,12.2333,Germany,DE,DEU,Bavaria,,13112,1276900487
+Kirchheim bei München,Kirchheim bei Munchen,48.1766,11.7556,Germany,DE,DEU,Bavaria,,13094,1276864694
+Hadamar,Hadamar,50.45,8.05,Germany,DE,DEU,Hesse,,13093,1276022783
+Unterpfaffenhofen,Unterpfaffenhofen,48.124,11.3655,Germany,DE,DEU,Bavaria,,13088,1276708986
+Manching,Manching,48.7186,11.4972,Germany,DE,DEU,Bavaria,,13083,1276452710
+Wächtersbach,Wachtersbach,50.2667,9.3,Germany,DE,DEU,Hesse,,13061,1276414935
+Linnich,Linnich,50.9789,6.2678,Germany,DE,DEU,North Rhine-Westphalia,,13056,1276427998
+Hungen,Hungen,50.4731,8.8996,Germany,DE,DEU,Hesse,,13033,1276067778
+Roßdorf,Rossdorf,49.8583,8.7556,Germany,DE,DEU,Hesse,,13025,1276485958
+Scheeßel,Scheessel,53.1706,9.4831,Germany,DE,DEU,Lower Saxony,minor,13019,1276647577
+Bohmte,Bohmte,52.3667,8.3167,Germany,DE,DEU,Lower Saxony,,13019,1276943763
+Fuldatal,Fuldatal,51.3484,9.5256,Germany,DE,DEU,Hesse,,13016,1276357406
+Twistringen,Twistringen,52.8,8.65,Germany,DE,DEU,Lower Saxony,minor,12952,1276091874
+Rödental,Rodental,50.2883,11.0276,Germany,DE,DEU,Bavaria,,12947,1276302053
+Wadersloh,Wadersloh,51.7386,8.2514,Germany,DE,DEU,North Rhine-Westphalia,,12927,1276176692
+Besigheim,Besigheim,48.9989,9.1414,Germany,DE,DEU,Baden-Württemberg,,12923,1276386454
+Neunkirchen,Neunkirchen,50.7861,8.0056,Germany,DE,DEU,North Rhine-Westphalia,,12909,1276694320
+Quierschied,Quierschied,49.3167,7.05,Germany,DE,DEU,Saarland,,12896,1276003316
+Möckern,Mockern,52.1405,11.9533,Germany,DE,DEU,Saxony-Anhalt,,12885,1276562892
+Peißenberg,Peissenberg,47.795,11.0603,Germany,DE,DEU,Bavaria,,12881,1276277124
+Feuchtwangen,Feuchtwangen,49.1667,10.3167,Germany,DE,DEU,Bavaria,,12875,1276691065
+Alpen,Alpen,51.575,6.5125,Germany,DE,DEU,North Rhine-Westphalia,,12870,1276474767
+Bad Doberan,Bad Doberan,54.1065,11.8986,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,12854,1276361039
+Gärtringen,Gartringen,48.6408,8.9006,Germany,DE,DEU,Baden-Württemberg,,12852,1276667329
+Spiesen-Elversberg,Spiesen-Elversberg,49.3167,7.1331,Germany,DE,DEU,Saarland,,12843,1276068112
+Hessisch Lichtenau,Hessisch Lichtenau,51.2,9.7167,Germany,DE,DEU,Hesse,,12798,1276002742
+Winterberg,Winterberg,51.195,8.53,Germany,DE,DEU,North Rhine-Westphalia,,12792,1276682144
+Herzberg am Harz,Herzberg am Harz,51.6556,10.3394,Germany,DE,DEU,Lower Saxony,,12783,1276001736
+Hersbruck,Hersbruck,49.5081,11.4328,Germany,DE,DEU,Bavaria,,12772,1276272170
+Schongau,Schongau,47.8124,10.8966,Germany,DE,DEU,Bavaria,,12769,1276690057
+Wietmarschen,Wietmarschen,52.5331,7.1331,Germany,DE,DEU,Lower Saxony,minor,12766,1276669327
+Bad Windsheim,Bad Windsheim,49.5,10.4167,Germany,DE,DEU,Bavaria,,12766,1276120612
+Sulz am Neckar,Sulz am Neckar,48.3628,8.6317,Germany,DE,DEU,Baden-Württemberg,,12760,1276239131
+Bad Urach,Bad Urach,48.4932,9.3989,Germany,DE,DEU,Baden-Württemberg,,12755,1276416917
+Kaufungen,Kaufungen,51.2811,9.6186,Germany,DE,DEU,Hesse,,12752,1276899210
+Velten,Velten,52.6914,13.1753,Germany,DE,DEU,Brandenburg,,12733,1276342323
+Tamm,Tamm,48.9217,9.1206,Germany,DE,DEU,Baden-Württemberg,,12726,1276203630
+Ladenburg,Ladenburg,49.4719,8.6092,Germany,DE,DEU,Baden-Württemberg,,12704,1276610621
+Graben-Neudorf,Graben-Neudorf,49.1592,8.4894,Germany,DE,DEU,Baden-Württemberg,,12688,1276955602
+Jüterbog,Juterbog,51.9933,13.0728,Germany,DE,DEU,Brandenburg,,12661,1276769458
+Blaubeuren,Blaubeuren,48.4119,9.785,Germany,DE,DEU,Baden-Württemberg,,12657,1276939647
+Bad Abbach,Bad Abbach,48.9333,12.05,Germany,DE,DEU,Bavaria,,12654,1276008199
+Brunsbüttel,Brunsbuttel,53.8964,9.1386,Germany,DE,DEU,Schleswig-Holstein,minor,12651,1276581579
+Bretzfeld,Bretzfeld,49.1833,9.4333,Germany,DE,DEU,Baden-Württemberg,,12645,1276507113
+Steinheim,Steinheim,51.8658,9.0944,Germany,DE,DEU,North Rhine-Westphalia,,12643,1276434002
+Vilsbiburg,Vilsbiburg,48.4475,12.3475,Germany,DE,DEU,Bavaria,,12621,1276843205
+Hirschaid,Hirschaid,49.8199,10.9879,Germany,DE,DEU,Bavaria,,12607,1276140159
+Altenstadt,Altenstadt,50.2856,8.945,Germany,DE,DEU,Hesse,,12601,1276344597
+Niefern-Öschelbronn,Niefern-Oschelbronn,48.9164,8.7842,Germany,DE,DEU,Baden-Württemberg,,12600,1276349542
+Gladenbach,Gladenbach,50.7681,8.5828,Germany,DE,DEU,Hesse,,12594,1276762551
+Borken,Borken,51.0491,9.2793,Germany,DE,DEU,Hesse,,12565,1276883772
+Röthenbach an der Pegnitz,Rothenbach an der Pegnitz,49.4847,11.2475,Germany,DE,DEU,Bavaria,,12565,1276836579
+Geeste,Geeste,52.6,7.2667,Germany,DE,DEU,Lower Saxony,,12554,1276185356
+Wünnenberg,Wunnenberg,51.5167,8.7,Germany,DE,DEU,North Rhine-Westphalia,,12546,1276918694
+Emstek,Emstek,52.8167,8.15,Germany,DE,DEU,Lower Saxony,minor,12545,1276929642
+Dossenheim,Dossenheim,49.4492,8.6722,Germany,DE,DEU,Baden-Württemberg,,12534,1276116472
+Bad Sassendorf,Bad Sassendorf,51.5831,8.1667,Germany,DE,DEU,North Rhine-Westphalia,,12528,1276292004
+Ebersberg,Ebersberg,48.0833,11.9667,Germany,DE,DEU,Bavaria,minor,12527,1276452047
+Edemissen,Edemissen,52.3856,10.2606,Germany,DE,DEU,Lower Saxony,,12522,1276000727
+Neuenburg am Rhein,Neuenburg am Rhein,47.8147,7.5619,Germany,DE,DEU,Baden-Württemberg,,12520,1276286003
+Waltershausen,Waltershausen,50.8975,10.5558,Germany,DE,DEU,Thuringia,,12512,1276892683
+Neuhausen auf den Fildern,Neuhausen auf den Fildern,48.6844,9.2744,Germany,DE,DEU,Baden-Württemberg,,12485,1276361118
+Preußisch Oldendorf,Preussisch Oldendorf,52.2833,8.5,Germany,DE,DEU,North Rhine-Westphalia,,12456,1276631008
+Laichingen,Laichingen,48.4897,9.6861,Germany,DE,DEU,Baden-Württemberg,,12447,1276291281
+Zella-Mehlis,Zella-Mehlis,50.6597,10.6669,Germany,DE,DEU,Thuringia,,12445,1276496702
+Wernau,Wernau,48.6886,9.4222,Germany,DE,DEU,Baden-Württemberg,,12443,1276040712
+Gaimersheim,Gaimersheim,48.8167,11.3667,Germany,DE,DEU,Bavaria,,12436,1276719449
+Ludwigslust,Ludwigslust,53.3332,11.5023,Germany,DE,DEU,Mecklenburg-Western Pomerania,,12420,1276582763
+Enkesen,Enkesen,51.5006,7.975,Germany,DE,DEU,North Rhine-Westphalia,,12398,1276726975
+Titisee-Neustadt,Titisee-Neustadt,47.9122,8.2147,Germany,DE,DEU,Baden-Württemberg,,12395,1276001947
+Jork,Jork,53.5344,9.6817,Germany,DE,DEU,Lower Saxony,minor,12395,1276599000
+Issum,Issum,51.5389,6.4236,Germany,DE,DEU,North Rhine-Westphalia,,12391,1276091414
+Anklam,Anklam,53.85,13.6833,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,12363,1276192154
+Gaildorf,Gaildorf,49,9.7667,Germany,DE,DEU,Baden-Württemberg,,12361,1276657591
+Apen,Apen,53.2214,7.8097,Germany,DE,DEU,Lower Saxony,minor,12359,1276951356
+Hagenow,Hagenow,53.4317,11.1931,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,12344,1276783883
+Essenbach,Essenbach,48.6167,12.2167,Germany,DE,DEU,Bavaria,,12340,1276545666
+Zetel,Zetel,53.4197,7.9742,Germany,DE,DEU,Lower Saxony,minor,12318,1276995932
+Rosdorf,Rosdorf,51.5,9.9,Germany,DE,DEU,Lower Saxony,,12310,1276587321
+Rielasingen-Worblingen,Rielasingen-Worblingen,47.7347,8.8401,Germany,DE,DEU,Baden-Württemberg,,12307,1276133236
+Bad Freienwalde,Bad Freienwalde,52.7856,14.0325,Germany,DE,DEU,Brandenburg,,12296,1276111750
+Maxhütte-Haidhof,Maxhutte-Haidhof,49.2,12.1,Germany,DE,DEU,Bavaria,,12278,1276703973
+Dinkelsbühl,Dinkelsbuhl,49.0708,10.3194,Germany,DE,DEU,Bavaria,,12272,1276514661
+Burladingen,Burladingen,48.2903,9.1094,Germany,DE,DEU,Baden-Württemberg,,12263,1276159850
+Linkenheim-Hochstetten,Linkenheim-Hochstetten,49.1261,8.41,Germany,DE,DEU,Baden-Württemberg,,12243,1276585901
+Osterhofen,Osterhofen,48.7,13.0167,Germany,DE,DEU,Bavaria,,12237,1276874172
+Teningen,Teningen,48.1269,7.8103,Germany,DE,DEU,Baden-Württemberg,,12234,1276711820
+Meitingen,Meitingen,48.5333,10.8333,Germany,DE,DEU,Bavaria,,12227,1276827144
+Haaren,Haaren,50.7956,6.1269,Germany,DE,DEU,North Rhine-Westphalia,,12216,1276965294
+Havixbeck,Havixbeck,51.9778,7.4167,Germany,DE,DEU,North Rhine-Westphalia,,12215,1276193299
+Oftersheim,Oftersheim,49.3706,8.5847,Germany,DE,DEU,Baden-Württemberg,,12211,1276500222
+Olching,Olching,48.2,11.3333,Germany,DE,DEU,Bavaria,,12187,1276458023
+Tholey,Tholey,49.4833,7.0333,Germany,DE,DEU,Saarland,,12186,1276082414
+Frohburg,Frohburg,51.0561,12.555,Germany,DE,DEU,Saxony,,12186,1276859230
+Nordstemmen,Nordstemmen,52.1605,9.7839,Germany,DE,DEU,Lower Saxony,,12150,1276522767
+Durmersheim,Durmersheim,48.9383,8.2769,Germany,DE,DEU,Baden-Württemberg,,12142,1276764193
+Hallbergmoos,Hallbergmoos,48.3333,11.75,Germany,DE,DEU,Bavaria,,12140,1276167916
+Bad Fallingbostel,Bad Fallingbostel,52.8675,9.6967,Germany,DE,DEU,Lower Saxony,minor,12119,1276618111
+Miesbach,Miesbach,47.789,11.8338,Germany,DE,DEU,Bavaria,minor,12109,1276609193
+Möhnesee,Mohnesee,51.4958,8.1306,Germany,DE,DEU,North Rhine-Westphalia,,12106,1276279418
+Wolgast,Wolgast,54.05,13.7667,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,12092,1276669762
+Mettlach,Mettlach,49.4917,6.5972,Germany,DE,DEU,Saarland,,12087,1276284656
+Steinheim am der Murr,Steinheim am der Murr,48.9667,9.2833,Germany,DE,DEU,Baden-Württemberg,,12082,1276793728
+Sassenburg,Sassenburg,52.5167,10.6333,Germany,DE,DEU,Lower Saxony,,12055,1276886023
+Gundelfingen,Gundelfingen,48.0425,7.8657,Germany,DE,DEU,Baden-Württemberg,,12052,1276046048
+Mettingen,Mettingen,52.3167,7.7806,Germany,DE,DEU,North Rhine-Westphalia,,12041,1276290048
+Heddesheim,Heddesheim,49.5053,8.6033,Germany,DE,DEU,Baden-Württemberg,,12031,1276190557
+Lehre,Lehre,52.3167,10.6667,Germany,DE,DEU,Lower Saxony,,12029,1276041656
+Perleberg,Perleberg,53.0667,11.8667,Germany,DE,DEU,Brandenburg,minor,12026,1276426476
+Erkner,Erkner,52.4167,13.75,Germany,DE,DEU,Brandenburg,,12008,1276566171
+Lauenburg,Lauenburg,53.3758,10.5589,Germany,DE,DEU,Schleswig-Holstein,minor,11999,1276704232
+Oberschleißheim,Oberschleissheim,48.25,11.5667,Germany,DE,DEU,Bavaria,,11984,1276407892
+Wolnzach,Wolnzach,48.6,11.6167,Germany,DE,DEU,Bavaria,,11983,1276311526
+Welver,Welver,51.6167,7.9583,Germany,DE,DEU,North Rhine-Westphalia,,11976,1276989258
+Unterföhring,Unterfohring,48.1917,11.6528,Germany,DE,DEU,Bavaria,,11957,1276741944
+Oberderdingen,Oberderdingen,49.0625,8.8019,Germany,DE,DEU,Baden-Württemberg,,11956,1276945487
+Neustadt,Neustadt,51.0283,14.2178,Germany,DE,DEU,Saxony,,11929,1276897254
+Murnau am Staffelsee,Murnau am Staffelsee,47.6833,11.2,Germany,DE,DEU,Bavaria,,11918,1276454269
+Peiting,Peiting,47.7955,10.9295,Germany,DE,DEU,Bavaria,,11903,1276001531
+Monschau,Monschau,50.55,6.25,Germany,DE,DEU,North Rhine-Westphalia,,11895,1276023228
+Hemsbach,Hemsbach,49.5903,8.6564,Germany,DE,DEU,Baden-Württemberg,,11884,1276078759
+Lauffen am Neckar,Lauffen am Neckar,49.0764,9.1567,Germany,DE,DEU,Baden-Württemberg,,11863,1276145495
+Burgthann,Burgthann,49.3563,11.3176,Germany,DE,DEU,Bavaria,,11860,1276619152
+Raesfeld,Raesfeld,51.7667,6.8333,Germany,DE,DEU,North Rhine-Westphalia,,11859,1276150873
+Pößneck,Possneck,50.7,11.6,Germany,DE,DEU,Thuringia,,11858,1276601734
+Leutenbach,Leutenbach,48.8883,9.3914,Germany,DE,DEU,Baden-Württemberg,,11856,1276324506
+Kronshagen,Kronshagen,54.3333,10.0833,Germany,DE,DEU,Schleswig-Holstein,minor,11854,1276781907
+Gerstetten,Gerstetten,48.6225,10.0206,Germany,DE,DEU,Baden-Württemberg,,11852,1276822325
+Rangsdorf,Rangsdorf,52.2831,13.4331,Germany,DE,DEU,Brandenburg,,11846,1276090863
+Neuenrade,Neuenrade,51.2839,7.78,Germany,DE,DEU,North Rhine-Westphalia,,11835,1276329110
+Langgöns,Langgons,50.5,8.6667,Germany,DE,DEU,Hesse,,11817,1276380215
+Ostrhauderfehn,Ostrhauderfehn,53.1394,7.6169,Germany,DE,DEU,Lower Saxony,minor,11811,1276456715
+Bad Dürrenberg,Bad Durrenberg,51.2955,12.0658,Germany,DE,DEU,Saxony-Anhalt,,11801,1276847644
+Billerbeck,Billerbeck,51.9792,7.295,Germany,DE,DEU,North Rhine-Westphalia,,11790,1276001817
+Wolmirstedt,Wolmirstedt,52.25,11.6167,Germany,DE,DEU,Saxony-Anhalt,,11782,1276525433
+Limburgerhof,Limburgerhof,49.4222,8.3919,Germany,DE,DEU,Rhineland-Palatinate,,11781,1276445051
+Geisenheim,Geisenheim,49.9831,7.9656,Germany,DE,DEU,Rhineland-Palatinate,,11776,1276461244
+Hauzenberg,Hauzenberg,48.6517,13.6236,Germany,DE,DEU,Bavaria,,11775,1276386776
+Leingarten,Leingarten,49.15,9.1167,Germany,DE,DEU,Baden-Württemberg,,11772,1276343480
+Oestrich-Winkel,Oestrich-Winkel,50.0085,8.0199,Germany,DE,DEU,Hesse,,11769,1276526238
+Drolshagen,Drolshagen,51.0237,7.7772,Germany,DE,DEU,North Rhine-Westphalia,,11766,1276163887
+Eichenau,Eichenau,48.1667,11.3167,Germany,DE,DEU,Bavaria,,11765,1276298284
+Kissing,Kissing,48.3,10.9833,Germany,DE,DEU,Bavaria,,11764,1276554705
+Walldürn,Walldurn,49.5831,9.3681,Germany,DE,DEU,Baden-Württemberg,,11760,1276425115
+Waldniel,Waldniel,51.2131,6.2731,Germany,DE,DEU,North Rhine-Westphalia,,11750,1276111710
+Lindenberg im Allgäu,Lindenberg im Allgau,47.6031,9.8861,Germany,DE,DEU,Bavaria,,11741,1276413375
+Pritzwalk,Pritzwalk,53.1497,12.1831,Germany,DE,DEU,Brandenburg,minor,11736,1276349904
+Harrislee,Harrislee,54.7972,9.3764,Germany,DE,DEU,Schleswig-Holstein,minor,11733,1276177135
+Geisenfeld,Geisenfeld,48.6843,11.6123,Germany,DE,DEU,Bavaria,,11729,1276340970
+Schwaigern,Schwaigern,49.1333,9.05,Germany,DE,DEU,Baden-Württemberg,,11726,1276311065
+Marktheidenfeld,Marktheidenfeld,49.85,9.6,Germany,DE,DEU,Bavaria,,11724,1276902218
+Mömbris,Mombris,50.0667,9.1667,Germany,DE,DEU,Bavaria,,11718,1276210948
+Scharbeutz,Scharbeutz,54.0214,10.7456,Germany,DE,DEU,Schleswig-Holstein,minor,11704,1276805857
+Zwönitz,Zwonitz,50.6303,12.8133,Germany,DE,DEU,Saxony,,11702,1276062398
+Fallersleben,Fallersleben,52.4189,10.7169,Germany,DE,DEU,Lower Saxony,,11697,1276398324
+Bopfingen,Bopfingen,48.8569,10.3522,Germany,DE,DEU,Baden-Württemberg,,11696,1276407317
+Ostbevern,Ostbevern,52.0389,7.8458,Germany,DE,DEU,North Rhine-Westphalia,,11690,1276717272
+Hildburghausen,Hildburghausen,50.4261,10.7289,Germany,DE,DEU,Thuringia,minor,11682,1276098756
+Schwieberdingen,Schwieberdingen,48.8778,9.075,Germany,DE,DEU,Baden-Württemberg,,11658,1276325701
+Bad Nenndorf,Bad Nenndorf,52.3369,9.3786,Germany,DE,DEU,Lower Saxony,,11629,1276123356
+Sinzheim,Sinzheim,48.7619,8.1669,Germany,DE,DEU,Baden-Württemberg,,11610,1276428146
+Bad Schwalbach,Bad Schwalbach,50.1401,8.0694,Germany,DE,DEU,Hesse,minor,11602,1276875328
+Stelle,Stelle,53.3667,10.1167,Germany,DE,DEU,Lower Saxony,minor,11596,1276799891
+Raubling,Raubling,47.7881,12.1047,Germany,DE,DEU,Bavaria,,11594,1276126414
+Überherrn,Uberherrn,49.25,6.7,Germany,DE,DEU,Saarland,,11591,1276864490
+Eningen unter Achalm,Eningen unter Achalm,48.4831,9.2522,Germany,DE,DEU,Baden-Württemberg,,11582,1276247117
+Zeuthen,Zeuthen,52.35,13.6281,Germany,DE,DEU,Brandenburg,,11578,1276555681
+Weeze,Weeze,51.6267,6.1967,Germany,DE,DEU,North Rhine-Westphalia,,11563,1276950417
+Egelsbach,Egelsbach,49.9694,8.6667,Germany,DE,DEU,Hesse,,11500,1276317515
+Altdorf,Altdorf,48.5667,12.1167,Germany,DE,DEU,Bavaria,,11483,1276813399
+Coswig,Coswig,51.8833,12.4333,Germany,DE,DEU,Saxony-Anhalt,,11468,1276417362
+Westerkappeln,Westerkappeln,52.3153,7.8806,Germany,DE,DEU,North Rhine-Westphalia,,11464,1276848242
+Trostberg an der Alz,Trostberg an der Alz,48.028,12.5586,Germany,DE,DEU,Bavaria,,11463,1276546741
+Dautphe,Dautphe,50.8583,8.55,Germany,DE,DEU,Hesse,,11461,1276569570
+Lauingen,Lauingen,48.5667,10.4333,Germany,DE,DEU,Bavaria,,11445,1276983214
+Grünwald,Grunwald,48.0483,11.5317,Germany,DE,DEU,Bavaria,,11442,1276645609
+Ochsenfurt,Ochsenfurt,49.6711,10.0498,Germany,DE,DEU,Bavaria,,11434,1276225092
+Engen,Engen,47.8528,8.7714,Germany,DE,DEU,Baden-Württemberg,,11431,1276209924
+Höhenkirchen-Siegertsbrunn,Hohenkirchen-Siegertsbrunn,48.0167,11.7333,Germany,DE,DEU,Bavaria,,11417,1276421058
+Recke,Recke,52.37,7.7189,Germany,DE,DEU,North Rhine-Westphalia,,11410,1276107083
+Kirchhundem,Kirchhundem,51.0861,8.09,Germany,DE,DEU,North Rhine-Westphalia,,11402,1276082488
+Wittingen,Wittingen,52.7281,10.7391,Germany,DE,DEU,Lower Saxony,,11388,1276184475
+Diez,Diez,50.3708,8.0158,Germany,DE,DEU,Rhineland-Palatinate,,11388,1276836214
+Nörvenich,Norvenich,50.8,6.65,Germany,DE,DEU,North Rhine-Westphalia,,11387,1276001252
+Rothenburg ob der Tauber,Rothenburg ob der Tauber,49.3772,10.1789,Germany,DE,DEU,Bavaria,,11385,1276993004
+Kranenburg,Kranenburg,51.7897,6.0072,Germany,DE,DEU,North Rhine-Westphalia,,11380,1276141690
+Gräfenhainichen,Grafenhainichen,51.7292,12.4556,Germany,DE,DEU,Saxony-Anhalt,,11380,1276450109
+Welzheim,Welzheim,48.8747,9.6344,Germany,DE,DEU,Baden-Württemberg,,11378,1276045821
+Handewitt,Handewitt,54.7667,9.3167,Germany,DE,DEU,Schleswig-Holstein,,11371,1276919280
+Harsum,Harsum,52.2054,9.96,Germany,DE,DEU,Lower Saxony,,11368,1276328297
+Eichenzell,Eichenzell,50.4934,9.6961,Germany,DE,DEU,Hesse,,11367,1276335851
+Rheinau,Rheinau,48.6678,7.9347,Germany,DE,DEU,Baden-Württemberg,,11365,1276702024
+Möglingen,Moglingen,48.8883,9.1292,Germany,DE,DEU,Baden-Württemberg,,11334,1276353037
+Nußloch,Nussloch,49.3236,8.6939,Germany,DE,DEU,Baden-Württemberg,,11332,1276967594
+Rodenbach,Rodenbach,50.15,9.0333,Germany,DE,DEU,Hesse,,11331,1276944139
+Mülheim-Kärlich,Mulheim-Karlich,50.3869,7.4953,Germany,DE,DEU,Rhineland-Palatinate,,11321,1276940149
+Rudersberg,Rudersberg,48.8856,9.5281,Germany,DE,DEU,Baden-Württemberg,,11319,1276269287
+Cadolzburg,Cadolzburg,49.4602,10.8571,Germany,DE,DEU,Bavaria,,11312,1276504101
+Denkendorf,Denkendorf,48.6958,9.3175,Germany,DE,DEU,Baden-Württemberg,,11312,1276329387
+Malente,Malente,54.1667,10.55,Germany,DE,DEU,Schleswig-Holstein,minor,11301,1276687583
+Drochtersen,Drochtersen,53.7,9.3833,Germany,DE,DEU,Lower Saxony,minor,11284,1276168894
+Riedlingen,Riedlingen,48.1553,9.4728,Germany,DE,DEU,Baden-Württemberg,,11271,1276567884
+Hagen im Bremischen,Hagen im Bremischen,53.3577,8.6456,Germany,DE,DEU,Lower Saxony,minor,11264,1276318696
+Prien am Chiemsee,Prien am Chiemsee,47.856,12.3462,Germany,DE,DEU,Bavaria,,11262,1276129063
+Isselburg,Isselburg,51.8331,6.4667,Germany,DE,DEU,North Rhine-Westphalia,,11260,1276291183
+Korb,Korb,48.8417,9.3611,Germany,DE,DEU,Baden-Württemberg,,11255,1276683621
+Herbolzheim,Herbolzheim,48.2219,7.7775,Germany,DE,DEU,Baden-Württemberg,,11242,1276610094
+Waldkirchen,Waldkirchen,48.7306,13.6011,Germany,DE,DEU,Bavaria,,11221,1276702006
+Belzig,Belzig,52.1422,12.5956,Germany,DE,DEU,Brandenburg,,11216,1276375390
+Wustermark,Wustermark,52.5497,12.9497,Germany,DE,DEU,Brandenburg,,11211,1276932359
+Eisenberg,Eisenberg,50.9681,11.9014,Germany,DE,DEU,Thuringia,minor,11196,1276013201
+Rutesheim,Rutesheim,48.8097,8.945,Germany,DE,DEU,Baden-Württemberg,,11194,1276637060
+Werther,Werther,52.075,8.4125,Germany,DE,DEU,North Rhine-Westphalia,,11193,1276520918
+Schöningen,Schoningen,52.138,10.9674,Germany,DE,DEU,Lower Saxony,,11167,1276898175
+Braunfels,Braunfels,50.5175,8.3889,Germany,DE,DEU,Hesse,,11167,1276721051
+Feldkirchen-Westerham,Feldkirchen-Westerham,47.9,11.85,Germany,DE,DEU,Bavaria,,11138,1276377703
+Bannewitz,Bannewitz,50.9931,13.7167,Germany,DE,DEU,Saxony,,11128,1276329981
+Kriftel,Kriftel,50.0828,8.4667,Germany,DE,DEU,Hesse,,11123,1276384053
+Balve,Balve,51.3333,7.8667,Germany,DE,DEU,North Rhine-Westphalia,,11108,1276429587
+Kall,Kall,50.5497,6.5497,Germany,DE,DEU,North Rhine-Westphalia,,11089,1276548947
+Planegg,Planegg,48.1047,11.4306,Germany,DE,DEU,Bavaria,,11088,1276760945
+Meßstetten,Messstetten,48.1806,8.9625,Germany,DE,DEU,Baden-Württemberg,,11086,1276150050
+Kenzingen,Kenzingen,48.1917,7.7683,Germany,DE,DEU,Baden-Württemberg,,11071,1276334266
+Adendorf,Adendorf,53.2833,10.45,Germany,DE,DEU,Lower Saxony,minor,11053,1276724557
+Rüthen,Ruthen,51.4933,8.4333,Germany,DE,DEU,North Rhine-Westphalia,,11049,1276776072
+Herrsching am Ammersee,Herrsching am Ammersee,48,11.1833,Germany,DE,DEU,Bavaria,,11045,1276350477
+Haigerloch,Haigerloch,48.3647,8.805,Germany,DE,DEU,Baden-Württemberg,,11044,1276522466
+Stollberg,Stollberg,50.7083,12.7783,Germany,DE,DEU,Saxony,,11033,1276429853
+Lorch,Lorch,48.7983,9.6883,Germany,DE,DEU,Baden-Württemberg,,11032,1276178171
+Donzdorf,Donzdorf,48.6833,9.8167,Germany,DE,DEU,Baden-Württemberg,,11031,1276029380
+Hasbergen,Hasbergen,52.2431,7.9558,Germany,DE,DEU,Lower Saxony,,11018,1276722564
+Schönaich,Schonaich,48.6569,9.0628,Germany,DE,DEU,Baden-Württemberg,,11010,1276014009
+Regen,Regen,48.97,13.1264,Germany,DE,DEU,Bavaria,minor,11009,1276612143
+Burgkirchen an der Alz,Burgkirchen an der Alz,48.1667,12.7167,Germany,DE,DEU,Bavaria,,11008,1276642803
+Gernsheim,Gernsheim,49.7517,8.485,Germany,DE,DEU,Hesse,,11006,1276371631
+Neuhof,Neuhof,50.4333,9.6167,Germany,DE,DEU,Hesse,,11003,1276724879
+Gottmadingen,Gottmadingen,47.7356,8.7767,Germany,DE,DEU,Baden-Württemberg,,10999,1276476754
+Wildau,Wildau,52.3167,13.6333,Germany,DE,DEU,Brandenburg,,10994,1276865619
+Glückstadt,Gluckstadt,53.7917,9.4219,Germany,DE,DEU,Schleswig-Holstein,minor,10987,1276320912
+Gengenbach,Gengenbach,48.4042,8.0153,Germany,DE,DEU,Baden-Württemberg,,10984,1276778224
+Altensteig,Altensteig,48.5864,8.6047,Germany,DE,DEU,Baden-Württemberg,,10983,1276878570
+Herxheim,Herxheim,49.1469,8.22,Germany,DE,DEU,Rhineland-Palatinate,,10954,1276512469
+Lichtenau,Lichtenau,51.6158,8.8947,Germany,DE,DEU,North Rhine-Westphalia,,10940,1276302835
+Schkopau,Schkopau,51.3833,11.9667,Germany,DE,DEU,Saxony-Anhalt,,10929,1276553925
+Langenzenn,Langenzenn,49.4944,10.7947,Germany,DE,DEU,Bavaria,,10924,1276092377
+Karlsdorf-Neuthard,Karlsdorf-Neuthard,49.1364,8.5439,Germany,DE,DEU,Baden-Württemberg,,10918,1276052458
+Fürth,Furth,49.6502,8.7803,Germany,DE,DEU,Hesse,,10886,1276167147
+Gronau,Gronau,52.0833,9.7833,Germany,DE,DEU,Lower Saxony,,10882,1276823267
+Hambühren,Hambuhren,52.6333,9.9833,Germany,DE,DEU,Lower Saxony,,10882,1276102080
+Boizenburg,Boizenburg,53.3743,10.7231,Germany,DE,DEU,Mecklenburg-Western Pomerania,,10881,1276001527
+Stephanskirchen,Stephanskirchen,47.85,12.1833,Germany,DE,DEU,Bavaria,,10872,1276424384
+Steinbach am Taunus,Steinbach am Taunus,50.1678,8.5719,Germany,DE,DEU,Hesse,,10869,1276335395
+Nauheim,Nauheim,49.9447,8.4548,Germany,DE,DEU,Hesse,,10856,1276153324
+Lichtenstein,Lichtenstein,50.7564,12.6317,Germany,DE,DEU,Saxony,,10853,1276704122
+Wald-Michelbach,Wald-Michelbach,49.5724,8.8243,Germany,DE,DEU,Hesse,,10840,1276767345
+Taufkirchen,Taufkirchen,48.3439,12.1303,Germany,DE,DEU,Bavaria,,10826,1276593079
+Hammelburg,Hammelburg,50.1167,9.9,Germany,DE,DEU,Bavaria,,10826,1276000245
+Kirchseeon,Kirchseeon,48.0731,11.8861,Germany,DE,DEU,Bavaria,,10801,1276337335
+Dingelstädt,Dingelstadt,51.3156,10.3194,Germany,DE,DEU,Thuringia,,10789,1276847045
+Kleinblittersdorf,Kleinblittersdorf,49.1583,7.0381,Germany,DE,DEU,Saarland,,10786,1276026284
+Diedorf,Diedorf,48.35,10.7667,Germany,DE,DEU,Bavaria,,10777,1276299283
+Dallgow-Döberitz,Dallgow-Doberitz,52.5331,13.05,Germany,DE,DEU,Brandenburg,,10770,1276604293
+Osterwieck,Osterwieck,51.9667,10.7167,Germany,DE,DEU,Saxony-Anhalt,,10768,1276571992
+Bad Orb,Bad Orb,50.2167,9.35,Germany,DE,DEU,Hesse,,10759,1276166672
+Mülsen,Mulsen,50.7447,12.5747,Germany,DE,DEU,Saxony,,10757,1276902814
+Emsbüren,Emsburen,52.3925,7.2914,Germany,DE,DEU,Lower Saxony,,10735,1276520111
+Schönwalde-Siedlung,Schonwalde-Siedlung,52.65,12.9833,Germany,DE,DEU,Brandenburg,,10700,1276477512
+Morbach,Morbach,49.8167,7.1167,Germany,DE,DEU,Rhineland-Palatinate,,10687,1276004908
+Barmstedt,Barmstedt,53.7833,9.7667,Germany,DE,DEU,Schleswig-Holstein,minor,10683,1276501444
+Bestwig,Bestwig,51.3667,8.4,Germany,DE,DEU,North Rhine-Westphalia,,10677,1276089671
+Felsberg,Felsberg,51.1346,9.4215,Germany,DE,DEU,Hesse,,10658,1276987745
+Staffelstein,Staffelstein,50.099,10.9962,Germany,DE,DEU,Bavaria,,10651,1276439660
+Neuenhaus,Neuenhaus,52.5,6.9667,Germany,DE,DEU,Lower Saxony,minor,10650,1276154780
+Bischofswerda,Bischofswerda,51.1275,14.1797,Germany,DE,DEU,Saxony,,10648,1276164300
+Burgau,Burgau,48.4322,10.4069,Germany,DE,DEU,Bavaria,,10628,1276192712
+Ruppichteroth,Ruppichteroth,50.8456,7.4881,Germany,DE,DEU,North Rhine-Westphalia,,10619,1276384709
+Plankstadt,Plankstadt,49.3933,8.5942,Germany,DE,DEU,Baden-Württemberg,,10611,1276993241
+Bad Wildbad,Bad Wildbad,48.7503,8.5506,Germany,DE,DEU,Baden-Württemberg,,10601,1276260316
+Dießen am Ammersee,Diessen am Ammersee,47.95,11.1,Germany,DE,DEU,Bavaria,,10596,1276330622
+Werlte,Werlte,52.85,7.6833,Germany,DE,DEU,Lower Saxony,minor,10588,1276655654
+Böhl-Iggelheim,Bohl-Iggelheim,49.3714,8.3086,Germany,DE,DEU,Rhineland-Palatinate,,10586,1276858476
+Bad Iburg,Bad Iburg,52.1592,8.0472,Germany,DE,DEU,Lower Saxony,,10574,1276794541
+Reiskirchen,Reiskirchen,50.6,8.8333,Germany,DE,DEU,Hesse,,10572,1276387894
+Weingarten,Weingarten,49.0514,8.5306,Germany,DE,DEU,Baden-Württemberg,,10571,1276014784
+Aerzen,Aerzen,52.0496,9.2638,Germany,DE,DEU,Lower Saxony,,10544,1276826554
+Nordkirchen,Nordkirchen,51.7381,7.5256,Germany,DE,DEU,North Rhine-Westphalia,,10534,1276717351
+Weinböhla,Weinbohla,51.1667,13.5667,Germany,DE,DEU,Saxony,,10530,1276478682
+Simbach am Inn,Simbach am Inn,48.2656,13.0231,Germany,DE,DEU,Bavaria,,10521,1276572176
+Tangerhütte,Tangerhutte,52.4333,11.8,Germany,DE,DEU,Saxony-Anhalt,,10516,1276201487
+Steinfeld,Steinfeld,52.5871,8.2174,Germany,DE,DEU,Lower Saxony,minor,10509,1276800312
+Lollar,Lollar,50.6497,8.7044,Germany,DE,DEU,Hesse,,10509,1276402462
+Kaufering,Kaufering,48.0833,10.8833,Germany,DE,DEU,Bavaria,,10508,1276831409
+Wendeburg,Wendeburg,52.3167,10.4,Germany,DE,DEU,Lower Saxony,,10482,1276401902
+Büdelsdorf,Budelsdorf,54.3167,9.6833,Germany,DE,DEU,Schleswig-Holstein,minor,10470,1276054085
+Markt Indersdorf,Markt Indersdorf,48.3667,11.3667,Germany,DE,DEU,Bavaria,,10468,1276148696
+Gommern,Gommern,52.0739,11.8231,Germany,DE,DEU,Saxony-Anhalt,,10464,1276399095
+Hilter,Hilter,52.1357,8.1471,Germany,DE,DEU,Lower Saxony,,10461,1276002004
+Schleusingen,Schleusingen,50.5117,10.7506,Germany,DE,DEU,Thuringia,,10449,1276153970
+Altenberge,Altenberge,52.0458,7.4653,Germany,DE,DEU,North Rhine-Westphalia,,10438,1276349933
+Altusried,Altusried,47.8,10.2167,Germany,DE,DEU,Bavaria,,10430,1276723201
+Klipphausen,Klipphausen,51.0833,13.5333,Germany,DE,DEU,Saxony,,10427,1276821311
+Flöha,Floha,50.8558,13.0714,Germany,DE,DEU,Saxony,,10426,1276141987
+Aulendorf,Aulendorf,47.9542,9.6389,Germany,DE,DEU,Baden-Württemberg,,10422,1276668317
+Braunsbedra,Braunsbedra,51.2833,11.9,Germany,DE,DEU,Saxony-Anhalt,,10413,1276157165
+Merzenich,Merzenich,50.8262,6.5267,Germany,DE,DEU,North Rhine-Westphalia,,10409,1276724272
+Burgstädt,Burgstadt,50.9201,12.8055,Germany,DE,DEU,Saxony,,10402,1276198411
+Betzdorf,Betzdorf,50.7856,7.8728,Germany,DE,DEU,Rhineland-Palatinate,,10401,1276302333
+Grevesmühlen,Grevesmuhlen,53.8645,11.1909,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,10398,1276634445
+Weilheim an der Teck,Weilheim an der Teck,48.615,9.5386,Germany,DE,DEU,Baden-Württemberg,,10397,1276869346
+Nideggen,Nideggen,50.7,6.4833,Germany,DE,DEU,North Rhine-Westphalia,,10397,1276330889
+Anröchte,Anrochte,51.5667,8.3333,Germany,DE,DEU,North Rhine-Westphalia,,10397,1276004303
+Nieder-Olm,Nieder-Olm,49.9083,8.2028,Germany,DE,DEU,Rhineland-Palatinate,,10393,1276571549
+Steinau an der Straße,Steinau an der Strasse,50.3167,9.4667,Germany,DE,DEU,Hesse,,10381,1276321802
+Nossen,Nossen,51.05,13.3,Germany,DE,DEU,Saxony,,10377,1276123820
+Wildberg,Wildberg,48.6239,8.7472,Germany,DE,DEU,Baden-Württemberg,,10372,1276603722
+Süßen,Sussen,48.6797,9.7575,Germany,DE,DEU,Baden-Württemberg,,10366,1276876267
+Friedeburg,Friedeburg,53.45,7.8333,Germany,DE,DEU,Lower Saxony,minor,10366,1276711617
+Neuenstadt am Kocher,Neuenstadt am Kocher,49.2333,9.3333,Germany,DE,DEU,Baden-Württemberg,,10350,1276757079
+Kirchlinteln,Kirchlinteln,52.9428,9.3183,Germany,DE,DEU,Lower Saxony,minor,10339,1276083659
+Erlenbach am Main,Erlenbach am Main,49.8039,9.1639,Germany,DE,DEU,Bavaria,,10335,1276645888
+Bogen,Bogen,48.9167,12.6833,Germany,DE,DEU,Bavaria,,10333,1276422463
+Blumberg,Blumberg,47.8392,8.5342,Germany,DE,DEU,Baden-Württemberg,,10329,1276268293
+Kirchzarten,Kirchzarten,47.9667,7.95,Germany,DE,DEU,Baden-Württemberg,,10326,1276548951
+Höchst im Odenwald,Hochst im Odenwald,49.7992,8.9942,Germany,DE,DEU,Hesse,,10320,1276437736
+Augustdorf,Augustdorf,51.9094,8.7317,Germany,DE,DEU,North Rhine-Westphalia,,10314,1276232704
+Olbernhau,Olbernhau,50.6564,13.3452,Germany,DE,DEU,Saxony,,10307,1276224877
+Großburgwedel,Grossburgwedel,52.492,9.8567,Germany,DE,DEU,Lower Saxony,,10306,1276104367
+Goldbach,Goldbach,49.9889,9.1864,Germany,DE,DEU,Bavaria,,10300,1276681530
+Appenweier,Appenweier,48.5397,7.98,Germany,DE,DEU,Baden-Württemberg,,10298,1276074686
+Demmin,Demmin,53.905,13.0439,Germany,DE,DEU,Mecklenburg-Western Pomerania,,10293,1276386093
+Beilngries,Beilngries,49.0331,11.474,Germany,DE,DEU,Bavaria,,10282,1276091719
+Weil im Schönbuch,Weil im Schonbuch,48.6214,9.0611,Germany,DE,DEU,Baden-Württemberg,,10274,1276376071
+Morsbach,Morsbach,50.8667,7.7167,Germany,DE,DEU,North Rhine-Westphalia,,10262,1276963409
+Bad Lauterberg,Bad Lauterberg,51.6317,10.4706,Germany,DE,DEU,Lower Saxony,,10258,1276934554
+Königsbach-Stein,Konigsbach-Stein,48.9664,8.6089,Germany,DE,DEU,Baden-Württemberg,,10258,1276050894
+Steinen,Steinen,47.6453,7.7403,Germany,DE,DEU,Baden-Württemberg,,10255,1276597549
+Querfurt,Querfurt,51.3833,11.6,Germany,DE,DEU,Saxony-Anhalt,,10253,1276096185
+Goldenstedt,Goldenstedt,52.7833,8.4167,Germany,DE,DEU,Lower Saxony,minor,10238,1276831361
+Tangermünde,Tangermunde,52.5408,11.9689,Germany,DE,DEU,Saxony-Anhalt,,10228,1276714669
+Schalksmühle,Schalksmuhle,51.2403,7.5333,Germany,DE,DEU,North Rhine-Westphalia,,10219,1276387569
+Ostercappeln,Ostercappeln,52.3457,8.2261,Germany,DE,DEU,Lower Saxony,,10208,1276960639
+Dettingen an der Erms,Dettingen an der Erms,48.53,9.3472,Germany,DE,DEU,Baden-Württemberg,,10204,1276179914
+Münchberg,Munchberg,50.1831,11.7857,Germany,DE,DEU,Bavaria,,10200,1276739492
+Birkenfeld,Birkenfeld,48.8697,8.6361,Germany,DE,DEU,Baden-Württemberg,,10200,1276313867
+Rehburg-Loccum,Rehburg-Loccum,52.4508,9.2078,Germany,DE,DEU,Lower Saxony,,10188,1276006999
+Rüdesheim am Rhein,Rudesheim am Rhein,49.979,7.9234,Germany,DE,DEU,Hesse,,10180,1276263757
+Spelle,Spelle,52.3667,7.4667,Germany,DE,DEU,Lower Saxony,,10178,1276461336
+Niebüll,Niebull,54.7881,8.8297,Germany,DE,DEU,Schleswig-Holstein,,10159,1276213521
+Bobenheim-Roxheim,Bobenheim-Roxheim,49.5839,8.3611,Germany,DE,DEU,Rhineland-Palatinate,,10157,1276712928
+Mörlenbach,Morlenbach,49.599,8.7369,Germany,DE,DEU,Hesse,,10154,1276069994
+Bleicherode,Bleicherode,51.4401,10.5727,Germany,DE,DEU,Thuringia,,10151,1276520742
+Lenggries,Lenggries,47.6803,11.5739,Germany,DE,DEU,Bavaria,,10143,1276352109
+Altötting,Altotting,48.2264,12.6759,Germany,DE,DEU,Bavaria,minor,10119,1276161581
+Visbek,Visbek,52.8333,8.3167,Germany,DE,DEU,Lower Saxony,minor,10116,1276431474
+Heubach,Heubach,48.7833,9.9333,Germany,DE,DEU,Baden-Württemberg,,10105,1276568606
+Willstätt,Willstatt,48.5417,7.8964,Germany,DE,DEU,Baden-Württemberg,,10103,1276429606
+Werneck,Werneck,49.9833,10.1,Germany,DE,DEU,Bavaria,,10090,1276199382
+Kirkel,Kirkel,49.2833,7.2333,Germany,DE,DEU,Saarland,,10090,1276147467
+Mittenwalde,Mittenwalde,52.2667,13.5333,Germany,DE,DEU,Brandenburg,,10084,1276476761
+Meuselwitz,Meuselwitz,51.05,12.3,Germany,DE,DEU,Thuringia,,10079,1276499309
+Mengen,Mengen,48.0497,9.33,Germany,DE,DEU,Baden-Württemberg,,10077,1276073963
+Bieber,Bieber,50.6331,8.59,Germany,DE,DEU,Hesse,,10074,1276631690
+Gudensberg,Gudensberg,51.1762,9.3575,Germany,DE,DEU,Hesse,,10059,1276969422
+Schotten,Schotten,50.5,9.1167,Germany,DE,DEU,Hesse,,10053,1276543859
+Neustadt,Neustadt,50.85,9.1167,Germany,DE,DEU,Hesse,,10051,1276694590
+Wahlstedt,Wahlstedt,53.95,10.2167,Germany,DE,DEU,Schleswig-Holstein,minor,10050,1276000715
+Bad Frankenhausen,Bad Frankenhausen,51.3558,11.1011,Germany,DE,DEU,Thuringia,,10042,1276187719
+Aich,Aich,48.6228,9.2372,Germany,DE,DEU,Baden-Württemberg,,10031,1276245097
+Kaldenkirchen,Kaldenkirchen,51.3167,6.2833,Germany,DE,DEU,North Rhine-Westphalia,,10025,1276572191
+Marpingen,Marpingen,49.45,7.05,Germany,DE,DEU,Saarland,,10002,1276606720
+Bad Ems,Bad Ems,50.3381,7.7106,Germany,DE,DEU,Rhineland-Palatinate,minor,10002,1276819164
+Ainring,Ainring,47.8142,12.9519,Germany,DE,DEU,Bavaria,,10002,1276077892
+Kösching,Kosching,48.8167,11.5,Germany,DE,DEU,Bavaria,,9994,1276577514
+Birkenau,Birkenau,49.5607,8.7061,Germany,DE,DEU,Hesse,,9992,1276778911
+Schlitz,Schlitz,50.6759,9.5593,Germany,DE,DEU,Hesse,,9987,1276405370
+Lahstedt,Lahstedt,52.25,10.2167,Germany,DE,DEU,Lower Saxony,,9985,1276001876
+Oldenburg in Holstein,Oldenburg in Holstein,54.2922,10.8867,Germany,DE,DEU,Schleswig-Holstein,minor,9983,1276671809
+Bad Bevensen,Bad Bevensen,53.0792,10.5833,Germany,DE,DEU,Lower Saxony,,9983,1276837566
+Nohfelden,Nohfelden,49.5867,7.1428,Germany,DE,DEU,Saarland,,9982,1276779252
+Waltenhofen,Waltenhofen,47.6667,10.3,Germany,DE,DEU,Bavaria,,9975,1276889694
+Trebbin,Trebbin,52.2142,13.2124,Germany,DE,DEU,Brandenburg,,9964,1276041588
+Roßtal,Rosstal,49.3963,10.8896,Germany,DE,DEU,Bavaria,,9963,1276297806
+Tutzing,Tutzing,47.9089,11.2814,Germany,DE,DEU,Bavaria,,9960,1276343820
+Vettweiß,Vettweiss,50.7389,6.5972,Germany,DE,DEU,North Rhine-Westphalia,,9952,1276176554
+Altenholz,Altenholz,54.4,10.1333,Germany,DE,DEU,Schleswig-Holstein,minor,9927,1276597876
+Merchweiler,Merchweiler,49.3603,7.06,Germany,DE,DEU,Saarland,,9900,1276171496
+Rödinghausen,Rodinghausen,52.255,8.4817,Germany,DE,DEU,North Rhine-Westphalia,,9889,1276776306
+Friedrichsthal,Friedrichsthal,49.3256,7.0961,Germany,DE,DEU,Saarland,,9887,1276137098
+Ottendorf-Okrilla,Ottendorf-Okrilla,51.1792,13.8261,Germany,DE,DEU,Saxony,,9879,1276340618
+Oelsnitz,Oelsnitz,50.4167,12.1667,Germany,DE,DEU,Saxony,,9873,1276364084
+Kümmersbruck,Kummersbruck,49.4167,11.8833,Germany,DE,DEU,Bavaria,,9861,1276949407
+Bad König,Bad Konig,49.7413,9.0071,Germany,DE,DEU,Hesse,,9857,1276917706
+Schwaikheim,Schwaikheim,48.8714,9.3531,Germany,DE,DEU,Baden-Württemberg,,9855,1276194197
+Pliezhausen,Pliezhausen,48.5586,9.2058,Germany,DE,DEU,Baden-Württemberg,,9853,1276097407
+Nordwalde,Nordwalde,52.0833,7.4833,Germany,DE,DEU,North Rhine-Westphalia,,9853,1276365254
+Ilsfeld,Ilsfeld,49.05,9.25,Germany,DE,DEU,Baden-Württemberg,,9851,1276001221
+Bisingen,Bisingen,48.3119,8.9178,Germany,DE,DEU,Baden-Württemberg,,9848,1276249860
+Plüderhausen,Pluderhausen,48.795,9.6011,Germany,DE,DEU,Baden-Württemberg,,9841,1276728589
+Veitshöchheim,Veitshochheim,49.8328,9.8817,Germany,DE,DEU,Bavaria,,9840,1276315080
+Nersingen,Nersingen,48.4289,10.1219,Germany,DE,DEU,Bavaria,,9839,1276170388
+Osthofen,Osthofen,49.7078,8.3289,Germany,DE,DEU,Rhineland-Palatinate,,9833,1276502148
+Fürstenau,Furstenau,52.5167,7.6667,Germany,DE,DEU,Lower Saxony,minor,9833,1276365707
+Heilsbronn,Heilsbronn,49.3386,10.7908,Germany,DE,DEU,Bavaria,,9832,1276724619
+Bad Liebenzell,Bad Liebenzell,48.7742,8.7314,Germany,DE,DEU,Baden-Württemberg,,9829,1276138487
+Worpswede,Worpswede,53.2222,8.9278,Germany,DE,DEU,Lower Saxony,minor,9818,1276953565
+Magstadt,Magstadt,48.7422,8.965,Germany,DE,DEU,Baden-Württemberg,,9807,1276943465
+Altlandsberg,Altlandsberg,52.5667,13.7331,Germany,DE,DEU,Brandenburg,,9799,1276344426
+Everswinkel,Everswinkel,51.925,7.8478,Germany,DE,DEU,North Rhine-Westphalia,,9797,1276832374
+Köngen,Kongen,48.6819,9.3667,Germany,DE,DEU,Baden-Württemberg,,9786,1276029285
+Pasewalk,Pasewalk,53.5063,13.99,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,9785,1276152058
+Bockenem,Bockenem,52.0117,10.1319,Germany,DE,DEU,Lower Saxony,,9785,1276993037
+Laubach,Laubach,50.5426,8.9891,Germany,DE,DEU,Hesse,,9775,1276831355
+Oberstdorf,Oberstdorf,47.4097,10.2792,Germany,DE,DEU,Bavaria,,9773,1276143452
+Wölfersheim,Wolfersheim,50.3975,8.8114,Germany,DE,DEU,Hesse,,9764,1276879373
+Dassel,Dassel,51.8033,9.6903,Germany,DE,DEU,Lower Saxony,,9754,1276866794
+Twist,Twist,52.6472,7.0948,Germany,DE,DEU,Lower Saxony,,9751,1276686407
+Maisenhausen,Maisenhausen,50.0172,8.9915,Germany,DE,DEU,Bavaria,,9748,1276399610
+Visselhövede,Visselhovede,52.9845,9.5817,Germany,DE,DEU,Lower Saxony,minor,9747,1276207705
+Giesen,Giesen,52.2,9.8833,Germany,DE,DEU,Lower Saxony,,9747,1276120261
+Südlohn,Sudlohn,51.9436,6.8664,Germany,DE,DEU,North Rhine-Westphalia,,9738,1276001303
+Oberhausen-Rheinhausen,Oberhausen-Rheinhausen,49.2606,8.485,Germany,DE,DEU,Baden-Württemberg,,9718,1276286737
+Hemau,Hemau,49.0519,11.7828,Germany,DE,DEU,Bavaria,,9700,1276739454
+Neu Bleckede,Neu Bleckede,53.3,10.7333,Germany,DE,DEU,Lower Saxony,,9692,1276752770
+Brandis,Brandis,51.3347,12.6089,Germany,DE,DEU,Saxony,,9689,1276455051
+Großröhrsdorf,Grossrohrsdorf,51.1419,14.0139,Germany,DE,DEU,Saxony,,9672,1276821884
+Klötze,Klotze,52.6272,11.1642,Germany,DE,DEU,Saxony-Anhalt,,9666,1276729835
+Schulzendorf,Schulzendorf,52.3667,13.5831,Germany,DE,DEU,Brandenburg,,9665,1276028014
+Bad Breisig,Bad Breisig,50.5092,7.2964,Germany,DE,DEU,Rhineland-Palatinate,,9655,1276102640
+Grimmen,Grimmen,54.11,13.0414,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,9649,1276798826
+Hohenhameln,Hohenhameln,52.26,10.0664,Germany,DE,DEU,Lower Saxony,,9636,1276407587
+Wertingen,Wertingen,48.5333,10.6667,Germany,DE,DEU,Bavaria,,9625,1276445466
+Miltenberg,Miltenberg,49.7039,9.2644,Germany,DE,DEU,Bavaria,minor,9622,1276744365
+Höchberg,Hochberg,49.7831,9.8817,Germany,DE,DEU,Bavaria,,9601,1276298566
+Ehringshausen,Ehringshausen,50.6,8.3833,Germany,DE,DEU,Hesse,,9591,1276599931
+Luckau,Luckau,51.85,13.7167,Germany,DE,DEU,Brandenburg,,9585,1276191048
+Schmitten,Schmitten,50.2697,8.4443,Germany,DE,DEU,Hesse,,9575,1276120658
+Zorneding,Zorneding,48.0833,11.8333,Germany,DE,DEU,Bavaria,,9570,1276678708
+Molbergen,Molbergen,52.8667,7.9333,Germany,DE,DEU,Lower Saxony,minor,9567,1276536842
+Aschheim,Aschheim,48.1733,11.7178,Germany,DE,DEU,Bavaria,,9567,1276119666
+Töging am Inn,Toging am Inn,48.2547,12.5867,Germany,DE,DEU,Bavaria,,9560,1276814406
+Sandersdorf,Sandersdorf,51.6274,12.2687,Germany,DE,DEU,Saxony-Anhalt,,9552,1276386551
+Sebnitz,Sebnitz,50.9667,14.2833,Germany,DE,DEU,Saxony,,9537,1276466123
+Bad Gandersheim,Bad Gandersheim,51.8719,10.0253,Germany,DE,DEU,Lower Saxony,,9519,1276778177
+Runkel,Runkel,50.4053,8.155,Germany,DE,DEU,Hesse,,9518,1276349515
+Nittenau,Nittenau,49.1942,12.2674,Germany,DE,DEU,Bavaria,,9506,1276358281
+Zwenkau,Zwenkau,51.2175,12.3242,Germany,DE,DEU,Saxony,,9479,1276888789
+Ohrdruf,Ohrdruf,50.8281,10.7328,Germany,DE,DEU,Thuringia,,9476,1276929737
+Kißlegg,Kisslegg,47.79,9.8842,Germany,DE,DEU,Baden-Württemberg,,9473,1276219486
+Rain,Rain,48.6833,10.9167,Germany,DE,DEU,Bavaria,,9472,1276518985
+Lüchow,Luchow,52.9667,11.15,Germany,DE,DEU,Lower Saxony,minor,9472,1276197749
+Wilkau-Haßlau,Wilkau-Hasslau,50.6667,12.5167,Germany,DE,DEU,Saxony,,9461,1276704667
+Werneuchen,Werneuchen,52.6331,13.7331,Germany,DE,DEU,Brandenburg,,9441,1276171183
+Höhr-Grenzhausen,Hohr-Grenzhausen,50.435,7.6711,Germany,DE,DEU,Rhineland-Palatinate,,9439,1276961599
+Großhansdorf,Grosshansdorf,53.6667,10.2667,Germany,DE,DEU,Schleswig-Holstein,minor,9436,1276549511
+Ilsenburg,Ilsenburg,51.8667,10.6833,Germany,DE,DEU,Saxony-Anhalt,,9435,1276193551
+Teisendorf,Teisendorf,47.85,12.8167,Germany,DE,DEU,Bavaria,,9431,1276609221
+Aidlingen,Aidlingen,48.6792,8.8969,Germany,DE,DEU,Baden-Württemberg,,9429,1276002867
+Osterburg,Osterburg,52.7833,11.7667,Germany,DE,DEU,Saxony-Anhalt,,9421,1276131088
+Obernkirchen,Obernkirchen,52.2664,9.1178,Germany,DE,DEU,Lower Saxony,,9407,1276033571
+Ichenhausen,Ichenhausen,48.3712,10.3071,Germany,DE,DEU,Bavaria,,9403,1276943409
+Kandel,Kandel,49.0828,8.1964,Germany,DE,DEU,Rhineland-Palatinate,,9400,1276402753
+Ehningen,Ehningen,48.6589,8.9403,Germany,DE,DEU,Baden-Württemberg,,9399,1276629801
+Tecklenburg,Tecklenburg,52.2194,7.8125,Germany,DE,DEU,North Rhine-Westphalia,,9398,1276770196
+Pfedelbach,Pfedelbach,49.175,9.5056,Germany,DE,DEU,Baden-Württemberg,,9397,1276090389
+Hohenmölsen,Hohenmolsen,51.1564,12.0981,Germany,DE,DEU,Saxony-Anhalt,,9395,1276691866
+Schlangen,Schlangen,51.8167,8.8331,Germany,DE,DEU,North Rhine-Westphalia,,9391,1276494835
+Kolkwitz,Kolkwitz,51.7496,14.2457,Germany,DE,DEU,Brandenburg,,9384,1276591838
+Adelsdorf,Adelsdorf,49.7112,10.8935,Germany,DE,DEU,Bavaria,,9382,1276049542
+Dornstadt,Dornstadt,48.4692,9.9417,Germany,DE,DEU,Baden-Württemberg,,9376,1276592459
+Heiligenhafen,Heiligenhafen,54.3739,10.9797,Germany,DE,DEU,Schleswig-Holstein,minor,9373,1276378464
+Elsenfeld,Elsenfeld,49.85,9.1667,Germany,DE,DEU,Bavaria,,9370,1276319881
+Rehau,Rehau,50.2486,12.0354,Germany,DE,DEU,Bavaria,,9366,1276647977
+Freystadt,Freystadt,49.1989,11.3292,Germany,DE,DEU,Bavaria,,9345,1276684749
+Sulzbach,Sulzbach,50.1331,8.5289,Germany,DE,DEU,Hesse,,9340,1276220992
+Wehrheim,Wehrheim,50.3033,8.571,Germany,DE,DEU,Hesse,,9328,1276437939
+Wallerfangen,Wallerfangen,49.3278,6.7208,Germany,DE,DEU,Saarland,,9322,1276477962
+Vallendar,Vallendar,50.4003,7.6172,Germany,DE,DEU,Rhineland-Palatinate,,9313,1276411152
+Weißenthurm,Weissenthurm,50.4144,7.4606,Germany,DE,DEU,Rhineland-Palatinate,,9306,1276833572
+Schaafheim,Schaafheim,49.9242,9.0094,Germany,DE,DEU,Hesse,,9306,1276791845
+Eisenberg,Eisenberg,49.5614,8.0725,Germany,DE,DEU,Rhineland-Palatinate,,9305,1276928244
+Frickenhausen,Frickenhausen,48.5928,9.3611,Germany,DE,DEU,Baden-Württemberg,,9303,1276458359
+Ochsenhausen,Ochsenhausen,48.0722,9.9481,Germany,DE,DEU,Baden-Württemberg,,9301,1276059571
+Wunsiedel,Wunsiedel,50.0374,11.9994,Germany,DE,DEU,Bavaria,minor,9294,1276110549
+Ilvesheim,Ilvesheim,49.4725,8.5675,Germany,DE,DEU,Baden-Württemberg,,9280,1276902316
+Salzhemmendorf,Salzhemmendorf,52.0667,9.5833,Germany,DE,DEU,Lower Saxony,,9279,1276619297
+Kemberg,Kemberg,51.7736,12.6359,Germany,DE,DEU,Saxony-Anhalt,,9279,1276029857
+Bad Schussenried,Bad Schussenried,48.0067,9.6586,Germany,DE,DEU,Baden-Württemberg,,9277,1276967245
+Gomaringen,Gomaringen,48.4519,9.0997,Germany,DE,DEU,Baden-Württemberg,,9274,1276119838
+Urbach,Urbach,48.8133,9.5789,Germany,DE,DEU,Baden-Württemberg,,9274,1276165057
+Kurort Steinbach-Hallenberg,Kurort Steinbach-Hallenberg,50.7006,10.5667,Germany,DE,DEU,Thuringia,,9273,1276381862
+Bruchhausen-Vilsen,Bruchhausen-Vilsen,52.8333,9,Germany,DE,DEU,Lower Saxony,,9270,1276878870
+Torgelow,Torgelow,53.6337,14.0202,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,9269,1276888250
+Petersberg,Petersberg,51.6,11.9667,Germany,DE,DEU,Saxony-Anhalt,,9267,1276104833
+Waldfeucht,Waldfeucht,51.0667,5.9831,Germany,DE,DEU,North Rhine-Westphalia,,9257,1276350109
+Bad Liebenwerda,Bad Liebenwerda,51.5167,13.4,Germany,DE,DEU,Brandenburg,,9253,1276044120
+Elze,Elze,52.1167,9.7333,Germany,DE,DEU,Lower Saxony,,9252,1276949287
+Borgholzhausen,Borgholzhausen,52.1,8.3,Germany,DE,DEU,North Rhine-Westphalia,,9252,1276557759
+Neuenkirchen,Neuenkirchen,52.5167,8.0667,Germany,DE,DEU,Lower Saxony,,9245,1276221041
+Barleben,Barleben,52.2,11.6333,Germany,DE,DEU,Saxony-Anhalt,,9238,1276521807
+Rethen,Rethen,52.2878,9.8236,Germany,DE,DEU,Lower Saxony,,9231,1276943810
+Waldheim,Waldheim,51.0667,13.0167,Germany,DE,DEU,Saxony,,9214,1276028317
+Bestensee,Bestensee,52.234,13.6307,Germany,DE,DEU,Brandenburg,,9209,1276932357
+Alsbach-Hähnlein,Alsbach-Hahnlein,49.7413,8.6225,Germany,DE,DEU,Hesse,,9208,1276622371
+Bad Laer,Bad Laer,52.1031,8.0892,Germany,DE,DEU,Lower Saxony,,9203,1276926087
+Gnarrenburg,Gnarrenburg,53.3864,9.005,Germany,DE,DEU,Lower Saxony,minor,9200,1276077814
+Grünheide,Grunheide,52.4255,13.8228,Germany,DE,DEU,Brandenburg,,9193,1276449341
+Altenbeken,Altenbeken,51.7667,8.9333,Germany,DE,DEU,North Rhine-Westphalia,,9190,1276435516
+Elsfleth,Elsfleth,53.2333,8.4667,Germany,DE,DEU,Lower Saxony,minor,9187,1276056093
+Laufenburg (Baden),Laufenburg (Baden),47.5656,8.0647,Germany,DE,DEU,Baden-Württemberg,,9182,1276283641
+Dörverden,Dorverden,52.85,9.2333,Germany,DE,DEU,Lower Saxony,minor,9175,1276082481
+Niesky,Niesky,51.2897,14.83,Germany,DE,DEU,Saxony,,9172,1276763097
+Salsitz,Salsitz,54.5164,13.6411,Germany,DE,DEU,Mecklenburg-Western Pomerania,,9169,1276783044
+Trittau,Trittau,53.6167,10.4,Germany,DE,DEU,Schleswig-Holstein,minor,9167,1276001552
+Großbeeren,Grossbeeren,52.3551,13.3079,Germany,DE,DEU,Brandenburg,,9148,1276213734
+Biblis,Biblis,49.6841,8.4508,Germany,DE,DEU,Hesse,,9145,1276443433
+Dielheim,Dielheim,49.2825,8.7347,Germany,DE,DEU,Baden-Württemberg,,9144,1276260465
+Auerbach,Auerbach,49.692,11.6333,Germany,DE,DEU,Bavaria,,9127,1276188143
+Breckerfeld,Breckerfeld,51.2611,7.4667,Germany,DE,DEU,North Rhine-Westphalia,,9120,1276888240
+Hilzingen,Hilzingen,47.7653,8.7844,Germany,DE,DEU,Baden-Württemberg,,9118,1276881310
+Kyritz,Kyritz,52.9422,12.3972,Germany,DE,DEU,Brandenburg,minor,9114,1276035237
+Mainaschaff,Mainaschaff,49.9833,9.0833,Germany,DE,DEU,Bavaria,,9112,1276443692
+Mendig,Mendig,50.3744,7.2808,Germany,DE,DEU,Rhineland-Palatinate,,9108,1276853202
+Nalbach,Nalbach,49.3833,6.7833,Germany,DE,DEU,Saarland,,9101,1276451456
+Schwaig,Schwaig,49.4692,11.2008,Germany,DE,DEU,Bavaria,,9089,1276904945
+Zörbig,Zorbig,51.6167,12.1167,Germany,DE,DEU,Saxony-Anhalt,,9086,1276066607
+Essen,Essen,52.7211,7.9406,Germany,DE,DEU,Lower Saxony,,9083,1276698677
+Berching,Berching,49.1069,11.4414,Germany,DE,DEU,Bavaria,,9063,1276699990
+Neuötting,Neuotting,48.2411,12.685,Germany,DE,DEU,Bavaria,,9062,1276928616
+Wenzenbach,Wenzenbach,49.0747,12.1944,Germany,DE,DEU,Bavaria,,9061,1276234994
+Fehrbellin,Fehrbellin,52.8144,12.7661,Germany,DE,DEU,Brandenburg,,9049,1276574282
+Fuldabrück,Fuldabruck,51.2444,9.4767,Germany,DE,DEU,Hesse,,9039,1276251915
+Neuried,Neuried,48.0933,11.4658,Germany,DE,DEU,Bavaria,,9038,1276429701
+Kusterdingen,Kusterdingen,48.5222,9.1208,Germany,DE,DEU,Baden-Württemberg,,9038,1276384055
+Westerland,Westerland,54.91,8.3075,Germany,DE,DEU,Schleswig-Holstein,,9032,1276492039
+Furtwangen im Schwarzwald,Furtwangen im Schwarzwald,48.0503,8.2092,Germany,DE,DEU,Baden-Württemberg,,9030,1276132141
+Reinfeld,Reinfeld,53.8333,10.4833,Germany,DE,DEU,Schleswig-Holstein,minor,9023,1276759795
+Bockhorn,Bockhorn,53.4,8.0167,Germany,DE,DEU,Lower Saxony,minor,9019,1276050347
+Hohenbrunn,Hohenbrunn,48.05,11.7,Germany,DE,DEU,Bavaria,,9018,1276417376
+Hemmoor,Hemmoor,53.7025,9.1394,Germany,DE,DEU,Lower Saxony,minor,9007,1276546938
+Furth im Wald,Furth im Wald,49.3097,12.84,Germany,DE,DEU,Bavaria,,8998,1276212241
+Bad Lauchstädt,Bad Lauchstadt,51.3865,11.8696,Germany,DE,DEU,Saxony-Anhalt,,8995,1276634742
+Hürtgenwald,Hurtgenwald,50.7172,6.3797,Germany,DE,DEU,North Rhine-Westphalia,,8993,1276899490
+Oststeinbek,Oststeinbek,53.5442,10.1664,Germany,DE,DEU,Hamburg,minor,8990,1276130515
+Pullach im Isartal,Pullach im Isartal,48.05,11.5167,Germany,DE,DEU,Bavaria,,8989,1276150760
+Groß Kreutz,Gross Kreutz,52.4102,12.6964,Germany,DE,DEU,Brandenburg,,8988,1276310156
+Zschopau,Zschopau,50.747,13.0696,Germany,DE,DEU,Saxony,,8980,1276308597
+Zwiesel,Zwiesel,49.0167,13.2333,Germany,DE,DEU,Bavaria,,8978,1276620797
+Neustadt,Neustadt,50.7333,11.75,Germany,DE,DEU,Thuringia,,8971,1276606241
+Bösel,Bosel,53.0058,7.9542,Germany,DE,DEU,Lower Saxony,minor,8965,1276774199
+Wetter,Wetter,50.8833,8.7167,Germany,DE,DEU,Hesse,,8956,1276187862
+Eslohe,Eslohe,51.25,8.1667,Germany,DE,DEU,North Rhine-Westphalia,,8953,1276472967
+Steinheim am Albuch,Steinheim am Albuch,48.6922,10.0642,Germany,DE,DEU,Baden-Württemberg,,8946,1276634395
+Plön,Plon,54.1622,10.4214,Germany,DE,DEU,Schleswig-Holstein,minor,8919,1276527623
+Vohburg an der Donau,Vohburg an der Donau,48.7667,11.6167,Germany,DE,DEU,Bavaria,,8918,1276723735
+Gerstungen,Gerstungen,50.9625,10.0597,Germany,DE,DEU,Thuringia,,8915,1276563247
+Bellheim,Bellheim,49.1981,8.2792,Germany,DE,DEU,Rhineland-Palatinate,,8911,1276002204
+Brand-Erbisdorf,Brand-Erbisdorf,50.8689,13.3219,Germany,DE,DEU,Saxony,,8908,1276212051
+Perl,Perl,49.4736,6.385,Germany,DE,DEU,Saarland,,8905,1276009165
+Florstadt,Florstadt,50.3158,8.8631,Germany,DE,DEU,Hesse,,8902,1276644408
+Hallstadt,Hallstadt,49.9767,11.0339,Germany,DE,DEU,Bavaria,,8888,1276896189
+Rimbach,Rimbach,49.624,8.7603,Germany,DE,DEU,Hesse,,8887,1276014996
+Titz,Titz,51.0062,6.4248,Germany,DE,DEU,North Rhine-Westphalia,,8886,1276103256
+Obernburg am Main,Obernburg am Main,49.84,9.1414,Germany,DE,DEU,Bavaria,,8884,1276112630
+Ortenberg,Ortenberg,50.3558,9.0553,Germany,DE,DEU,Hesse,,8872,1276546212
+Kressbronn am Bodensee,Kressbronn am Bodensee,47.5958,9.6,Germany,DE,DEU,Baden-Württemberg,,8847,1276612974
+Bersenbrück,Bersenbruck,52.5553,7.9472,Germany,DE,DEU,Lower Saxony,minor,8844,1276969333
+Ergoldsbach,Ergoldsbach,48.6833,12.2,Germany,DE,DEU,Bavaria,,8839,1276002292
+Garching an der Alz,Garching an der Alz,48.1167,12.5833,Germany,DE,DEU,Bavaria,,8837,1276874361
+Weilmünster,Weilmunster,50.4333,8.3667,Germany,DE,DEU,Hesse,,8834,1276313563
+Mühlhausen,Muhlhausen,49.2475,8.7239,Germany,DE,DEU,Baden-Württemberg,,8832,1276928543
+Lienen,Lienen,52.1461,7.9739,Germany,DE,DEU,North Rhine-Westphalia,,8827,1276837503
+Memmelsdorf,Memmelsdorf,49.9328,10.9533,Germany,DE,DEU,Bavaria,,8822,1276224213
+Sonsbeck,Sonsbeck,51.6089,6.3769,Germany,DE,DEU,North Rhine-Westphalia,,8819,1276567959
+Neuhaus am Rennweg,Neuhaus am Rennweg,50.51,11.1378,Germany,DE,DEU,Thuringia,,8815,1276404975
+Naunhof,Naunhof,51.2778,12.5883,Germany,DE,DEU,Saxony,,8811,1276828471
+Waldenbuch,Waldenbuch,48.6372,9.1317,Germany,DE,DEU,Baden-Württemberg,,8796,1276938935
+Großenlüder,Grossenluder,50.5925,9.5423,Germany,DE,DEU,Hesse,,8796,1276765103
+Obertraubling,Obertraubling,48.9658,12.1669,Germany,DE,DEU,Bavaria,,8793,1276906491
+Volkach,Volkach,49.8641,10.2269,Germany,DE,DEU,Bavaria,,8789,1276344574
+Schleiz,Schleiz,50.5833,11.8167,Germany,DE,DEU,Thuringia,minor,8788,1276386563
+Heek,Heek,52.1167,7.0997,Germany,DE,DEU,North Rhine-Westphalia,,8788,1276008522
+Efringen-Kirchen,Efringen-Kirchen,47.6556,7.5658,Germany,DE,DEU,Baden-Württemberg,,8788,1276766634
+Bad Bergzabern,Bad Bergzabern,49.1021,7.993,Germany,DE,DEU,Rhineland-Palatinate,,8786,1276024319
+Ottobeuren,Ottobeuren,47.9414,10.2994,Germany,DE,DEU,Bavaria,,8767,1276049711
+Roetgen,Roetgen,50.65,6.2,Germany,DE,DEU,North Rhine-Westphalia,,8765,1276508343
+Flieden,Flieden,50.4231,9.5658,Germany,DE,DEU,Hesse,,8745,1276338969
+Löwenberg,Lowenberg,52.896,13.1546,Germany,DE,DEU,Brandenburg,minor,8741,1276763095
+Wietze,Wietze,52.65,9.8333,Germany,DE,DEU,Lower Saxony,,8730,1276207275
+Rauenberg,Rauenberg,49.2678,8.7036,Germany,DE,DEU,Baden-Württemberg,,8727,1276997920
+Meßkirch,Messkirch,47.9928,9.1125,Germany,DE,DEU,Baden-Württemberg,,8725,1276541566
+Möckmühl,Mockmuhl,49.3167,9.35,Germany,DE,DEU,Baden-Württemberg,,8713,1276533939
+Richterich,Richterich,50.8086,6.0625,Germany,DE,DEU,North Rhine-Westphalia,,8701,1276526025
+Sande,Sande,53.5022,8.0139,Germany,DE,DEU,Lower Saxony,minor,8699,1276159264
+Biederitz,Biederitz,52.1608,11.7178,Germany,DE,DEU,Saxony-Anhalt,,8699,1276237569
+Untergruppenbach,Untergruppenbach,49.0833,9.2667,Germany,DE,DEU,Baden-Württemberg,,8697,1276135697
+Timmendorfer Strand,Timmendorfer Strand,53.9944,10.7825,Germany,DE,DEU,Schleswig-Holstein,minor,8690,1276402888
+Reichenbach an der Fils,Reichenbach an der Fils,48.71,9.4661,Germany,DE,DEU,Baden-Württemberg,,8688,1276001115
+Nörten-Hardenberg,Norten-Hardenberg,51.6288,9.9359,Germany,DE,DEU,Lower Saxony,,8683,1276217094
+Kappeln,Kappeln,54.6614,9.9311,Germany,DE,DEU,Schleswig-Holstein,minor,8683,1276715573
+Ballenstedt,Ballenstedt,51.72,11.2375,Germany,DE,DEU,Saxony-Anhalt,,8682,1276375352
+Herzberg,Herzberg,51.6831,13.2331,Germany,DE,DEU,Brandenburg,minor,8678,1276357277
+Nettersheim,Nettersheim,50.4925,6.6297,Germany,DE,DEU,North Rhine-Westphalia,,8676,1276100208
+Borgentreich,Borgentreich,51.5692,9.2411,Germany,DE,DEU,North Rhine-Westphalia,,8673,1276811823
+Budenheim,Budenheim,50.0167,8.1667,Germany,DE,DEU,Rhineland-Palatinate,,8669,1276397913
+Schnaittach,Schnaittach,49.5592,11.3431,Germany,DE,DEU,Bavaria,,8659,1276694554
+Wissen,Wissen,50.7825,7.735,Germany,DE,DEU,Rhineland-Palatinate,,8648,1276756362
+Ueckermünde,Ueckermunde,53.7333,14.0333,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,8638,1276552736
+Nierstein,Nierstein,49.8694,8.3375,Germany,DE,DEU,Rhineland-Palatinate,,8631,1276411938
+Staufenberg,Staufenberg,50.6608,8.7272,Germany,DE,DEU,Hesse,,8630,1276773596
+Meine,Meine,52.3833,10.5333,Germany,DE,DEU,Lower Saxony,,8628,1276819678
+Haibach,Haibach,49.9675,9.1969,Germany,DE,DEU,Bavaria,,8628,1276376165
+Beutelsbach,Beutelsbach,48.8016,9.3885,Germany,DE,DEU,Baden-Württemberg,,8622,1276967839
+Rottenburg an der Laaber,Rottenburg an der Laaber,48.7023,12.0272,Germany,DE,DEU,Bavaria,,8616,1276689062
+Bad Rothenfelde,Bad Rothenfelde,52.1117,8.1606,Germany,DE,DEU,Lower Saxony,,8614,1276024882
+Heiden,Heiden,51.8258,6.9331,Germany,DE,DEU,North Rhine-Westphalia,,8603,1276272402
+Großbottwar,Grossbottwar,49.0014,9.2931,Germany,DE,DEU,Baden-Württemberg,,8591,1276002930
+Fürstenzell,Furstenzell,48.5225,13.3178,Germany,DE,DEU,Bavaria,,8590,1276033839
+Tirschenreuth,Tirschenreuth,49.8789,12.3369,Germany,DE,DEU,Bavaria,minor,8580,1276972262
+Schwarzenbruck,Schwarzenbruck,49.35,11.2333,Germany,DE,DEU,Bavaria,,8572,1276492629
+Neuenbürg,Neuenburg,48.8461,8.5889,Germany,DE,DEU,Baden-Württemberg,,8566,1276032527
+Wörrstadt,Worrstadt,49.8431,8.1156,Germany,DE,DEU,Rhineland-Palatinate,,8553,1276807960
+Staufen im Breisgau,Staufen im Breisgau,47.8814,7.7314,Germany,DE,DEU,Baden-Württemberg,,8553,1276961822
+Viechtach,Viechtach,49.0792,12.8847,Germany,DE,DEU,Bavaria,,8544,1276786566
+Doberlug-Kirchhain,Doberlug-Kirchhain,51.6374,13.5629,Germany,DE,DEU,Brandenburg,,8536,1276784712
+Dietmannsried,Dietmannsried,47.8094,10.2911,Germany,DE,DEU,Bavaria,,8535,1276371069
+Kuppenheim,Kuppenheim,48.8275,8.2544,Germany,DE,DEU,Baden-Württemberg,,8534,1276892297
+Schierling,Schierling,48.8347,12.1397,Germany,DE,DEU,Bavaria,,8532,1276910036
+Siegsdorf,Siegsdorf,47.8234,12.6434,Germany,DE,DEU,Bavaria,,8529,1276458922
+Hermsdorf,Hermsdorf,50.8981,11.8567,Germany,DE,DEU,Thuringia,,8527,1276816983
+Kirn,Kirn,49.7881,7.4572,Germany,DE,DEU,Rhineland-Palatinate,,8523,1276119778
+Barntrup,Barntrup,51.9935,9.1206,Germany,DE,DEU,North Rhine-Westphalia,,8522,1276882548
+Bad Feilnbach,Bad Feilnbach,47.7747,12.0071,Germany,DE,DEU,Bavaria,,8512,1276018241
+Ahrensbök,Ahrensbok,54.0167,10.5833,Germany,DE,DEU,Schleswig-Holstein,minor,8502,1276154754
+Barth,Barth,54.3687,12.7266,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,7568,1276722582
+Hönow,Honow,52.5483,13.6378,Germany,DE,DEU,Brandenburg,,6990,1276348577
+Erfurt,Erfurt,50.9787,11.0328,Germany,DE,DEU,Thuringia,admin,,1276924655
