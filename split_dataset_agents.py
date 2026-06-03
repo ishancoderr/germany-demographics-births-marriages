@@ -8,208 +8,161 @@ import pandas as pd
 
 REPO_DIR = Path(__file__).resolve().parent
 
-BASE_CSV = REPO_DIR / "combined_births_population_marriages.csv"
+BASE_CSV  = REPO_DIR / "combined_births_population_marriages.csv"
 AGENT1_CSV = REPO_DIR / "agent1_db.csv"
 AGENT2_CSV = REPO_DIR / "agent2_db.csv"
-META_JSON = REPO_DIR / "split_metadata.json"
-
+META_JSON  = REPO_DIR / "split_metadata.json"
 
 FIELDS = ["LiveBirths", "Marriages", "Population"]
 
+# ── Spatial partition (which states each agent holds rows for) ────────────────
+#
+# Agent 1 exclusive  →  Agent 1 has rows, Agent 2 has NO rows  (spatial gap in A2)
+AGENT1_EXCLUSIVE = frozenset({
+    "Sachsen", "Thüringen", "Sachsen-Anhalt",
+    "Saarland", "Mecklenburg-Vorpommern", "Schleswig-Holstein",
+})
 
-def pick_lands_partition() -> tuple[set[str], set[str], set[str]]:
-    """Hard-coded Länder partition for the two agents.
+# Agent 2 exclusive  →  Agent 2 has rows, Agent 1 has NO rows  (spatial gap in A1)
+AGENT2_EXCLUSIVE = frozenset({
+    "Baden-Württemberg", "Bayern", "Berlin", "Hamburg", "Bremen",
+})
 
-    Agent 1 Länder (as requested):
-      Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen,
-      Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt,
-      Schleswig-Holstein, Thüringen
+# Shared  →  both agents hold rows (different year slices + attribute missingness)
+SHARED = frozenset({
+    "Niedersachsen", "Nordrhein-Westfalen", "Hessen", "Brandenburg", "Rheinland-Pfalz",
+})
 
-    Agent 2 Länder (as requested):
-      Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen,
-      Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz
-
-    Overlap rule:
-    - We define a deterministic set of 4 common Länder = Agent1∩Agent2.
-      These Länder will be eligible for field-level attribute-missingness mixing.
-
-    Returns:
-      (common, agent1_only, agent2_only)
-    """
-
-    agent1 = {
-        "Brandenburg",
-        "Bremen",
-        "Hamburg",
-        "Hessen",
-        "Mecklenburg-Vorpommern",
-        "Niedersachsen",
-        "Nordrhein-Westfalen",
-        "Rheinland-Pfalz",
-        "Saarland",
-        "Sachsen",
-        "Sachsen-Anhalt",
-        "Schleswig-Holstein",
-        "Thüringen",
-    }
-
-    agent2 = {
-        "Baden-Württemberg",
-        "Bayern",
-        "Berlin",
-        "Brandenburg",
-        "Bremen",
-        "Hamburg",
-        "Hessen",
-        "Mecklenburg-Vorpommern",
-        "Niedersachsen",
-        "Nordrhein-Westfalen",
-        "Rheinland-Pfalz",
-    }
-
-    all_lands = agent1 | agent2
-
-    # Overlap: deterministically choose 4 common Länder from the overlap set.
-    overlap = sorted(agent1 & agent2)
-    if len(overlap) < 4:
-        raise ValueError(f"Expected at least 4 overlapping Länder, got {len(overlap)}: {overlap}")
-    common = set(overlap[:4])
-
-    agent1_only = agent1 - agent2
-    agent2_only = agent2 - agent1
-
-    return common, agent1_only, agent2_only
+# ── Temporal partition ────────────────────────────────────────────────────────
+#
+# Agent 1: years <= AGENT1_MAX_YEAR   (temporal gap for years after this)
+# Agent 2: years >= AGENT2_MIN_YEAR   (temporal gap for years before this)
+# Overlap window for SHARED states: AGENT2_MIN_YEAR … AGENT1_MAX_YEAR
+#
+AGENT1_MAX_YEAR = 2019   # A1 holds 1990-2019
+AGENT2_MIN_YEAR = 2010   # A2 holds 2010-2025
+# Overlap years (both hold data for SHARED states): 2010-2019
 
 
+def _apply_random_attribute_na(
+    row: pd.Series,
+    rng: np.random.Generator,
+    p_one: float = 0.20,
+    p_two: float = 0.10,
+) -> pd.Series:
+    """Randomly null 1 or 2 fields in *row* (no complement — single-agent rows)."""
+    p = rng.random()
+    if p < p_one:
+        row = row.copy()
+        row[str(rng.choice(FIELDS))] = pd.NA
+    elif p < p_one + p_two:
+        row = row.copy()
+        for f in rng.choice(FIELDS, size=2, replace=False).tolist():
+            row[f] = pd.NA
+    return row
 
 
-def apply_row_level_missingness(
+def build_datasets(
     df: pd.DataFrame,
-    common: set[str],
-    agent1_only: set[str],
-    agent2_only: set[str],
     seed: int = 42,
-    p_agent1_missing_one: float = 0.25,
-    p_agent1_missing_two_or_three: float = 0.10,
-    p_agent1_missing_all_three: float = 0.10,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Create agent1/agent2 datasets with row-level missingness.
-
-    Länder availability (requested overlap split):
-    - common: both agents keep all fields
-    - agent1_only: agent1 has all fields; agent2 is eligible to have NA via attribute-missingness mix
-    - agent2_only: agent2 has all fields; agent1 is eligible to have NA via attribute-missingness mix
-
-    Option Y (your last instruction): apply row-level attribute-missingness mix even for exclusive Länder.
-
-    Complement rule inside the mix:
-    - if Agent 1 is set to NA for a field on a row => Agent 2 gets the original value for that row/field
-    - and vice versa is handled by construction (we start from original df for both, then only apply NA to one side).
     """
+    Returns (agent1_df, agent2_df) implementing three missingness types:
 
+    Spatial   – states in AGENT2_EXCLUSIVE are absent from agent1 (and vice versa).
+                No rows exist for those states in the missing agent.
 
+    Temporal  – Agent 1 holds years ≤ 2019; Agent 2 holds years ≥ 2010.
+                For SHARED states the agents overlap in 2010-2019, giving full
+                1990-2025 coverage when merged.
+                For exclusive states the temporal gap leaves years with no rows
+                in either agent (still_missing).
+
+    Attribute – For rows that exist, some field values are randomly NULL.
+                In the shared-state overlap window (2010-2019), the complement
+                rule applies: if Agent 1 loses a field, Agent 2 keeps it.
+    """
     rng = np.random.default_rng(seed)
 
-    # Work on copies; we will set NA in-place.
-    agent1 = df.copy()
-    agent2 = df.copy()
+    rows1: list[pd.Series] = []
+    rows2: list[pd.Series] = []
 
-    # Ensure stable row indexing by (Land,Year)
-    if not df.index.is_unique:
-        df = df.reset_index(drop=True)
-        agent1 = agent1.reset_index(drop=True)
-        agent2 = agent2.reset_index(drop=True)
+    for _, row in df.iterrows():
+        land = str(row["Land"])
+        year = int(row["Year"])
 
-    # Apply Länder-level availability mask first (so the owning agent is the one that has data).
-    # - common: both have all fields
-    # - agent1_only: Agent 2 has NA for all fields on those Länder
-    # - agent2_only: Agent 1 has NA for all fields on those Länder
-    agent1.loc[df["Land"].isin(list(agent2_only)).values, FIELDS] = pd.NA
-    agent2.loc[df["Land"].isin(list(agent1_only)).values, FIELDS] = pd.NA
+        # Spatial eligibility
+        a1_spatial = land in AGENT1_EXCLUSIVE or land in SHARED
+        a2_spatial = land in AGENT2_EXCLUSIVE or land in SHARED
 
-    # IMPORTANT: we only apply the attribute-missingness mix *on rows where both agents are allowed
-    # to have values for the base availability (common Länder).*
-    # For exclusive Länder, we keep the partition-enforced NA as-is.
-    allowed_mask = df["Land"].isin(list(common)).values
+        # Temporal eligibility
+        a1_temporal = year <= AGENT1_MAX_YEAR
+        a2_temporal = year >= AGENT2_MIN_YEAR
 
+        a1_has = a1_spatial and a1_temporal
+        a2_has = a2_spatial and a2_temporal
 
-    n = len(df)
+        # Row absent from both agents — skip (contributes to still_missing)
+        if not a1_has and not a2_has:
+            continue
 
+        if a1_has and a2_has:
+            # SHARED state, overlap year (2010-2019)
+            # Apply complement attribute missingness per field.
+            r1, r2 = row.copy(), row.copy()
+            for field in FIELDS:
+                p = rng.random()
+                if p < 0.20:
+                    r1[field] = pd.NA   # Agent 1 loses this field value
+                elif p < 0.35:
+                    r2[field] = pd.NA   # Agent 2 loses this field value
+                # else both keep the value
+            rows1.append(r1)
+            rows2.append(r2)
 
-    r = rng.random(n)
+        elif a1_has:
+            # Agent 1 only — AGENT1_EXCLUSIVE state, or SHARED state early years (1990-2009)
+            rows1.append(_apply_random_attribute_na(row.copy(), rng))
 
-    # Pattern definitions (exclusive partitions)
-    # - missing_one: next p_agent1_missing_one
-    # - missing_all_three: next p_agent1_missing_all_three
-    # - missing_two: remaining from p_agent1_missing_two_or_three - missing_all_three
-    p_one = p_agent1_missing_one
-    p_all3 = p_agent1_missing_all_three
-    p_two = max(0.0, p_agent1_missing_two_or_three - p_all3)
+        else:
+            # Agent 2 only — AGENT2_EXCLUSIVE state, or SHARED state recent years (2020-2025)
+            rows2.append(_apply_random_attribute_na(row.copy(), rng))
 
-    # Base: no missing (both have all fields)
-    missing_one_mask = r < p_one
-    missing_all3_mask = (r >= p_one) & (r < p_one + p_all3)
-    missing_two_mask = (r >= p_one + p_all3) & (r < p_one + p_all3 + p_two)
-
-    # Helper to set NA for specified fields in agent1, and set non-NA in agent2
-    def set_missing_for_agent1(rows_mask: np.ndarray, missing_fields: list[str]):
-        for col in missing_fields:
-            agent1.loc[rows_mask, col] = pd.NA
-            # ensure agent2 has the original value (in case it was edited earlier)
-            agent2.loc[rows_mask, col] = df.loc[rows_mask, col]
-
-    # missing_one: pick which field is missing for Agent1
-    idx_one = np.where(missing_one_mask)[0]
-    if len(idx_one) > 0:
-        # random choice per row
-        for i in idx_one:
-            missing_field = rng.choice(FIELDS)
-            set_missing_for_agent1(np.array([i]), [missing_field])
-
-    # missing_all_three: set all fields missing in agent1
-    if missing_all3_mask.any():
-        set_missing_for_agent1(np.array(missing_all3_mask), FIELDS)
-
-    # missing_two: pick 2 fields missing for agent1 (random combination)
-    idx_two = np.where(missing_two_mask)[0]
-    if len(idx_two) > 0:
-        for i in idx_two:
-            miss = rng.choice(FIELDS, size=2, replace=False).tolist()
-            set_missing_for_agent1(np.array([i]), miss)
-
-    # Final sanity: ensure complement property holds
-    # If agent1 has NA for a field, agent2 should have non-NA (original value).
-    for col in FIELDS:
-        m = agent1[col].isna()
-        agent2.loc[m, col] = df.loc[m, col]
-
+    agent1 = pd.DataFrame(rows1).reset_index(drop=True)
+    agent2 = pd.DataFrame(rows2).reset_index(drop=True)
     return agent1, agent2
 
 
 def main() -> int:
     df = pd.read_csv(BASE_CSV)
 
-    expected_cols = ["Land", "Year"] + FIELDS
-    missing = [c for c in expected_cols if c not in df.columns]
-    if missing:
-        raise ValueError(f"Base CSV missing columns: {missing}")
+    missing_cols = [c for c in ["Land", "Year"] + FIELDS if c not in df.columns]
+    if missing_cols:
+        raise ValueError(f"Base CSV missing columns: {missing_cols}")
 
-    common, agent1_only, agent2_only = pick_lands_partition()
+    # Verify partition covers every state in the data
+    all_partitioned = AGENT1_EXCLUSIVE | AGENT2_EXCLUSIVE | SHARED
+    data_states = set(df["Land"].unique())
+    unaccounted = data_states - all_partitioned
+    if unaccounted:
+        raise ValueError(
+            f"States in data not covered by partition: {unaccounted}\n"
+            f"Add them to one of AGENT1_EXCLUSIVE, AGENT2_EXCLUSIVE, or SHARED."
+        )
 
-    agent1, agent2 = apply_row_level_missingness(
-        df,
-        common=common,
-        agent1_only=agent1_only,
-        agent2_only=agent2_only,
-        seed=42,
-        p_agent1_missing_one=0.25,
-        p_agent1_missing_two_or_three=0.15,
-        p_agent1_missing_all_three=0.10,
-    )
-
+    agent1, agent2 = build_datasets(df, seed=42)
 
     agent1.to_csv(AGENT1_CSV, index=False)
     agent2.to_csv(AGENT2_CSV, index=False)
+
+    def _stats(adf: pd.DataFrame) -> dict:
+        return {
+            "total_rows": int(len(adf)),
+            "states": sorted(adf["Land"].unique().tolist()),
+            "state_count": int(adf["Land"].nunique()),
+            "year_range": [int(adf["Year"].min()), int(adf["Year"].max())],
+            "na_counts": {c: int(adf[c].isna().sum()) for c in FIELDS},
+        }
 
     meta = {
         "base_csv": str(BASE_CSV),
@@ -217,41 +170,48 @@ def main() -> int:
         "agent2_csv": str(AGENT2_CSV),
         "seed": 42,
         "fields": FIELDS,
-        "lands": {
-            "agent1": sorted(agent1_only | common),
-            "agent2": sorted(agent2_only | common),
-            "common": sorted(common),
-            "agent1_only": sorted(agent1_only),
-            "agent2_only": sorted(agent2_only),
+        "spatial_partition": {
+            "agent1_exclusive": sorted(AGENT1_EXCLUSIVE),
+            "agent2_exclusive": sorted(AGENT2_EXCLUSIVE),
+            "shared": sorted(SHARED),
         },
-        "missingness": {
-            "pattern_support": ["missing_one", "missing_two", "missing_all_three"],
-            "p_agent1_missing_one": 0.25,
-            "p_agent1_missing_two_or_three": 0.15,
-            "p_agent1_missing_all_three": 0.10,
+        "temporal_partition": {
+            "agent1_years": f"1990 to {AGENT1_MAX_YEAR}",
+            "agent2_years": f"{AGENT2_MIN_YEAR} to 2025",
+            "overlap_years": f"{AGENT2_MIN_YEAR} to {AGENT1_MAX_YEAR} (SHARED states only)",
         },
-        "complement_rule": "If Agent1 field is NA for a row, Agent2 has the original value for that field (and vice versa is default via construction).",
-        "counts": {
-            "rows_base": int(len(df)),
-            "agent1_na_counts": {c: int(agent1[c].isna().sum()) for c in FIELDS},
-            "agent2_na_counts": {c: int(agent2[c].isna().sum()) for c in FIELDS},
-            "agent1_rows_missing_all3": int(agent1[FIELDS].isna().all(axis=1).sum()),
-            "agent1_rows_missing_one": int((agent1[FIELDS].isna().sum(axis=1) == 1).sum()),
-            "agent1_rows_missing_two": int((agent1[FIELDS].isna().sum(axis=1) == 2).sum()),
+        "missingness_types": {
+            "spatial": (
+                "States in AGENT2_EXCLUSIVE have zero rows in Agent 1. "
+                "States in AGENT1_EXCLUSIVE have zero rows in Agent 2."
+            ),
+            "temporal": (
+                f"Agent 1 has no rows for years > {AGENT1_MAX_YEAR}. "
+                f"Agent 2 has no rows for years < {AGENT2_MIN_YEAR}. "
+                "For EXCLUSIVE states this creates still_missing gaps."
+            ),
+            "attribute": (
+                "Rows that exist may have NULL field values. "
+                "In the SHARED overlap window complement rule applies: "
+                "if Agent 1 loses a field, Agent 2 retains the value."
+            ),
         },
+        "agent1": _stats(agent1),
+        "agent2": _stats(agent2),
     }
-
 
     with open(META_JSON, "w", encoding="utf-8") as f:
         json.dump(meta, f, indent=2, ensure_ascii=False)
 
     summary = {
-        "rows_base": int(len(df)),
-        "agent1_na_counts": {c: int(agent1[c].isna().sum()) for c in FIELDS},
-        "agent2_na_counts": {c: int(agent2[c].isna().sum()) for c in FIELDS},
-        "agent1_rows_missing_all3": int(agent1[FIELDS].isna().all(axis=1).sum()),
-        "agent1_rows_missing_one": int((agent1[FIELDS].isna().sum(axis=1) == 1).sum()),
-        "agent1_rows_missing_two": int((agent1[FIELDS].isna().sum(axis=1) == 2).sum()),
+        "agent1_rows": int(len(agent1)),
+        "agent2_rows": int(len(agent2)),
+        "agent1_states": int(agent1["Land"].nunique()),
+        "agent2_states": int(agent2["Land"].nunique()),
+        "agent1_year_range": [int(agent1["Year"].min()), int(agent1["Year"].max())],
+        "agent2_year_range": [int(agent2["Year"].min()), int(agent2["Year"].max())],
+        "agent1_na": {c: int(agent1[c].isna().sum()) for c in FIELDS},
+        "agent2_na": {c: int(agent2[c].isna().sum()) for c in FIELDS},
     }
     print(json.dumps(summary, indent=2))
     print("Wrote:", AGENT1_CSV)
@@ -262,5 +222,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-

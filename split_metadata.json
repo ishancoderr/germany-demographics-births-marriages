@@ -8,71 +8,89 @@
     "Marriages",
     "Population"
   ],
-  "lands": {
-    "agent1": [
-      "Brandenburg",
-      "Bremen",
-      "Hamburg",
-      "Hessen",
+  "spatial_partition": {
+    "agent1_exclusive": [
+      "Mecklenburg-Vorpommern",
       "Saarland",
       "Sachsen",
       "Sachsen-Anhalt",
       "Schleswig-Holstein",
       "Thüringen"
     ],
-    "agent2": [
+    "agent2_exclusive": [
+      "Baden-Württemberg",
+      "Bayern",
+      "Berlin",
+      "Bremen",
+      "Hamburg"
+    ],
+    "shared": [
+      "Brandenburg",
+      "Hessen",
+      "Niedersachsen",
+      "Nordrhein-Westfalen",
+      "Rheinland-Pfalz"
+    ]
+  },
+  "temporal_partition": {
+    "agent1_years": "1990 to 2019",
+    "agent2_years": "2010 to 2025",
+    "overlap_years": "2010 to 2019 (SHARED states only)"
+  },
+  "missingness_types": {
+    "spatial": "States in AGENT2_EXCLUSIVE have zero rows in Agent 1. States in AGENT1_EXCLUSIVE have zero rows in Agent 2.",
+    "temporal": "Agent 1 has no rows for years > 2019. Agent 2 has no rows for years < 2010. For EXCLUSIVE states this creates still_missing gaps.",
+    "attribute": "Rows that exist may have NULL field values. In the SHARED overlap window complement rule applies: if Agent 1 loses a field, Agent 2 retains the value."
+  },
+  "agent1": {
+    "total_rows": 330,
+    "states": [
+      "Brandenburg",
+      "Hessen",
+      "Mecklenburg-Vorpommern",
+      "Niedersachsen",
+      "Nordrhein-Westfalen",
+      "Rheinland-Pfalz",
+      "Saarland",
+      "Sachsen",
+      "Sachsen-Anhalt",
+      "Schleswig-Holstein",
+      "Thüringen"
+    ],
+    "state_count": 11,
+    "year_range": [
+      1990,
+      2019
+    ],
+    "na_counts": {
+      "LiveBirths": 43,
+      "Marriages": 49,
+      "Population": 286
+    }
+  },
+  "agent2": {
+    "total_rows": 160,
+    "states": [
       "Baden-Württemberg",
       "Bayern",
       "Berlin",
       "Brandenburg",
       "Bremen",
       "Hamburg",
-      "Hessen"
+      "Hessen",
+      "Niedersachsen",
+      "Nordrhein-Westfalen",
+      "Rheinland-Pfalz"
     ],
-    "common": [
-      "Brandenburg",
-      "Bremen",
-      "Hamburg",
-      "Hessen"
+    "state_count": 10,
+    "year_range": [
+      2010,
+      2025
     ],
-    "agent1_only": [
-      "Saarland",
-      "Sachsen",
-      "Sachsen-Anhalt",
-      "Schleswig-Holstein",
-      "Thüringen"
-    ],
-    "agent2_only": [
-      "Baden-Württemberg",
-      "Bayern",
-      "Berlin"
-    ]
-  },
-  "missingness": {
-    "pattern_support": [
-      "missing_one",
-      "missing_two",
-      "missing_all_three"
-    ],
-    "p_agent1_missing_one": 0.25,
-    "p_agent1_missing_two_or_three": 0.15,
-    "p_agent1_missing_all_three": 0.1
-  },
-  "complement_rule": "If Agent1 field is NA for a row, Agent2 has the original value for that field (and vice versa is default via construction).",
-  "counts": {
-    "rows_base": 1728,
-    "agent1_na_counts": {
-      "LiveBirths": 618,
-      "Marriages": 625,
-      "Population": 1421
-    },
-    "agent2_na_counts": {
-      "LiveBirths": 420,
-      "Marriages": 428,
-      "Population": 1370
-    },
-    "agent1_rows_missing_all3": 473,
-    "agent1_rows_missing_one": 797,
-    "agent1_rows_missing_two": 224
+    "na_counts": {
+      "LiveBirths": 19,
+      "Marriages": 18,
+      "Population": 68
+    }
   }
 }

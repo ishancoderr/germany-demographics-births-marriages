@@ -36,33 +36,45 @@ def prepare_live_or_marriages(xlsx_path: str, sheet_name: str, measure_name: str
 
     df = df.rename(columns={df.columns[0]: "Land_Sex"})
 
+    # Sex label tokens — English and German variants from Destatis Excel exports.
+    SEX_TOKENS = ("Male", "Female", "Total", "männlich", "weiblich", "Insgesamt", "insgesamt")
+    # Tokens that represent the "total" / aggregate row we want to keep.
+    TOTAL_TOKENS = ("Total", "Insgesamt", "insgesamt")
+
     # Parse Land and Sex from the Land_Sex column.
+    # In Destatis Excel exports the structure is:
+    #   "Baden-Württemberg"  ← state name row = aggregate/total (no sex label in col 0)
+    #   NaN                  ← male row
+    #   NaN                  ← female row
+    # So rows where col 0 is NOT NaN and NOT a sex token are the aggregate total rows.
+    # If sex labels do appear (English/German), keep only the "Total/Insgesamt" labelled rows.
     land_names: list[str] = []
     sexes: list[str | None] = []
+    is_total_row: list[bool] = []
+
     for val in df["Land_Sex"].tolist():
         if pd.isna(val):
+            # NaN rows are Male/Female breakdowns — not the aggregate.
             land_names.append(land_names[-1])
             sexes.append(sexes[-1])
+            is_total_row.append(False)
             continue
 
-        sval = str(val)
-        if any(tok in sval for tok in ("Male", "Female", "Total")):
+        sval = str(val).strip()
+        if any(tok in sval for tok in SEX_TOKENS):
+            # Explicit sex label row — only keep if it is a total label.
             land_names.append(land_names[-1])
             sexes.append(sval)
+            is_total_row.append(any(tok in sval for tok in TOTAL_TOKENS))
         else:
+            # State name row — this IS the aggregate total in Destatis format.
             land_names.append(sval)
             sexes.append(None)
+            is_total_row.append(True)
 
     df["Land"] = land_names
     df["Sex"] = sexes
-
-    # Keep Total rows for births (marriages table has no sex breakdown, but this is harmless).
-    if "Sex" in df.columns:
-        sex_norm = (
-            df["Sex"].astype(str).str.replace("\\n", " ", regex=False).str.replace(r"\\s+", " ", regex=True).str.strip()
-        )
-        if sex_norm.eq("Total").any():
-            df = df[sex_norm.eq("Total")].copy()
+    df = df[is_total_row].copy()
 
     # Drop helper columns
     drop_cols = [c for c in ["Land_Sex", "Sex"] if c in df.columns]

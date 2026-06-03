@@ -171,9 +171,6 @@ def build_sql_for_agent(
 
     df["stat_date"] = pd.to_datetime(df["Year"].astype(int).astype(str) + "-12-31").dt.date
 
-    land_ids_present = sorted(df["land_id"].dropna().unique().tolist())
-    present_land_names = [k for k, v in land_name_to_id.items() if v in set(land_ids_present)]
-
     lines: list[str] = []
     lines.append("-- Auto-generated PostGIS init script")
     lines.append(f"-- Source: {agent_csv_path.name}")
@@ -188,10 +185,12 @@ def build_sql_for_agent(
     lines.append("")
 
     # ------------------------------------------------------------------ #
-    # Step 2: lands table
-    # Geometry column typed GEOMETRY(MULTIPOLYGON, 4326) to enforce CRS.
+    # Step 2: lands table — ALL 16 German states always inserted.
+    # Spatial queries (ST_Touches, ST_DWithin, ST_Azimuth) require every
+    # state's geometry to be present even if land_stats has no rows for it.
     # ------------------------------------------------------------------ #
-    lines.append("-- Step 2: Lands (German federal states with WGS84 polygon geometry)")
+    lines.append("-- Step 2: All 16 German federal states with WGS84 polygon geometry")
+    lines.append("-- NOTE: all states are always present for spatial relationship queries.")
     lines.append("CREATE TABLE IF NOT EXISTS lands (")
     lines.append("  land_id    INT PRIMARY KEY,")
     lines.append("  land_name  VARCHAR(100) NOT NULL,")
@@ -200,8 +199,7 @@ def build_sql_for_agent(
     lines.append("")
 
     land_insert_rows: list[str] = []
-    for lname in present_land_names:
-        lid = land_name_to_id[lname]
+    for lname, lid in sorted(land_name_to_id.items(), key=lambda x: x[1]):
         geom = states.get(lname, {}).get("geometry")
         wkt = _geom_to_multipolygon_wkt(geom)
         if wkt == "NULL":
@@ -220,6 +218,10 @@ def build_sql_for_agent(
         lines.append(",\n".join(land_insert_rows))
         lines.append("ON CONFLICT (land_id) DO NOTHING;")
     lines.append("")
+
+    # land_stats rows only for states/years present in this agent's CSV
+    land_ids_present = sorted(df["land_id"].dropna().unique().tolist())
+    present_land_names = [k for k, v in land_name_to_id.items() if v in set(land_ids_present)]
 
     # ------------------------------------------------------------------ #
     # Step 3: land_stats table
@@ -304,8 +306,10 @@ def build_sql_for_agent(
             f"cities_dataset.csv has admin_name values that cannot be normalized: {unknown}"
         )
 
-    # Keep only cities belonging to this agent's Länder
-    cities_df = cities_df[cities_df["admin_norm"].isin(set(present_land_names))].copy()
+    # Keep cities from ALL 16 states regardless of this agent's land_stats partition.
+    # Spatial queries (e.g. ST_DWithin from Munich) require city points for every
+    # state to be present in both agents' databases.
+    cities_df = cities_df[cities_df["admin_norm"].isin(land_name_to_id.keys())].copy()
     cities_df = cities_df.reset_index(drop=True)
     cities_df["city_id"] = (cities_df.index + 1).astype(int)
 
