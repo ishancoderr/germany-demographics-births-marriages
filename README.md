@@ -91,8 +91,8 @@ Produces:
 - `agent2_postgis_db.sql`
 
 These SQL files create (idempotently):
-- `lands` (includes geometry from `germany_states.geojson`)
-- `land_stats` (population, live births, and marriages per state per year)
+- `states` (includes geometry from `germany_states.geojson`)
+- `state_demographics` (population, live births, and marriages per state per year)
 - `cities` (point geometries from `cities_dataset.csv`)
 
 ## Load SQL into PostgreSQL (example)
@@ -196,7 +196,7 @@ The column types enforce the CRS at the database level:
 
 | Table | Column | Type | Meaning |
 |-------|--------|------|---------|
-| `lands` | `geo_shape` | `GEOMETRY(MULTIPOLYGON, 4326)` | State boundary polygon, WGS84 |
+| `states` | `geo_shape` | `GEOMETRY(MULTIPOLYGON, 4326)` | State boundary polygon, WGS84 |
 | `cities` | `centroid` | `GEOMETRY(POINT, 4326)` | City location point, WGS84 |
 
 PostgreSQL will **reject any insert** that provides a geometry with a different SRID than 4326.
@@ -220,7 +220,7 @@ germany_states.geojson          cities_dataset.csv
    ST_SetSRID(..., 4326)          ST_SetSRID(..., 4326)
          |                               |
 GEOMETRY(MULTIPOLYGON, 4326)    GEOMETRY(POINT, 4326)
-    lands.geo_shape                cities.centroid
+    states.geo_shape               cities.centroid
          |                               |
          +------------- Both in WGS84 ---+
               stored as EWKB binary in PostgreSQL
@@ -237,7 +237,7 @@ GEOMETRY(MULTIPOLYGON, 4326)    GEOMETRY(POINT, 4326)
 - If your database complains about encoding, ensure your PostgreSQL client/server encoding is set appropriately (UTF-8 recommended).
 - To verify geometries loaded correctly in PostgreSQL:
   ```sql
-  SELECT land_name, ST_SRID(geo_shape), ST_GeometryType(geo_shape) FROM lands LIMIT 5;
+  SELECT state_name, ST_SRID(geo_shape), ST_GeometryType(geo_shape) FROM states LIMIT 5;
   SELECT city_name, ST_SRID(centroid), ST_AsText(centroid) FROM cities LIMIT 5;
   ```
 

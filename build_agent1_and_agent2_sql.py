@@ -27,7 +27,7 @@ def _fix_mojibake(s: str) -> str:
         return s
 
 
-def _normalize_land_name(s: str) -> str:
+def _normalize_state_name(s: str) -> str:
     s = _fix_mojibake(str(s)).strip()
 
     s = s.replace("Lower Saxony", "Niedersachsen")
@@ -62,7 +62,7 @@ def _read_geojson_states(geojson_path: Path) -> dict[str, dict]:
         name = props.get("name") or props.get("Land") or props.get("land_name")
         if not name:
             continue
-        name = _normalize_land_name(name)
+        name = _normalize_state_name(name)
         mapping[name] = {
             "feature": feat,
             "geometry": feat.get("geometry"),
@@ -70,7 +70,7 @@ def _read_geojson_states(geojson_path: Path) -> dict[str, dict]:
     return mapping
 
 
-def _land_name_to_id() -> dict[str, int]:
+def _state_name_to_id() -> dict[str, int]:
     return {
         "Baden-Württemberg": 1,
         "Bayern": 2,
@@ -147,7 +147,7 @@ def build_sql_for_agent(
     agent_csv_path: Path,
     out_sql_path: Path,
     states: dict[str, dict],
-    land_name_to_id: dict[str, int],
+    state_name_to_id: dict[str, int],
     cities_df_all: pd.DataFrame,
 ) -> None:
     if not agent_csv_path.exists():
@@ -163,13 +163,13 @@ def build_sql_for_agent(
             f"Found: {sorted(df.columns)}"
         )
 
-    df["Land"] = df["Land"].astype(str).map(_normalize_land_name)
-    df["land_id"] = df["Land"].map(land_name_to_id)
-    if df["land_id"].isna().any():
-        bad = df.loc[df["land_id"].isna(), "Land"].unique().tolist()
+    df["Land"] = df["Land"].astype(str).map(_normalize_state_name)
+    df["state_id"] = df["Land"].map(state_name_to_id)
+    if df["state_id"].isna().any():
+        bad = df.loc[df["state_id"].isna(), "Land"].unique().tolist()
         raise ValueError(f"{agent_csv_path.name} has unknown Land values: {bad}")
 
-    df["stat_date"] = pd.to_datetime(df["Year"].astype(int).astype(str) + "-12-31").dt.date
+    df["stat_year"] = df["Year"].astype(int)
 
     lines: list[str] = []
     lines.append("-- Auto-generated PostGIS init script")
@@ -185,92 +185,92 @@ def build_sql_for_agent(
     lines.append("")
 
     # ------------------------------------------------------------------ #
-    # Step 2: lands table — ALL 16 German states always inserted.
+    # Step 2: states table — ALL 16 German states always inserted.
     # Spatial queries (ST_Touches, ST_DWithin, ST_Azimuth) require every
-    # state's geometry to be present even if land_stats has no rows for it.
+    # state's geometry to be present even if state_demographics has no rows for it.
     # ------------------------------------------------------------------ #
     lines.append("-- Step 2: All 16 German federal states with WGS84 polygon geometry")
     lines.append("-- NOTE: all states are always present for spatial relationship queries.")
-    lines.append("CREATE TABLE IF NOT EXISTS lands (")
-    lines.append("  land_id    INT PRIMARY KEY,")
-    lines.append("  land_name  VARCHAR(100) NOT NULL,")
-    lines.append("  geo_shape  GEOMETRY(MULTIPOLYGON, 4326) DEFAULT NULL")
+    lines.append("CREATE TABLE IF NOT EXISTS states (")
+    lines.append("  state_id    INT PRIMARY KEY,")
+    lines.append("  state_name  VARCHAR(100) NOT NULL,")
+    lines.append("  geo_shape   GEOMETRY(MULTIPOLYGON, 4326) DEFAULT NULL")
     lines.append(");")
     lines.append("")
 
-    land_insert_rows: list[str] = []
-    for lname, lid in sorted(land_name_to_id.items(), key=lambda x: x[1]):
-        geom = states.get(lname, {}).get("geometry")
+    state_insert_rows: list[str] = []
+    for sname, sid in sorted(state_name_to_id.items(), key=lambda x: x[1]):
+        geom = states.get(sname, {}).get("geometry")
         wkt = _geom_to_multipolygon_wkt(geom)
         if wkt == "NULL":
-            land_insert_rows.append(
-                f"  ({lid}, '{_escape_sql_string(lname)}', NULL)"
+            state_insert_rows.append(
+                f"  ({sid}, '{_escape_sql_string(sname)}', NULL)"
             )
         else:
             wkt_escaped = wkt.replace("'", "''")
-            land_insert_rows.append(
-                f"  ({lid}, '{_escape_sql_string(lname)}', "
+            state_insert_rows.append(
+                f"  ({sid}, '{_escape_sql_string(sname)}', "
                 f"ST_SetSRID(ST_GeomFromText('{wkt_escaped}'), 4326))"
             )
 
-    if land_insert_rows:
-        lines.append("INSERT INTO lands (land_id, land_name, geo_shape) VALUES")
-        lines.append(",\n".join(land_insert_rows))
-        lines.append("ON CONFLICT (land_id) DO NOTHING;")
+    if state_insert_rows:
+        lines.append("INSERT INTO states (state_id, state_name, geo_shape) VALUES")
+        lines.append(",\n".join(state_insert_rows))
+        lines.append("ON CONFLICT (state_id) DO NOTHING;")
     lines.append("")
 
-    # land_stats rows only for states/years present in this agent's CSV
-    land_ids_present = sorted(df["land_id"].dropna().unique().tolist())
-    present_land_names = [k for k, v in land_name_to_id.items() if v in set(land_ids_present)]
+    # state_demographics rows only for states/years present in this agent's CSV
+    state_ids_present = sorted(df["state_id"].dropna().unique().tolist())
+    present_state_names = [k for k, v in state_name_to_id.items() if v in set(state_ids_present)]
 
     # ------------------------------------------------------------------ #
-    # Step 3: land_stats table
-    # Columns: land_id, stat_date, population, live_births, marriages
+    # Step 3: state_demographics table
+    # Columns: state_id, stat_year, population, live_births, marriages
     # ------------------------------------------------------------------ #
-    lines.append("-- Step 3: Land statistics (population, live births, marriages per state per year)")
-    lines.append("CREATE TABLE IF NOT EXISTS land_stats (")
+    lines.append("-- Step 3: State demographics (population, live births, marriages per state per year)")
+    lines.append("CREATE TABLE IF NOT EXISTS state_demographics (")
     lines.append("  stat_id     SERIAL PRIMARY KEY,")
-    lines.append("  land_id     INT NOT NULL,")
-    lines.append("  stat_date   DATE NOT NULL,")
+    lines.append("  state_id    INT NOT NULL,")
+    lines.append("  stat_year   INT NOT NULL,")
     lines.append("  population  BIGINT DEFAULT NULL,")
     lines.append("  live_births BIGINT DEFAULT NULL,")
     lines.append("  marriages   BIGINT DEFAULT NULL,")
-    lines.append("  CONSTRAINT fk_land_stats_land")
-    lines.append("    FOREIGN KEY (land_id) REFERENCES lands (land_id) ON DELETE CASCADE")
+    lines.append("  CONSTRAINT fk_state_demographics_state")
+    lines.append("    FOREIGN KEY (state_id) REFERENCES states (state_id) ON DELETE CASCADE")
     lines.append(");")
     lines.append("")
     lines.append(
-        "CREATE UNIQUE INDEX IF NOT EXISTS uix_land_stats_land_date "
-        "ON land_stats (land_id, stat_date);"
+        "CREATE UNIQUE INDEX IF NOT EXISTS uix_state_demographics_state_year "
+        "ON state_demographics (state_id, stat_year);"
     )
     lines.append("")
 
     insert_rows: list[str] = []
     df_sorted = (
-        df[["land_id", "stat_date", "Population", "LiveBirths", "Marriages"]]
+        df[["state_id", "stat_year", "Population", "LiveBirths", "Marriages"]]
         .copy()
-        .sort_values(["land_id", "stat_date"])
+        .sort_values(["state_id", "stat_year"])
         .reset_index(drop=True)
     )
 
     for _, r in df_sorted.iterrows():
-        lid = int(r["land_id"])
-        date_str = str(r["stat_date"])
+        sid = int(r["state_id"])
+        year_val = int(r["stat_year"])
         pop = _to_int_or_null_sql(r["Population"])
         births = _to_int_or_null_sql(r["LiveBirths"])
         marriages = _to_int_or_null_sql(r["Marriages"])
         insert_rows.append(
-            f"  ({lid}, '{date_str}'::date, {pop}, {births}, {marriages})"
+            f"  ({sid}, {year_val}, {pop}, {births}, {marriages})"
         )
 
     chunk_size = 500
     for i in range(0, len(insert_rows), chunk_size):
         chunk = insert_rows[i : i + chunk_size]
         lines.append(
-            "INSERT INTO land_stats (land_id, stat_date, population, live_births, marriages) VALUES"
+            "INSERT INTO state_demographics (state_id, stat_year, population, live_births, marriages) VALUES"
         )
         lines.append(",\n".join(chunk))
-        lines.append("ON CONFLICT (land_id, stat_date) DO NOTHING;")
+        lines.append("ON CONFLICT (state_id, stat_year) DO NOTHING;")
         lines.append("")
 
     # ------------------------------------------------------------------ #
@@ -281,7 +281,7 @@ def build_sql_for_agent(
     lines.append("CREATE TABLE IF NOT EXISTS cities (")
     lines.append("  city_id    INT PRIMARY KEY,")
     lines.append("  city_name  VARCHAR(150) NOT NULL,")
-    lines.append("  land_id    INT NOT NULL REFERENCES lands (land_id) ON DELETE CASCADE,")
+    lines.append("  state_id   INT NOT NULL REFERENCES states (state_id) ON DELETE CASCADE,")
     lines.append("  lat        DOUBLE PRECISION NOT NULL,")
     lines.append("  lng        DOUBLE PRECISION NOT NULL,")
     lines.append("  centroid   GEOMETRY(POINT, 4326) DEFAULT NULL")
@@ -293,11 +293,11 @@ def build_sql_for_agent(
     lines.append("")
 
     cities_df = cities_df_all.copy()
-    cities_df["admin_norm"] = cities_df["admin_name"].astype(str).map(_normalize_land_name)
+    cities_df["admin_norm"] = cities_df["admin_name"].astype(str).map(_normalize_state_name)
 
-    # Validate all admin_name values map to known Länder
+    # Validate all admin_name values map to known states
     unknown = sorted(
-        cities_df.loc[~cities_df["admin_norm"].isin(land_name_to_id.keys()), "admin_name"]
+        cities_df.loc[~cities_df["admin_norm"].isin(state_name_to_id.keys()), "admin_name"]
         .unique()
         .tolist()
     )
@@ -306,10 +306,10 @@ def build_sql_for_agent(
             f"cities_dataset.csv has admin_name values that cannot be normalized: {unknown}"
         )
 
-    # Keep cities from ALL 16 states regardless of this agent's land_stats partition.
+    # Keep cities from ALL 16 states regardless of this agent's state_demographics partition.
     # Spatial queries (e.g. ST_DWithin from Munich) require city points for every
     # state to be present in both agents' databases.
-    cities_df = cities_df[cities_df["admin_norm"].isin(land_name_to_id.keys())].copy()
+    cities_df = cities_df[cities_df["admin_norm"].isin(state_name_to_id.keys())].copy()
     cities_df = cities_df.reset_index(drop=True)
     cities_df["city_id"] = (cities_df.index + 1).astype(int)
 
@@ -326,18 +326,18 @@ def build_sql_for_agent(
     for _, r in cities_df.iterrows():
         city_id = int(r["city_id"])
         city_name = str(r["city"]).strip().replace("﻿", "")
-        lid = int(land_name_to_id[r["admin_norm"]])
+        sid = int(state_name_to_id[r["admin_norm"]])
         lat = float(r["lat"])
         lng = float(r["lng"])
         city_insert_rows.append(
-            f"  ({city_id}, '{_escape_sql_string(city_name)}', {lid}, "
+            f"  ({city_id}, '{_escape_sql_string(city_name)}', {sid}, "
             f"{lat}, {lng}, ST_SetSRID(ST_MakePoint({lng}, {lat}), 4326))"
         )
 
     for i in range(0, len(city_insert_rows), chunk_size):
         chunk = city_insert_rows[i : i + chunk_size]
         lines.append(
-            "INSERT INTO cities (city_id, city_name, land_id, lat, lng, centroid) VALUES"
+            "INSERT INTO cities (city_id, city_name, state_id, lat, lng, centroid) VALUES"
         )
         lines.append(",\n".join(chunk))
         lines.append("ON CONFLICT (city_id) DO NOTHING;")
@@ -352,7 +352,7 @@ def main() -> int:
         if not p.exists():
             raise FileNotFoundError(f"Missing required file: {p}")
 
-    land_name_to_id = _land_name_to_id()
+    state_name_to_id = _state_name_to_id()
     states = _read_geojson_states(GEOJSON_PATH)
 
     cities_df = pd.read_csv(CITIES_CSV_PATH)
@@ -369,7 +369,7 @@ def main() -> int:
             agent_csv_path=agent_csv,
             out_sql_path=out_sql,
             states=states,
-            land_name_to_id=land_name_to_id,
+            state_name_to_id=state_name_to_id,
             cities_df_all=cities_df,
         )
 
